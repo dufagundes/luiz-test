@@ -1,0 +1,25 @@
+{
+  "_comment": "Narration for 'How a stealth bomber avoids radar'. '|' marks where a subtitle chunk ends (it is not spoken). 'gap' = seconds of silence before the line. 'scene' = which visual scene starts with this line.",
+  "voice": "en-us-ryan-high.onnx",
+  "lengthScale": 0.85,
+  "lines": [
+    {"id": "hook", "scene": "hook", "gap": 0.25,
+     "text": "This bomber is | a hundred and seventy-two feet wide. | Yet on radar, | it can look | about as small | as a bird."},
+    {"id": "radar", "scene": "radar", "gap": 0.35,
+     "text": "Radar sends out | radio waves | and listens for the echo. | Stealth means | sending back | as little echo | as possible."},
+    {"id": "f1", "scene": "f1", "gap": 0.4, "feature": 0,
+     "text": "One: | the flying wing. | No tail fins, | no bulky fuselage. | Just one smooth, | blended shape | with fewer corners | to catch a signal."},
+    {"id": "f2", "scene": "f2", "gap": 0.4, "feature": 1,
+     "text": "Two: | its edges are lined up | at just a few angles, | so radar waves | glance off | and scatter away | from the receiver."},
+    {"id": "f3", "scene": "f3", "gap": 0.4, "feature": 2,
+     "text": "Three: | radar-absorbent coatings | turn part of | the incoming energy | into heat, | weakening the echo."},
+    {"id": "f4", "scene": "f4", "gap": 0.4, "feature": 3,
+     "text": "Four: | the engines are buried | inside the wing. | Hot exhaust | mixes with cool air | and exits over the top, | shielded from sensors below."},
+    {"id": "f5", "scene": "f5", "gap": 0.4, "feature": 4,
+     "text": "Five: | weapons ride | inside internal bays. | Bombs hanging | under the wing | would add | extra echoes."},
+    {"id": "together", "scene": "together", "gap": 0.45,
+     "text": "Together, | the echo shrinks | dramatically. | It's not invisible. | But it gets detected | much later, | and much closer."},
+    {"id": "outro", "scene": "outro", "gap": 0.4,
+     "text": "The twist? | Shrink an echo | ten thousand times, | and detection range | only drops | about ten times. | What should I | break down next?"}
+  ]
+}

@@ -1,0 +1,1422 @@
+{
+ "fps": 30,
+ "duration": 57.5,
+ "durationInFrames": 1725,
+ "cuts": [
+  0.0,
+  5.726,
+  11.549,
+  19.171,
+  25.295,
+  30.742,
+  38.12,
+  43.563,
+  49.34
+ ],
+ "ticks": [
+  18.671,
+  24.795,
+  30.242,
+  37.62,
+  43.013
+ ],
+ "lines": [
+  {
+   "id": "hook",
+   "scene": "hook",
+   "feature": null,
+   "start": 0.25,
+   "end": 5.626,
+   "chunks": [
+    {
+     "text": "This bomber is",
+     "start": 0.25,
+     "end": 0.902,
+     "words": [
+      {
+       "w": "This",
+       "start": 0.25,
+       "end": 0.467
+      },
+      {
+       "w": "bomber",
+       "start": 0.467,
+       "end": 0.764
+      },
+      {
+       "w": "is",
+       "start": 0.764,
+       "end": 0.902
+      }
+     ]
+    },
+    {
+     "text": "a hundred and seventy-two feet wide.",
+     "start": 0.902,
+     "end": 2.89,
+     "words": [
+      {
+       "w": "a",
+       "start": 0.902,
+       "end": 1.027
+      },
+      {
+       "w": "hundred",
+       "start": 1.027,
+       "end": 1.449
+      },
+      {
+       "w": "and",
+       "start": 1.449,
+       "end": 1.673
+      },
+      {
+       "w": "seventy-two",
+       "start": 1.673,
+       "end": 2.294
+      },
+      {
+       "w": "feet",
+       "start": 2.294,
+       "end": 2.567
+      },
+      {
+       "w": "wide.",
+       "start": 2.567,
+       "end": 2.89
+      }
+     ]
+    },
+    {
+     "text": "Yet on radar,",
+     "start": 2.89,
+     "end": 3.848,
+     "words": [
+      {
+       "w": "Yet",
+       "start": 2.89,
+       "end": 3.168
+      },
+      {
+       "w": "on",
+       "start": 3.168,
+       "end": 3.384
+      },
+      {
+       "w": "radar,",
+       "start": 3.384,
+       "end": 3.848
+      }
+     ]
+    },
+    {
+     "text": "it can look",
+     "start": 3.848,
+     "end": 4.098,
+     "words": [
+      {
+       "w": "it",
+       "start": 3.848,
+       "end": 3.913
+      },
+      {
+       "w": "can",
+       "start": 3.913,
+       "end": 3.996
+      },
+      {
+       "w": "look",
+       "start": 3.996,
+       "end": 4.098
+      }
+     ]
+    },
+    {
+     "text": "about as small",
+     "start": 4.098,
+     "end": 5.299,
+     "words": [
+      {
+       "w": "about",
+       "start": 4.098,
+       "end": 4.571
+      },
+      {
+       "w": "as",
+       "start": 4.571,
+       "end": 4.826
+      },
+      {
+       "w": "small",
+       "start": 4.826,
+       "end": 5.299
+      }
+     ]
+    },
+    {
+     "text": "as a bird.",
+     "start": 5.299,
+     "end": 5.626,
+     "words": [
+      {
+       "w": "as",
+       "start": 5.299,
+       "end": 5.391
+      },
+      {
+       "w": "a",
+       "start": 5.391,
+       "end": 5.456
+      },
+      {
+       "w": "bird.",
+       "start": 5.456,
+       "end": 5.626
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "radar",
+   "scene": "radar",
+   "feature": null,
+   "start": 5.976,
+   "end": 11.399,
+   "chunks": [
+    {
+     "text": "Radar sends out",
+     "start": 5.976,
+     "end": 6.67,
+     "words": [
+      {
+       "w": "Radar",
+       "start": 5.976,
+       "end": 6.234
+      },
+      {
+       "w": "sends",
+       "start": 6.234,
+       "end": 6.492
+      },
+      {
+       "w": "out",
+       "start": 6.492,
+       "end": 6.67
+      }
+     ]
+    },
+    {
+     "text": "radio waves",
+     "start": 6.67,
+     "end": 7.384,
+     "words": [
+      {
+       "w": "radio",
+       "start": 6.67,
+       "end": 7.027
+      },
+      {
+       "w": "waves",
+       "start": 7.027,
+       "end": 7.384
+      }
+     ]
+    },
+    {
+     "text": "and listens for the echo.",
+     "start": 7.384,
+     "end": 8.567,
+     "words": [
+      {
+       "w": "and",
+       "start": 7.384,
+       "end": 7.571
+      },
+      {
+       "w": "listens",
+       "start": 7.571,
+       "end": 7.924
+      },
+      {
+       "w": "for",
+       "start": 7.924,
+       "end": 8.111
+      },
+      {
+       "w": "the",
+       "start": 8.111,
+       "end": 8.297
+      },
+      {
+       "w": "echo.",
+       "start": 8.297,
+       "end": 8.567
+      }
+     ]
+    },
+    {
+     "text": "Stealth means",
+     "start": 8.567,
+     "end": 9.07,
+     "words": [
+      {
+       "w": "Stealth",
+       "start": 8.567,
+       "end": 8.852
+      },
+      {
+       "w": "means",
+       "start": 8.852,
+       "end": 9.07
+      }
+     ]
+    },
+    {
+     "text": "sending back",
+     "start": 9.07,
+     "end": 9.967,
+     "words": [
+      {
+       "w": "sending",
+       "start": 9.07,
+       "end": 9.614
+      },
+      {
+       "w": "back",
+       "start": 9.614,
+       "end": 9.967
+      }
+     ]
+    },
+    {
+     "text": "as little echo",
+     "start": 9.967,
+     "end": 10.907,
+     "words": [
+      {
+       "w": "as",
+       "start": 9.967,
+       "end": 10.166
+      },
+      {
+       "w": "little",
+       "start": 10.166,
+       "end": 10.593
+      },
+      {
+       "w": "echo",
+       "start": 10.593,
+       "end": 10.907
+      }
+     ]
+    },
+    {
+     "text": "as possible.",
+     "start": 10.907,
+     "end": 11.399,
+     "words": [
+      {
+       "w": "as",
+       "start": 10.907,
+       "end": 11.03
+      },
+      {
+       "w": "possible.",
+       "start": 11.03,
+       "end": 11.399
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "scene": "f1",
+   "feature": 0,
+   "start": 11.799,
+   "end": 19.021,
+   "chunks": [
+    {
+     "text": "One:",
+     "start": 11.799,
+     "end": 12.16,
+     "words": [
+      {
+       "w": "One:",
+       "start": 11.799,
+       "end": 12.16
+      }
+     ]
+    },
+    {
+     "text": "the flying wing.",
+     "start": 12.16,
+     "end": 13.14,
+     "words": [
+      {
+       "w": "the",
+       "start": 12.16,
+       "end": 12.398
+      },
+      {
+       "w": "flying",
+       "start": 12.398,
+       "end": 12.796
+      },
+      {
+       "w": "wing.",
+       "start": 12.796,
+       "end": 13.14
+      }
+     ]
+    },
+    {
+     "text": "No tail fins,",
+     "start": 13.14,
+     "end": 14.103,
+     "words": [
+      {
+       "w": "No",
+       "start": 13.14,
+       "end": 13.357
+      },
+      {
+       "w": "tail",
+       "start": 13.357,
+       "end": 13.699
+      },
+      {
+       "w": "fins,",
+       "start": 13.699,
+       "end": 14.103
+      }
+     ]
+    },
+    {
+     "text": "no bulky fuselage.",
+     "start": 14.103,
+     "end": 14.781,
+     "words": [
+      {
+       "w": "no",
+       "start": 14.103,
+       "end": 14.219
+      },
+      {
+       "w": "bulky",
+       "start": 14.219,
+       "end": 14.434
+      },
+      {
+       "w": "fuselage.",
+       "start": 14.434,
+       "end": 14.781
+      }
+     ]
+    },
+    {
+     "text": "Just one smooth,",
+     "start": 14.781,
+     "end": 15.759,
+     "words": [
+      {
+       "w": "Just",
+       "start": 14.781,
+       "end": 15.072
+      },
+      {
+       "w": "one",
+       "start": 15.072,
+       "end": 15.31
+      },
+      {
+       "w": "smooth,",
+       "start": 15.31,
+       "end": 15.759
+      }
+     ]
+    },
+    {
+     "text": "blended shape",
+     "start": 15.759,
+     "end": 16.651,
+     "words": [
+      {
+       "w": "blended",
+       "start": 15.759,
+       "end": 16.265
+      },
+      {
+       "w": "shape",
+       "start": 16.265,
+       "end": 16.651
+      }
+     ]
+    },
+    {
+     "text": "with fewer corners",
+     "start": 16.651,
+     "end": 17.833,
+     "words": [
+      {
+       "w": "with",
+       "start": 16.651,
+       "end": 16.968
+      },
+      {
+       "w": "fewer",
+       "start": 16.968,
+       "end": 17.343
+      },
+      {
+       "w": "corners",
+       "start": 17.343,
+       "end": 17.833
+      }
+     ]
+    },
+    {
+     "text": "to catch a signal.",
+     "start": 17.833,
+     "end": 19.021,
+     "words": [
+      {
+       "w": "to",
+       "start": 17.833,
+       "end": 18.031
+      },
+      {
+       "w": "catch",
+       "start": 18.031,
+       "end": 18.399
+      },
+      {
+       "w": "a",
+       "start": 18.399,
+       "end": 18.54
+      },
+      {
+       "w": "signal.",
+       "start": 18.54,
+       "end": 19.021
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "scene": "f2",
+   "feature": 1,
+   "start": 19.421,
+   "end": 25.145,
+   "chunks": [
+    {
+     "text": "Two:",
+     "start": 19.421,
+     "end": 19.874,
+     "words": [
+      {
+       "w": "Two:",
+       "start": 19.421,
+       "end": 19.874
+      }
+     ]
+    },
+    {
+     "text": "its edges are lined up",
+     "start": 19.874,
+     "end": 20.846,
+     "words": [
+      {
+       "w": "its",
+       "start": 19.874,
+       "end": 20.046
+      },
+      {
+       "w": "edges",
+       "start": 20.046,
+       "end": 20.293
+      },
+      {
+       "w": "are",
+       "start": 20.293,
+       "end": 20.465
+      },
+      {
+       "w": "lined",
+       "start": 20.465,
+       "end": 20.712
+      },
+      {
+       "w": "up",
+       "start": 20.712,
+       "end": 20.846
+      }
+     ]
+    },
+    {
+     "text": "at just a few angles,",
+     "start": 20.846,
+     "end": 22.001,
+     "words": [
+      {
+       "w": "at",
+       "start": 20.846,
+       "end": 21.011
+      },
+      {
+       "w": "just",
+       "start": 21.011,
+       "end": 21.27
+      },
+      {
+       "w": "a",
+       "start": 21.27,
+       "end": 21.388
+      },
+      {
+       "w": "few",
+       "start": 21.388,
+       "end": 21.601
+      },
+      {
+       "w": "angles,",
+       "start": 21.601,
+       "end": 22.001
+      }
+     ]
+    },
+    {
+     "text": "so radar waves",
+     "start": 22.001,
+     "end": 23.018,
+     "words": [
+      {
+       "w": "so",
+       "start": 22.001,
+       "end": 22.217
+      },
+      {
+       "w": "radar",
+       "start": 22.217,
+       "end": 22.617
+      },
+      {
+       "w": "waves",
+       "start": 22.617,
+       "end": 23.018
+      }
+     ]
+    },
+    {
+     "text": "glance off",
+     "start": 23.018,
+     "end": 23.571,
+     "words": [
+      {
+       "w": "glance",
+       "start": 23.018,
+       "end": 23.363
+      },
+      {
+       "w": "off",
+       "start": 23.363,
+       "end": 23.571
+      }
+     ]
+    },
+    {
+     "text": "and scatter away",
+     "start": 23.571,
+     "end": 24.451,
+     "words": [
+      {
+       "w": "and",
+       "start": 23.571,
+       "end": 23.785
+      },
+      {
+       "w": "scatter",
+       "start": 23.785,
+       "end": 24.19
+      },
+      {
+       "w": "away",
+       "start": 24.19,
+       "end": 24.451
+      }
+     ]
+    },
+    {
+     "text": "from the receiver.",
+     "start": 24.451,
+     "end": 25.145,
+     "words": [
+      {
+       "w": "from",
+       "start": 24.451,
+       "end": 24.638
+      },
+      {
+       "w": "the",
+       "start": 24.638,
+       "end": 24.79
+      },
+      {
+       "w": "receiver.",
+       "start": 24.79,
+       "end": 25.145
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "scene": "f3",
+   "feature": 2,
+   "start": 25.545,
+   "end": 30.592,
+   "chunks": [
+    {
+     "text": "Three:",
+     "start": 25.545,
+     "end": 26.091,
+     "words": [
+      {
+       "w": "Three:",
+       "start": 25.545,
+       "end": 26.091
+      }
+     ]
+    },
+    {
+     "text": "radar-absorbent coatings",
+     "start": 26.091,
+     "end": 27.286,
+     "words": [
+      {
+       "w": "radar-absorbent",
+       "start": 26.091,
+       "end": 26.85
+      },
+      {
+       "w": "coatings",
+       "start": 26.85,
+       "end": 27.286
+      }
+     ]
+    },
+    {
+     "text": "turn part of",
+     "start": 27.286,
+     "end": 28.012,
+     "words": [
+      {
+       "w": "turn",
+       "start": 27.286,
+       "end": 27.562
+      },
+      {
+       "w": "part",
+       "start": 27.562,
+       "end": 27.837
+      },
+      {
+       "w": "of",
+       "start": 27.837,
+       "end": 28.012
+      }
+     ]
+    },
+    {
+     "text": "the incoming energy",
+     "start": 28.012,
+     "end": 29.082,
+     "words": [
+      {
+       "w": "the",
+       "start": 28.012,
+       "end": 28.236
+      },
+      {
+       "w": "incoming",
+       "start": 28.236,
+       "end": 28.708
+      },
+      {
+       "w": "energy",
+       "start": 28.708,
+       "end": 29.082
+      }
+     ]
+    },
+    {
+     "text": "into heat,",
+     "start": 29.082,
+     "end": 29.593,
+     "words": [
+      {
+       "w": "into",
+       "start": 29.082,
+       "end": 29.316
+      },
+      {
+       "w": "heat,",
+       "start": 29.316,
+       "end": 29.593
+      }
+     ]
+    },
+    {
+     "text": "weakening the echo.",
+     "start": 29.593,
+     "end": 30.592,
+     "words": [
+      {
+       "w": "weakening",
+       "start": 29.593,
+       "end": 30.081
+      },
+      {
+       "w": "the",
+       "start": 30.081,
+       "end": 30.29
+      },
+      {
+       "w": "echo.",
+       "start": 30.29,
+       "end": 30.592
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "scene": "f4",
+   "feature": 3,
+   "start": 30.992,
+   "end": 37.97,
+   "chunks": [
+    {
+     "text": "Four:",
+     "start": 30.992,
+     "end": 31.478,
+     "words": [
+      {
+       "w": "Four:",
+       "start": 30.992,
+       "end": 31.478
+      }
+     ]
+    },
+    {
+     "text": "the engines are buried",
+     "start": 31.478,
+     "end": 32.761,
+     "words": [
+      {
+       "w": "the",
+       "start": 31.478,
+       "end": 31.709
+      },
+      {
+       "w": "engines",
+       "start": 31.709,
+       "end": 32.145
+      },
+      {
+       "w": "are",
+       "start": 32.145,
+       "end": 32.376
+      },
+      {
+       "w": "buried",
+       "start": 32.376,
+       "end": 32.761
+      }
+     ]
+    },
+    {
+     "text": "inside the wing.",
+     "start": 32.761,
+     "end": 33.49,
+     "words": [
+      {
+       "w": "inside",
+       "start": 32.761,
+       "end": 33.057
+      },
+      {
+       "w": "the",
+       "start": 33.057,
+       "end": 33.234
+      },
+      {
+       "w": "wing.",
+       "start": 33.234,
+       "end": 33.49
+      }
+     ]
+    },
+    {
+     "text": "Hot exhaust",
+     "start": 33.49,
+     "end": 34.259,
+     "words": [
+      {
+       "w": "Hot",
+       "start": 33.49,
+       "end": 33.756
+      },
+      {
+       "w": "exhaust",
+       "start": 33.756,
+       "end": 34.259
+      }
+     ]
+    },
+    {
+     "text": "mixes with cool air",
+     "start": 34.259,
+     "end": 35.221,
+     "words": [
+      {
+       "w": "mixes",
+       "start": 34.259,
+       "end": 34.543
+      },
+      {
+       "w": "with",
+       "start": 34.543,
+       "end": 34.784
+      },
+      {
+       "w": "cool",
+       "start": 34.784,
+       "end": 35.024
+      },
+      {
+       "w": "air",
+       "start": 35.024,
+       "end": 35.221
+      }
+     ]
+    },
+    {
+     "text": "and exits over the top,",
+     "start": 35.221,
+     "end": 36.519,
+     "words": [
+      {
+       "w": "and",
+       "start": 35.221,
+       "end": 35.441
+      },
+      {
+       "w": "exits",
+       "start": 35.441,
+       "end": 35.76
+      },
+      {
+       "w": "over",
+       "start": 35.76,
+       "end": 36.029
+      },
+      {
+       "w": "the",
+       "start": 36.029,
+       "end": 36.25
+      },
+      {
+       "w": "top,",
+       "start": 36.25,
+       "end": 36.519
+      }
+     ]
+    },
+    {
+     "text": "shielded from sensors below.",
+     "start": 36.519,
+     "end": 37.97,
+     "words": [
+      {
+       "w": "shielded",
+       "start": 36.519,
+       "end": 36.964
+      },
+      {
+       "w": "from",
+       "start": 36.964,
+       "end": 37.221
+      },
+      {
+       "w": "sensors",
+       "start": 37.221,
+       "end": 37.619
+      },
+      {
+       "w": "below.",
+       "start": 37.619,
+       "end": 37.97
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "scene": "f5",
+   "feature": 4,
+   "start": 38.37,
+   "end": 43.363,
+   "chunks": [
+    {
+     "text": "Five:",
+     "start": 38.37,
+     "end": 38.805,
+     "words": [
+      {
+       "w": "Five:",
+       "start": 38.37,
+       "end": 38.805
+      }
+     ]
+    },
+    {
+     "text": "weapons ride",
+     "start": 38.805,
+     "end": 39.586,
+     "words": [
+      {
+       "w": "weapons",
+       "start": 38.805,
+       "end": 39.279
+      },
+      {
+       "w": "ride",
+       "start": 39.279,
+       "end": 39.586
+      }
+     ]
+    },
+    {
+     "text": "inside internal bays.",
+     "start": 39.586,
+     "end": 40.497,
+     "words": [
+      {
+       "w": "inside",
+       "start": 39.586,
+       "end": 39.877
+      },
+      {
+       "w": "internal",
+       "start": 39.877,
+       "end": 40.245
+      },
+      {
+       "w": "bays.",
+       "start": 40.245,
+       "end": 40.497
+      }
+     ]
+    },
+    {
+     "text": "Bombs hanging",
+     "start": 40.497,
+     "end": 41.014,
+     "words": [
+      {
+       "w": "Bombs",
+       "start": 40.497,
+       "end": 40.721
+      },
+      {
+       "w": "hanging",
+       "start": 40.721,
+       "end": 41.014
+      }
+     ]
+    },
+    {
+     "text": "under the wing",
+     "start": 41.014,
+     "end": 41.89,
+     "words": [
+      {
+       "w": "under",
+       "start": 41.014,
+       "end": 41.359
+      },
+      {
+       "w": "the",
+       "start": 41.359,
+       "end": 41.598
+      },
+      {
+       "w": "wing",
+       "start": 41.598,
+       "end": 41.89
+      }
+     ]
+    },
+    {
+     "text": "would add",
+     "start": 41.89,
+     "end": 42.401,
+     "words": [
+      {
+       "w": "would",
+       "start": 41.89,
+       "end": 42.192
+      },
+      {
+       "w": "add",
+       "start": 42.192,
+       "end": 42.401
+      }
+     ]
+    },
+    {
+     "text": "extra echoes.",
+     "start": 42.401,
+     "end": 43.363,
+     "words": [
+      {
+       "w": "extra",
+       "start": 42.401,
+       "end": 42.818
+      },
+      {
+       "w": "echoes.",
+       "start": 42.818,
+       "end": 43.363
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "together",
+   "scene": "together",
+   "feature": null,
+   "start": 43.813,
+   "end": 49.19,
+   "chunks": [
+    {
+     "text": "Together,",
+     "start": 43.813,
+     "end": 44.311,
+     "words": [
+      {
+       "w": "Together,",
+       "start": 43.813,
+       "end": 44.311
+      }
+     ]
+    },
+    {
+     "text": "the echo shrinks",
+     "start": 44.311,
+     "end": 45.116,
+     "words": [
+      {
+       "w": "the",
+       "start": 44.311,
+       "end": 44.507
+      },
+      {
+       "w": "echo",
+       "start": 44.507,
+       "end": 44.746
+      },
+      {
+       "w": "shrinks",
+       "start": 44.746,
+       "end": 45.116
+      }
+     ]
+    },
+    {
+     "text": "dramatically.",
+     "start": 45.116,
+     "end": 45.835,
+     "words": [
+      {
+       "w": "dramatically.",
+       "start": 45.116,
+       "end": 45.835
+      }
+     ]
+    },
+    {
+     "text": "It's not invisible.",
+     "start": 45.835,
+     "end": 46.781,
+     "words": [
+      {
+       "w": "It's",
+       "start": 45.835,
+       "end": 46.077
+      },
+      {
+       "w": "not",
+       "start": 46.077,
+       "end": 46.275
+      },
+      {
+       "w": "invisible.",
+       "start": 46.275,
+       "end": 46.781
+      }
+     ]
+    },
+    {
+     "text": "But it gets detected",
+     "start": 46.781,
+     "end": 47.571,
+     "words": [
+      {
+       "w": "But",
+       "start": 46.781,
+       "end": 46.936
+      },
+      {
+       "w": "it",
+       "start": 46.936,
+       "end": 47.056
+      },
+      {
+       "w": "gets",
+       "start": 47.056,
+       "end": 47.245
+      },
+      {
+       "w": "detected",
+       "start": 47.245,
+       "end": 47.571
+      }
+     ]
+    },
+    {
+     "text": "much later,",
+     "start": 47.571,
+     "end": 48.382,
+     "words": [
+      {
+       "w": "much",
+       "start": 47.571,
+       "end": 47.914
+      },
+      {
+       "w": "later,",
+       "start": 47.914,
+       "end": 48.382
+      }
+     ]
+    },
+    {
+     "text": "and much closer.",
+     "start": 48.382,
+     "end": 49.19,
+     "words": [
+      {
+       "w": "and",
+       "start": 48.382,
+       "end": 48.578
+      },
+      {
+       "w": "much",
+       "start": 48.578,
+       "end": 48.819
+      },
+      {
+       "w": "closer.",
+       "start": 48.819,
+       "end": 49.19
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "scene": "outro",
+   "feature": null,
+   "start": 49.59,
+   "end": 55.913,
+   "chunks": [
+    {
+     "text": "The twist?",
+     "start": 49.59,
+     "end": 50.173,
+     "words": [
+      {
+       "w": "The",
+       "start": 49.59,
+       "end": 49.809
+      },
+      {
+       "w": "twist?",
+       "start": 49.809,
+       "end": 50.173
+      }
+     ]
+    },
+    {
+     "text": "Shrink an echo",
+     "start": 50.173,
+     "end": 50.793,
+     "words": [
+      {
+       "w": "Shrink",
+       "start": 50.173,
+       "end": 50.455
+      },
+      {
+       "w": "an",
+       "start": 50.455,
+       "end": 50.586
+      },
+      {
+       "w": "echo",
+       "start": 50.586,
+       "end": 50.793
+      }
+     ]
+    },
+    {
+     "text": "ten thousand times,",
+     "start": 50.793,
+     "end": 52.041,
+     "words": [
+      {
+       "w": "ten",
+       "start": 50.793,
+       "end": 51.054
+      },
+      {
+       "w": "thousand",
+       "start": 51.054,
+       "end": 51.606
+      },
+      {
+       "w": "times,",
+       "start": 51.606,
+       "end": 52.041
+      }
+     ]
+    },
+    {
+     "text": "and detection range",
+     "start": 52.041,
+     "end": 53.189,
+     "words": [
+      {
+       "w": "and",
+       "start": 52.041,
+       "end": 52.281
+      },
+      {
+       "w": "detection",
+       "start": 52.281,
+       "end": 52.842
+      },
+      {
+       "w": "range",
+       "start": 52.842,
+       "end": 53.189
+      }
+     ]
+    },
+    {
+     "text": "only drops",
+     "start": 53.189,
+     "end": 53.718,
+     "words": [
+      {
+       "w": "only",
+       "start": 53.189,
+       "end": 53.431
+      },
+      {
+       "w": "drops",
+       "start": 53.431,
+       "end": 53.718
+      }
+     ]
+    },
+    {
+     "text": "about ten times.",
+     "start": 53.718,
+     "end": 54.512,
+     "words": [
+      {
+       "w": "about",
+       "start": 53.718,
+       "end": 53.997
+      },
+      {
+       "w": "ten",
+       "start": 53.997,
+       "end": 54.19
+      },
+      {
+       "w": "times.",
+       "start": 54.19,
+       "end": 54.512
+      }
+     ]
+    },
+    {
+     "text": "What should I",
+     "start": 54.512,
+     "end": 55.046,
+     "words": [
+      {
+       "w": "What",
+       "start": 54.512,
+       "end": 54.701
+      },
+      {
+       "w": "should",
+       "start": 54.701,
+       "end": 54.96
+      },
+      {
+       "w": "I",
+       "start": 54.96,
+       "end": 55.046
+      }
+     ]
+    },
+    {
+     "text": "break down next?",
+     "start": 55.046,
+     "end": 55.913,
+     "words": [
+      {
+       "w": "break",
+       "start": 55.046,
+       "end": 55.351
+      },
+      {
+       "w": "down",
+       "start": 55.351,
+       "end": 55.609
+      },
+      {
+       "w": "next?",
+       "start": 55.609,
+       "end": 55.913
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

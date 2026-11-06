@@ -11,17 +11,25 @@
     "typecheck": "tsc --noEmit",
     "tls:preview:ch01": "remotion render TLS-Ch01 out/the-last-signal/preview-ch01.mp4 --scale=0.5",
     "tls:render:ch01": "remotion render TLS-Ch01 out/the-last-signal/the-last-signal-ch01-1147.mp4 --codec=h264 --crf=20",
-    "tls:audio": "python tools/series/build_chapter_audio.py"
+    "tls:audio": "python tools/series/build_chapter_audio.py",
+    "stealth:audio": "python tools/stealth/build_audio.py",
+    "stealth:preview": "remotion render Stealth-Bomber out/stealth/preview-540x960.mp4 --scale=0.5 --gl=angle",
+    "stealth:render": "remotion render Stealth-Bomber out/stealth/stealth-bomber-radar.mp4 --codec=h264 --crf=18 --gl=angle",
+    "stealth:studio": "remotion studio"
   },
   "dependencies": {
     "@fontsource/montserrat": "5.3.0",
+    "@react-three/fiber": "^9.1.2",
     "@remotion/cli": "4.0.541",
+    "@remotion/three": "^4.0.541",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "remotion": "4.0.541"
+    "remotion": "4.0.541",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@types/react": "19.1.12",
+    "@types/three": "^0.169.0",
     "typescript": "5.9.3"
   }
 }
