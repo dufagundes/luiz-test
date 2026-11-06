@@ -1,0 +1,42 @@
+{
+  "id": "ch01",
+  "title": "11:47",
+  "minDuration": 56,
+  "tail": 6.0,
+  "lines": [
+    {"id": "n1", "voice": "narrator", "gap": 0.1, "text": "At eleven forty seven P.M., every phone in Harlow Point lit up. At the exact same second.", "sub": "At 11:47 p.m., every phone in Harlow Point lit up… at the exact same second."},
+    {"id": "n2", "voice": "narrator", "gap": 0.25, "text": "Same message. No sender. You have twenty four hours. Do not trust the person closest to you.", "sub": "Same message. No sender. “You have 24 hours. Do not trust the person closest to you.”"},
+    {"id": "n3", "voice": "narrator", "gap": 0.4, "text": "Nora Vance thought it was a prank. Then her missing father's radio turned itself on.", "sub": "Nora Vance thought it was a prank. Then her missing father's radio turned itself on."},
+    {"id": "r1", "voice": "radio", "gap": 0.9, "text": "Nora. If you can hear this, it's already started.", "sub": "“Nora… if you can hear this, it's already started.”"},
+    {"id": "n4", "voice": "narrator", "gap": 0.3, "text": "The voice knew her name. And it sounded exactly like her.", "sub": "The voice knew her name. And it sounded exactly like her."},
+    {"id": "t1", "voice": "theo", "gap": 0.9, "text": "Nora! Did you get it too?", "sub": "“Nora! Did you get it too?”"},
+    {"id": "n5", "voice": "narrator", "gap": 0.2, "text": "Theo. Her best friend since they were six.", "sub": "Theo. Her best friend since they were six."},
+    {"id": "m1", "voice": "milo", "gap": 0.6, "text": "Nora? I drew this. Yesterday.", "sub": "“Nora? I drew this… yesterday.”"},
+    {"id": "n6", "voice": "narrator", "gap": 0.2, "text": "Her little brother had drawn this room. This moment. And someone standing behind Theo.", "sub": "Her little brother had drawn this room. This moment. And someone standing behind Theo."},
+    {"id": "r2", "voice": "radio", "gap": 0.7, "text": "Don't trust Theo. He got the message three weeks ago. Come to the tower. Alone.", "sub": "“Don't trust Theo. He got the message three weeks ago. Come to the tower. Alone.”"},
+    {"id": "no1", "voice": "nora", "gap": 0.5, "text": "You knew?", "sub": "“You knew?”"},
+    {"id": "t2", "voice": "theo", "gap": 0.2, "text": "Nora, I can explain. Please.", "sub": "“Nora, I can explain. Please.”"},
+    {"id": "n7", "voice": "narrator", "gap": 0.4, "text": "Then, across town, the lights began to go out.", "sub": "Then, across town, the lights began to go out."},
+    {"id": "n8", "voice": "narrator", "gap": 0.6, "text": "What should Nora do? A. Let Theo explain. B. Go to the tower alone.", "sub": "What should Nora do? A: Let Theo explain. B: Go to the tower alone.", "noSubs": true},
+    {"id": "n9", "voice": "narrator", "gap": 0.35, "text": "You decide what happens next.", "sub": "You decide what happens next.", "noSubs": true}
+  ],
+  "sfx": [
+    {"type": "drone", "from": 0, "to": "end", "rise": [6, 44]},
+    {"type": "rain", "from": 0, "to": "end", "gain": 0.5},
+    {"type": "buzzSwarm", "at": 0.0},
+    {"type": "stinger", "at": "n2+3.0", "length": 2.2},
+    {"type": "radioOn", "at": "n3+3.2"},
+    {"type": "static", "from": "n3+3.4", "to": "r1.end+0.3", "gain": 0.35},
+    {"type": "tap", "at": "t1-0.75"},
+    {"type": "tap", "at": "t1-0.45"},
+    {"type": "creak", "at": "m1-0.6", "length": 0.9},
+    {"type": "whoosh", "at": "n6+2.6"},
+    {"type": "radioOn", "at": "r2-0.4"},
+    {"type": "static", "from": "r2-0.3", "to": "r2.end+0.2", "gain": 0.3},
+    {"type": "heartbeat", "at": "no1-1.2", "beats": 6},
+    {"type": "powerDown", "at": "n7+1.3"},
+    {"type": "thunder", "at": "n7+2.4"},
+    {"type": "impact", "at": "n8-0.2"},
+    {"type": "tick", "from": "n8+0.2", "to": "end"}
+  ]
+}
