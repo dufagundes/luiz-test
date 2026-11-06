@@ -165,7 +165,7 @@ export const SceneF1: React.FC = () => {
       </Stage>
       <FeatureTitle n={1} t={t} dur={dur} />
       <Tag at={project(cam, finWorld)} dx={40} dy={200} align="center" text="Tail fins" sub="✕ extra reflectors" color={C.red} p={pop(t, beat('f1', 2)) * (1 - jetOut)} />
-      <Tag at={project(cam, bodyWorld)} dx={-150} dy={-60} text="Fuselage" sub="✕ bulky body" color={C.red} p={pop(t, beat('f1', 3)) * (1 - jetOut)} />
+      <Tag at={project(cam, bodyWorld)} dx={-120} dy={-240} text="Fuselage" sub="✕ bulky body" color={C.red} p={pop(t, beat('f1', 3)) * (1 - jetOut)} />
       <Tag at={center} dx={-120} dy={-230} text="Blended body" sub="one smooth shape" color={C.cyan} p={pop(t, beat('f1', 5))} />
       <Tag at={edge} dx={20} dy={250} text="Fewer corners" sub="nothing sticks out" color={C.green} p={pop(t, beat('f1', 6))} />
     </AbsoluteFill>
