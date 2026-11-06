@@ -1,0 +1,488 @@
+[
+ {
+  "id": "n1",
+  "voice": "ryan",
+  "text": "At 3:17 a.m., Maya got a text… from herself.",
+  "start": 3,
+  "end": 103,
+  "words": [
+   {
+    "w": "At",
+    "start": 3,
+    "end": 9
+   },
+   {
+    "w": "3:17",
+    "start": 9,
+    "end": 17
+   },
+   {
+    "w": "a.m.,",
+    "start": 17,
+    "end": 33
+   },
+   {
+    "w": "Maya",
+    "start": 33,
+    "end": 41
+   },
+   {
+    "w": "got",
+    "start": 41,
+    "end": 49
+   },
+   {
+    "w": "a",
+    "start": 49,
+    "end": 53
+   },
+   {
+    "w": "text…",
+    "start": 53,
+    "end": 71
+   },
+   {
+    "w": "from",
+    "start": 71,
+    "end": 80
+   },
+   {
+    "w": "herself.",
+    "start": 80,
+    "end": 103
+   }
+  ]
+ },
+ {
+  "id": "n2",
+  "voice": "ryan",
+  "text": "Sent ten years from the future. It said: “Don't open the door. It's not Mom.”",
+  "start": 108,
+  "end": 228,
+  "words": [
+   {
+    "w": "Sent",
+    "start": 108,
+    "end": 115
+   },
+   {
+    "w": "ten",
+    "start": 115,
+    "end": 120
+   },
+   {
+    "w": "years",
+    "start": 120,
+    "end": 128
+   },
+   {
+    "w": "from",
+    "start": 128,
+    "end": 134
+   },
+   {
+    "w": "the",
+    "start": 134,
+    "end": 139
+   },
+   {
+    "w": "future.",
+    "start": 139,
+    "end": 155
+   },
+   {
+    "w": "It",
+    "start": 155,
+    "end": 159
+   },
+   {
+    "w": "said:",
+    "start": 159,
+    "end": 171
+   },
+   {
+    "w": "“Don't",
+    "start": 171,
+    "end": 178
+   },
+   {
+    "w": "open",
+    "start": 178,
+    "end": 185
+   },
+   {
+    "w": "the",
+    "start": 185,
+    "end": 190
+   },
+   {
+    "w": "door.",
+    "start": 190,
+    "end": 204
+   },
+   {
+    "w": "It's",
+    "start": 204,
+    "end": 210
+   },
+   {
+    "w": "not",
+    "start": 210,
+    "end": 216
+   },
+   {
+    "w": "Mom.”",
+    "start": 216,
+    "end": 228
+   }
+  ]
+ },
+ {
+  "id": "n3",
+  "voice": "ryan",
+  "text": "Then… three slow knocks.",
+  "start": 231,
+  "end": 272,
+  "words": [
+   {
+    "w": "Then…",
+    "start": 231,
+    "end": 244
+   },
+   {
+    "w": "three",
+    "start": 244,
+    "end": 251
+   },
+   {
+    "w": "slow",
+    "start": 251,
+    "end": 257
+   },
+   {
+    "w": "knocks.",
+    "start": 257,
+    "end": 272
+   }
+  ]
+ },
+ {
+  "id": "m1",
+  "voice": "fake",
+  "text": "“Maya, sweetie… open the door.”",
+  "start": 304,
+  "end": 378,
+  "words": [
+   {
+    "w": "“Maya,",
+    "start": 304,
+    "end": 320
+   },
+   {
+    "w": "sweetie…",
+    "start": 320,
+    "end": 343
+   },
+   {
+    "w": "open",
+    "start": 343,
+    "end": 352
+   },
+   {
+    "w": "the",
+    "start": 352,
+    "end": 359
+   },
+   {
+    "w": "door.”",
+    "start": 359,
+    "end": 378
+   }
+  ]
+ },
+ {
+  "id": "n4",
+  "voice": "ryan",
+  "text": "She ran to the window. Mom was outside, in the driveway… waving.",
+  "start": 396,
+  "end": 513,
+  "words": [
+   {
+    "w": "She",
+    "start": 396,
+    "end": 402
+   },
+   {
+    "w": "ran",
+    "start": 402,
+    "end": 408
+   },
+   {
+    "w": "to",
+    "start": 408,
+    "end": 412
+   },
+   {
+    "w": "the",
+    "start": 412,
+    "end": 418
+   },
+   {
+    "w": "window.",
+    "start": 418,
+    "end": 436
+   },
+   {
+    "w": "Mom",
+    "start": 436,
+    "end": 442
+   },
+   {
+    "w": "was",
+    "start": 442,
+    "end": 448
+   },
+   {
+    "w": "outside,",
+    "start": 448,
+    "end": 465
+   },
+   {
+    "w": "in",
+    "start": 465,
+    "end": 469
+   },
+   {
+    "w": "the",
+    "start": 469,
+    "end": 475
+   },
+   {
+    "w": "driveway…",
+    "start": 475,
+    "end": 495
+   },
+   {
+    "w": "waving.",
+    "start": 495,
+    "end": 513
+   }
+  ]
+ },
+ {
+  "id": "n5",
+  "voice": "ryan",
+  "text": "The handle turned. Her phone buzzed: “Open the window. Let her in.”",
+  "start": 518,
+  "end": 619,
+  "words": [
+   {
+    "w": "The",
+    "start": 518,
+    "end": 523
+   },
+   {
+    "w": "handle",
+    "start": 523,
+    "end": 531
+   },
+   {
+    "w": "turned.",
+    "start": 531,
+    "end": 546
+   },
+   {
+    "w": "Her",
+    "start": 546,
+    "end": 551
+   },
+   {
+    "w": "phone",
+    "start": 551,
+    "end": 559
+   },
+   {
+    "w": "buzzed:",
+    "start": 559,
+    "end": 572
+   },
+   {
+    "w": "“Open",
+    "start": 572,
+    "end": 578
+   },
+   {
+    "w": "the",
+    "start": 578,
+    "end": 583
+   },
+   {
+    "w": "window.",
+    "start": 583,
+    "end": 598
+   },
+   {
+    "w": "Let",
+    "start": 598,
+    "end": 604
+   },
+   {
+    "w": "her",
+    "start": 604,
+    "end": 609
+   },
+   {
+    "w": "in.”",
+    "start": 609,
+    "end": 619
+   }
+  ]
+ },
+ {
+  "id": "n6",
+  "voice": "ryan",
+  "text": "The door flew open. It was Mom. The real one.",
+  "start": 634,
+  "end": 713,
+  "words": [
+   {
+    "w": "The",
+    "start": 634,
+    "end": 640
+   },
+   {
+    "w": "door",
+    "start": 640,
+    "end": 646
+   },
+   {
+    "w": "flew",
+    "start": 646,
+    "end": 653
+   },
+   {
+    "w": "open.",
+    "start": 653,
+    "end": 667
+   },
+   {
+    "w": "It",
+    "start": 667,
+    "end": 671
+   },
+   {
+    "w": "was",
+    "start": 671,
+    "end": 676
+   },
+   {
+    "w": "Mom.",
+    "start": 676,
+    "end": 688
+   },
+   {
+    "w": "The",
+    "start": 688,
+    "end": 694
+   },
+   {
+    "w": "real",
+    "start": 694,
+    "end": 700
+   },
+   {
+    "w": "one.",
+    "start": 700,
+    "end": 713
+   }
+  ]
+ },
+ {
+  "id": "m2",
+  "voice": "mom",
+  "text": "“Maya? Who are you texting?”",
+  "start": 718,
+  "end": 770,
+  "words": [
+   {
+    "w": "“Maya?",
+    "start": 718,
+    "end": 733
+   },
+   {
+    "w": "Who",
+    "start": 733,
+    "end": 739
+   },
+   {
+    "w": "are",
+    "start": 739,
+    "end": 745
+   },
+   {
+    "w": "you",
+    "start": 745,
+    "end": 751
+   },
+   {
+    "w": "texting?”",
+    "start": 751,
+    "end": 770
+   }
+  ]
+ },
+ {
+  "id": "n7",
+  "voice": "ryan",
+  "text": "And outside the glass, holding a phone… was Maya.",
+  "start": 788,
+  "end": 862,
+  "words": [
+   {
+    "w": "And",
+    "start": 788,
+    "end": 792
+   },
+   {
+    "w": "outside",
+    "start": 792,
+    "end": 802
+   },
+   {
+    "w": "the",
+    "start": 802,
+    "end": 807
+   },
+   {
+    "w": "glass,",
+    "start": 807,
+    "end": 818
+   },
+   {
+    "w": "holding",
+    "start": 818,
+    "end": 828
+   },
+   {
+    "w": "a",
+    "start": 828,
+    "end": 831
+   },
+   {
+    "w": "phone…",
+    "start": 831,
+    "end": 844
+   },
+   {
+    "w": "was",
+    "start": 844,
+    "end": 849
+   },
+   {
+    "w": "Maya.",
+    "start": 849,
+    "end": 862
+   }
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+[
+  {"id":"n1","voice":"ryan","text":"At three seventeen A.M., Maya got a text. From herself.","sub":"At 3:17 a.m., Maya got a text… from herself."},
+  {"id":"n2","voice":"ryan","text":"Sent ten years from the future. It said: Don't open the door. It's not Mom.","sub":"Sent ten years from the future. It said: “Don't open the door. It's not Mom.”"},
+  {"id":"n3","voice":"ryan","text":"Then. Three slow knocks.","sub":"Then… three slow knocks."},
+  {"id":"m1","voice":"fake","text":"Maya, sweetie. Open the door.","sub":"“Maya, sweetie… open the door.”"},
+  {"id":"n4","voice":"ryan","text":"She ran to the window. Mom was outside, in the driveway. Waving.","sub":"She ran to the window. Mom was outside, in the driveway… waving."},
+  {"id":"n5","voice":"ryan","text":"The handle turned. Her phone buzzed: Open the window. Let her in.","sub":"The handle turned. Her phone buzzed: “Open the window. Let her in.”"},
+  {"id":"n6","voice":"ryan","text":"The door flew open. It was Mom. The real one.","sub":"The door flew open. It was Mom. The real one."},
+  {"id":"m2","voice":"mom","text":"Maya? Who are you texting?","sub":"“Maya? Who are you texting?”"},
+  {"id":"n7","voice":"ryan","text":"And outside the glass, holding a phone, was Maya.","sub":"And outside the glass, holding a phone… was Maya."}
+]

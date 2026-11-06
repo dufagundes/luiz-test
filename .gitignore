@@ -1,0 +1,5 @@
+node_modules/
+out/*.png
+out/preview*.mp4
+.DS_Store
+voices/
