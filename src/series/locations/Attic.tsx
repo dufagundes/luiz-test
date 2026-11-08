@@ -27,6 +27,7 @@ export type AtticProps = {
   outside?: React.ReactNode; // drawn in the window (behind glass, over the rainy sky)
   windowOpen?: number; // 0..1 the casement swings open
   lightning?: number;
+  towerWhite?: boolean; // the Fold is charging (from end of Ch.1 onward)
 };
 
 const Rain: React.FC<{frame: number; x: number; y: number; w: number; h: number; n?: number}> = ({frame, x, y, w, h, n = 40}) => (
@@ -50,6 +51,7 @@ export const Attic: React.FC<AtticProps> = ({
   outside,
   windowOpen = 0,
   lightning = 0,
+  towerWhite = false,
 }) => {
   const W = ATTIC.window;
   const D = ATTIC.door;
@@ -106,8 +108,21 @@ export const Attic: React.FC<AtticProps> = ({
         {/* the relay tower on Cutter's Hill */}
         <path d={`M ${W.x + 204} ${W.y + 285} L ${W.x + 220} ${W.y + 150} L ${W.x + 236} ${W.y + 285}`} stroke="#3a4470" strokeWidth={3.5} fill="none" />
         <path d={`M ${W.x + 207} ${W.y + 255} L ${W.x + 233} ${W.y + 225} M ${W.x + 233} ${W.y + 255} L ${W.x + 207} ${W.y + 225} M ${W.x + 211} ${W.y + 215} L ${W.x + 229} ${W.y + 190} M ${W.x + 229} ${W.y + 215} L ${W.x + 211} ${W.y + 190}`} stroke="#3a4470" strokeWidth={2} />
-        <circle cx={W.x + 220} cy={W.y + 148} r={26} fill="url(#gRed)" opacity={(frame % 40) < 20 ? 0.9 : 0.25} />
-        <circle cx={W.x + 220} cy={W.y + 148} r={4.5} fill={T.signalRed} opacity={(frame % 40) < 20 ? 1 : 0.3} />
+        {towerWhite ? (
+          <g>
+            <circle cx={W.x + 220} cy={W.y + 148} r={40} fill="url(#gWhite)" opacity={0.75 + 0.25 * Math.sin(frame * 0.6)} />
+            <circle cx={W.x + 220} cy={W.y + 148} r={5} fill={T.signalWhite} />
+            {[0, 1].map((i) => {
+              const t = (frame * 0.03 + i / 2) % 1;
+              return <circle key={i} cx={W.x + 220} cy={W.y + 148} r={8 + t * 90} fill="none" stroke={T.signalWhite} strokeWidth={2.5 * (1 - t)} opacity={0.6 * (1 - t)} />;
+            })}
+          </g>
+        ) : (
+          <g>
+            <circle cx={W.x + 220} cy={W.y + 148} r={26} fill="url(#gRed)" opacity={(frame % 40) < 20 ? 0.9 : 0.25} />
+            <circle cx={W.x + 220} cy={W.y + 148} r={4.5} fill={T.signalRed} opacity={(frame % 40) < 20 ? 1 : 0.3} />
+          </g>
+        )}
         {outside}
         <Rain frame={frame} x={W.x} y={W.y} w={W.w} h={W.h} n={26} />
         {lightning > 0 ? <rect x={W.x} y={W.y} width={W.w} height={W.h} fill="#e6eeff" opacity={lightning} /> : null}

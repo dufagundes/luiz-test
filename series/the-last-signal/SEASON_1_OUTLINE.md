@@ -20,14 +20,23 @@ Every phone lights up. Dad's radio turns on with a voice that sounds like Nora. 
 **Reveal:** the message came early to Theo, and the voice is Nora's. **Cliffhanger:** blackout plus a betrayal.
 **POLL:** *Theo lied for 3 weeks. What should Nora do?* **A: Let Theo explain** · **B: Go to the tower alone**
 
-### Ch.2: "Three Weeks" · ~23:30 left
+### Ch.2: "Three Weeks" ✅ produced (route A) · countdown 23:59:02 → 23:58:10
+**Audience chose A: Let Theo explain.** Hook: lightning, darkness, a flashlight clicks on Theo's dripping face. Theo shows the second message. Nora is hurt ("And you just… didn't tell me?") but believes him. Milo's new drawing: the boy with Theo's glasses, a phone reading 11:47, "he dosnt get wet". Only the sheriff's station still has power. A text from Theo's number: *"I'm outside. Don't trust whoever is with you."* In the yard: a second Theo, bone-dry in the pouring rain, phone frozen at 11:47.
+**Reveal:** the second message, plus the Echo tells (never wet, 11:47). **Twist / cliffhanger:** two Theos.
+**POLL:** *The other Theo is outside. What should Nora do?* **A: Open the door** · **B: Run to the station**
+
+*Original plan for reference:*
 ★ Fixed: Theo's second, private message is revealed: *"IF NORA GOES TO THE TOWER, SHE DOESN'T COME BACK."*
 - **If A (explain):** in the dark attic, Theo shows everything. Nora is angry but believes him. Milo whispers that the figure in his drawing "is already in the house". Jules texts that the sheriff's station has power, *only* the station.
 - **If B (tower alone):** Nora sneaks out into the rain, leaving Milo with Theo. Halfway up Cutter's Hill she finds a dozen townspeople standing still, staring at their phones, frozen at 11:47. Theo's message reaches her phone: the warning. She's already at the gate.
 **Cliffhanger:** a second Theo is seen somewhere he can't be.
 **Poll idea:** depends on route (e.g., *"Wake Mom" vs "Call Jules"* / *"Go through the gate" vs "Go back for Milo"*).
 
-### Ch.3: "The Sheriff's Daughter" · ~21:30 left
+### Ch.3: "The Sheriff's Daughter" · ~23:40 left (planned, adapts to the Ch.2 vote)
+- **If A (open the door):** Nora goes downstairs with the real Theo and Milo and opens the front door. The Echo is *gone*, but wet footprints lead **into** the house (Echoes copy what they touch; first sign they adapt). Jules calls from the station: her mom just drove toward the tower. The kids must leave the house.
+- **If B (run to the station):** out the back through the rain (the attic window and porch roof). The Echo follows them silently through town. At the station they meet Jules, who has the locked Meridian file. The Echo is waiting outside under the lights.
+Either way, Ch.3 introduces **Jules** and the file **VANCE, ELIAS (MERIDIAN)**.
+*Original plan:*
 ★ Jules joins (reluctantly). The station has a locked file: **VANCE, ELIAS (MERIDIAN)**. Jules realizes her mother lied about Nora's dad. The old Nora/Jules fight comes back.
 **Cliffhanger:** the file contains a photo from 3 years ago with Sheriff Okafor *and Theo* at the tower.
 **Poll idea:** *Confront the sheriff / Steal the file*

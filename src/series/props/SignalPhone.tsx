@@ -22,7 +22,27 @@ export const SignalPhone: React.FC<{
   screenOn?: number;
   glitch?: number;
   id?: string;
-}> = ({frame, x, y, scale = 1, rotate = 0, mode, notifAt = 0, dateLabel = 'FRI, OCT 23 · 11:47 PM', owner = '', screenOn = 1, glitch = 0, id = 'p'}) => {
+  lockTime?: string;
+  notif?: {title: string; sub: string; lines: string[]; firstLineRed?: boolean; icon?: 'signal' | 'contact'};
+  second?: {lines: string[]; at: number; label?: string}; // thread mode: a second (private) message
+}> = ({
+  frame,
+  x,
+  y,
+  scale = 1,
+  rotate = 0,
+  mode,
+  notifAt = 0,
+  dateLabel = 'FRI, OCT 23 · 11:47 PM',
+  owner = '',
+  screenOn = 1,
+  glitch = 0,
+  id = 'p',
+  lockTime = '11:47',
+  notif = {title: 'UNKNOWN', sub: '+0 000 000 0000 · now', lines: SIGNAL_TEXT, firstLineRed: true, icon: 'signal'},
+  second,
+}) => {
+  const s2 = second ? spring({frame: frame - second.at, fps: 30, config: {damping: 12, stiffness: 170, mass: 0.6}}) : 0;
   const W = 600;
   const H = 1200;
   const s = spring({frame: frame - notifAt, fps: 30, config: {damping: 13, stiffness: 160, mass: 0.6}});
@@ -49,23 +69,34 @@ export const SignalPhone: React.FC<{
               <rect x={-W / 2} y={-H / 2} width={W} height={H} fill="#101830" />
               <circle cx={0} cy={420} r={420} fill="#1c2a5a" opacity={0.6} />
               <text x={0} y={-330} fill="#e9eeff" fontFamily={T.font} fontWeight={300} fontSize={160} textAnchor="middle">
-                11:47
+                {lockTime}
               </text>
               <text x={0} y={-262} fill="#b8c3e8" fontFamily={T.font} fontWeight={600} fontSize={30} textAnchor="middle">
                 Friday, November 13
               </text>
               <g transform={`translate(0 ${interpolate(s, [0, 1], [-160, 20])})`} opacity={Math.min(1, s * 2)}>
                 <rect x={-275} y={-110} width={550} height={400} rx={38} fill="#f2f4fb" opacity={0.97} />
-                <rect x={-240} y={-82} width={60} height={60} rx={14} fill={T.uiRed} />
-                <path d="M -222 -40 L -222 -58 M -210 -40 L -210 -66 M -198 -40 L -198 -50" stroke="#fff" strokeWidth={6} strokeLinecap="round" />
+                {notif.icon === 'contact' ? (
+                  <g>
+                    <circle cx={-210} cy={-52} r={32} fill="#4f6a3a" />
+                    <text x={-210} y={-40} fill="#fff" fontFamily={T.font} fontWeight={900} fontSize={32} textAnchor="middle">
+                      T
+                    </text>
+                  </g>
+                ) : (
+                  <g>
+                    <rect x={-240} y={-82} width={60} height={60} rx={14} fill={T.uiRed} />
+                    <path d="M -222 -40 L -222 -58 M -210 -40 L -210 -66 M -198 -40 L -198 -50" stroke="#fff" strokeWidth={6} strokeLinecap="round" />
+                  </g>
+                )}
                 <text x={-160} y={-58} fill="#1a1d2b" fontFamily={T.font} fontWeight={800} fontSize={30}>
-                  UNKNOWN
+                  {notif.title}
                 </text>
                 <text x={-160} y={-26} fill="#7a7f95" fontFamily={T.font} fontWeight={600} fontSize={22}>
-                  +0 000 000 0000 · now
+                  {notif.sub}
                 </text>
-                {SIGNAL_TEXT.map((ln, i) => (
-                  <text key={i} x={-245} y={52 + i * 58} fill={i === 0 ? T.uiRed : '#14172a'} style={lineStyle}>
+                {notif.lines.map((ln, i) => (
+                  <text key={i} x={-245} y={52 + i * 58} fill={i === 0 && notif.firstLineRed ? T.uiRed : '#14172a'} style={lineStyle}>
                     {ln}
                   </text>
                 ))}
@@ -92,9 +123,25 @@ export const SignalPhone: React.FC<{
                   </text>
                 ))}
               </g>
-              <text x={-W / 2 + 40} y={-H / 2 + 640} fill="#8b93b5" fontFamily={T.font} fontWeight={600} fontSize={24}>
-                Read 11:52 PM
-              </text>
+              {second ? (
+                <g>
+                  <text x={0} y={-H / 2 + 650} fill={T.uiRed} fontFamily={T.font} fontWeight={800} fontSize={26} textAnchor="middle" opacity={Math.min(1, s2 * 2)}>
+                    {second.label ?? 'FRI, OCT 23 · 11:48 PM'}
+                  </text>
+                  <g transform={`translate(${-W / 2 + 36} ${-H / 2 + 680}) scale(${s2})`}>
+                    <rect x={0} y={0} width={528} height={60 + second.lines.length * 60} rx={36} fill={T.uiRed} />
+                    {second.lines.map((ln, i) => (
+                      <text key={i} x={30} y={74 + i * 60} fill="#fff" fontFamily={T.font} fontWeight={900} fontSize={44}>
+                        {ln}
+                      </text>
+                    ))}
+                  </g>
+                </g>
+              ) : (
+                <text x={-W / 2 + 40} y={-H / 2 + 640} fill="#8b93b5" fontFamily={T.font} fontWeight={600} fontSize={24}>
+                  Read 11:52 PM
+                </text>
+              )}
             </>
           )}
         </g>

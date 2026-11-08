@@ -36,6 +36,8 @@ VOICE_CAST = {
     "radio": ("en-us-lessac-medium.onnx", 0, 1.05, 0.97),
     "theo": ("en-us-libritts-high.onnx", 28, 0.92, 1.0),
     "milo": ("en-us-libritts-high.onnx", 12, 0.95, 1.12),
+    # Theo's voice as a text message / Echo: same speaker, a touch lower, thin "phone" texture
+    "echo": ("en-us-libritts-high.onnx", 28, 0.98, 0.95),
 }
 
 cfg = json.load(open(os.path.join(ROOT, "series", "the-last-signal", "chapters", CH, "chapter.json")))
@@ -111,6 +113,9 @@ for line in cfg["lines"]:
         crackle = (rng.random(len(x)) < 0.002).astype(np.float32) * noise(len(x)) * 0.6
         x = x + crackle + noise(len(x)) * 0.015
         x = reverb(x, ((0.06, 0.25), (0.13, 0.12)))
+    elif line["voice"] == "echo":
+        x = band(x, 250, 4200)
+        x = reverb(x, ((0.05, 0.3), (0.11, 0.2), (0.19, 0.1)))
     elif line["voice"] in ("theo", "milo", "nora"):
         x = reverb(x, ((0.03, 0.15), (0.07, 0.07)))
     x = x / (np.abs(x).max() + 1e-6) * (0.72 if line["voice"] == "radio" else 0.8)
@@ -279,6 +284,19 @@ def sfx_impact(c):
     t = np.arange(n) / SR
     s = np.sin(2 * np.pi * (48 - 10 * t) * t) * env(n, 0.002, 0.8) + lowpass(noise(n), 800) * env(n, 0.001, 0.3)
     add(reverb(s.astype(np.float32)), at, 0.7)
+
+
+def sfx_click(c):
+    # flashlight / switch click
+    at = T(c["at"])
+    n = int(0.08 * SR)
+    t = np.arange(n) / SR
+    s = noise(n) * env(n, 0.0003, 0.004) + np.sin(2 * np.pi * 2400 * t) * env(n, 0.0003, 0.006) * 0.5
+    add(band(s.astype(np.float32), 800, 8000), at, 0.6)
+
+
+def sfx_buzz(c):
+    buzz(T(c["at"]), c.get("length", 0.45), c.get("gain", 0.35))
 
 
 def sfx_tick(c):

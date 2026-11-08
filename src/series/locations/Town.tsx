@@ -22,6 +22,7 @@ export type TownProps = {
   towerWhiteAt?: number; // frame when the beacon switches red -> white
   lightning?: number; // 0..1
   atticLight?: number; // Vance attic window warm light 0..1
+  stationLit?: number; // sheriff's station lights (still powered during the blackout, Ch.2+)
 };
 
 type Win = {x: number; y: number; w: number; h: number; d: number; warm: boolean};
@@ -72,6 +73,7 @@ export const Town: React.FC<TownProps> = ({
   towerWhiteAt = 99999,
   lightning = 0,
   atticLight = 1,
+  stationLit = 0,
 }) => {
   const white = frame >= towerWhiteAt;
   const blink = white ? 0.75 + 0.25 * Math.sin(frame * 0.6) : (frame % 40) < 20 ? 1 : 0.15;
@@ -161,6 +163,29 @@ export const Town: React.FC<TownProps> = ({
       </g>
       {layer(FAR, T.houseFar, 0.35, '#0d1120')}
       {layer(MID, T.houseMid, 0.6, '#10142a')}
+      {/* Harlow Point Sheriff's Station (mid distance, left) */}
+      <g transform={`translate(${-camX * 0.6} ${-camY * 0.6})`}>
+        <rect x={150} y={1060} width={300} height={170} fill="#1a2038" />
+        <rect x={140} y={1050} width={320} height={16} fill="#121731" />
+        <rect x={240} y={1020} width={120} height={34} fill="#121731" />
+        <text x={300} y={1046} fill={stationLit > 0 ? '#ffe9b8' : '#2a3150'} fontFamily={T.font} fontWeight={800} fontSize={20} textAnchor="middle" letterSpacing={2}>
+          SHERIFF
+        </text>
+        {[0, 1, 2, 3, 4].map((i) => (
+          <rect key={i} x={170 + i * 56} y={1100} width={36} height={42} fill={stationLit > 0 ? '#ffe2a0' : '#0a0d18'} opacity={stationLit > 0 ? 0.6 + 0.4 * stationLit : 1} />
+        ))}
+        <rect x={280} y={1170} width={40} height={60} fill={stationLit > 0 ? '#ffd27a' : '#0a0d18'} />
+        {stationLit > 0 ? (
+          <g>
+            <circle cx={300} cy={1130} r={260} fill="url(#gWarm)" opacity={0.35 * stationLit} style={{mixBlendMode: 'screen'}} />
+            {/* light bar of the patrol car out front */}
+            <rect x={380} y={1210} width={70} height={22} rx={6} fill="#0c0f1c" />
+            <circle cx={395} cy={1206} r={7} fill={frame % 16 < 8 ? T.signalRed : '#3a0a10'} />
+            <circle cx={435} cy={1206} r={7} fill={frame % 16 >= 8 ? '#3a8bff' : '#0a1a3a'} />
+            <circle cx={415} cy={1206} r={60} fill={frame % 16 < 8 ? 'url(#gRed)' : 'url(#gPhone)'} opacity={0.5} />
+          </g>
+        ) : null}
+      </g>
       {layer(NEAR, T.houseNear, 0.85, '#121731')}
       {/* the Vance house, foreground */}
       <g transform={`translate(${-camX} ${-camY})`}>

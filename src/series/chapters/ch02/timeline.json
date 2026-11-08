@@ -1,0 +1,795 @@
+{
+ "durationInFrames": 1560,
+ "lines": [
+  {
+   "id": "n1",
+   "voice": "narrator",
+   "text": "The whole town went black. And Nora gave Theo one chance.",
+   "start": 27,
+   "end": 119,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "The",
+     "start": 27,
+     "end": 33
+    },
+    {
+     "w": "whole",
+     "start": 33,
+     "end": 41
+    },
+    {
+     "w": "town",
+     "start": 41,
+     "end": 48
+    },
+    {
+     "w": "went",
+     "start": 48,
+     "end": 55
+    },
+    {
+     "w": "black.",
+     "start": 55,
+     "end": 70
+    },
+    {
+     "w": "And",
+     "start": 70,
+     "end": 76
+    },
+    {
+     "w": "Nora",
+     "start": 76,
+     "end": 83
+    },
+    {
+     "w": "gave",
+     "start": 83,
+     "end": 90
+    },
+    {
+     "w": "Theo",
+     "start": 90,
+     "end": 97
+    },
+    {
+     "w": "one",
+     "start": 97,
+     "end": 102
+    },
+    {
+     "w": "chance.",
+     "start": 102,
+     "end": 119
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "voice": "theo",
+   "text": "“Three weeks ago, I got the same message. Then a second one. Only for me.”",
+   "start": 134,
+   "end": 243,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Three",
+     "start": 134,
+     "end": 141
+    },
+    {
+     "w": "weeks",
+     "start": 141,
+     "end": 148
+    },
+    {
+     "w": "ago,",
+     "start": 148,
+     "end": 158
+    },
+    {
+     "w": "I",
+     "start": 158,
+     "end": 161
+    },
+    {
+     "w": "got",
+     "start": 161,
+     "end": 165
+    },
+    {
+     "w": "the",
+     "start": 165,
+     "end": 170
+    },
+    {
+     "w": "same",
+     "start": 170,
+     "end": 176
+    },
+    {
+     "w": "message.",
+     "start": 176,
+     "end": 192
+    },
+    {
+     "w": "Then",
+     "start": 192,
+     "end": 199
+    },
+    {
+     "w": "a",
+     "start": 199,
+     "end": 201
+    },
+    {
+     "w": "second",
+     "start": 201,
+     "end": 210
+    },
+    {
+     "w": "one.",
+     "start": 210,
+     "end": 221
+    },
+    {
+     "w": "Only",
+     "start": 221,
+     "end": 227
+    },
+    {
+     "w": "for",
+     "start": 227,
+     "end": 232
+    },
+    {
+     "w": "me.”",
+     "start": 232,
+     "end": 243
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "voice": "narrator",
+   "text": "“If Nora goes to the tower… she doesn't come back.”",
+   "start": 258,
+   "end": 331,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“If",
+     "start": 258,
+     "end": 262
+    },
+    {
+     "w": "Nora",
+     "start": 262,
+     "end": 268
+    },
+    {
+     "w": "goes",
+     "start": 268,
+     "end": 274
+    },
+    {
+     "w": "to",
+     "start": 274,
+     "end": 278
+    },
+    {
+     "w": "the",
+     "start": 278,
+     "end": 283
+    },
+    {
+     "w": "tower…",
+     "start": 283,
+     "end": 297
+    },
+    {
+     "w": "she",
+     "start": 297,
+     "end": 302
+    },
+    {
+     "w": "doesn't",
+     "start": 302,
+     "end": 312
+    },
+    {
+     "w": "come",
+     "start": 312,
+     "end": 318
+    },
+    {
+     "w": "back.”",
+     "start": 318,
+     "end": 331
+    }
+   ]
+  },
+  {
+   "id": "no1",
+   "voice": "nora",
+   "text": "“And you just… didn't tell me?”",
+   "start": 349,
+   "end": 384,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“And",
+     "start": 349,
+     "end": 353
+    },
+    {
+     "w": "you",
+     "start": 353,
+     "end": 357
+    },
+    {
+     "w": "just…",
+     "start": 357,
+     "end": 366
+    },
+    {
+     "w": "didn't",
+     "start": 366,
+     "end": 372
+    },
+    {
+     "w": "tell",
+     "start": 372,
+     "end": 376
+    },
+    {
+     "w": "me?”",
+     "start": 376,
+     "end": 384
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "voice": "theo",
+   "text": "“I thought if you never knew… you'd never go.”",
+   "start": 391,
+   "end": 441,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“I",
+     "start": 391,
+     "end": 393
+    },
+    {
+     "w": "thought",
+     "start": 393,
+     "end": 400
+    },
+    {
+     "w": "if",
+     "start": 400,
+     "end": 403
+    },
+    {
+     "w": "you",
+     "start": 403,
+     "end": 407
+    },
+    {
+     "w": "never",
+     "start": 407,
+     "end": 413
+    },
+    {
+     "w": "knew…",
+     "start": 413,
+     "end": 422
+    },
+    {
+     "w": "you'd",
+     "start": 422,
+     "end": 428
+    },
+    {
+     "w": "never",
+     "start": 428,
+     "end": 433
+    },
+    {
+     "w": "go.”",
+     "start": 433,
+     "end": 441
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "voice": "narrator",
+   "text": "But the radio had just told her to go. Alone.",
+   "start": 453,
+   "end": 524,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "But",
+     "start": 453,
+     "end": 458
+    },
+    {
+     "w": "the",
+     "start": 458,
+     "end": 463
+    },
+    {
+     "w": "radio",
+     "start": 463,
+     "end": 471
+    },
+    {
+     "w": "had",
+     "start": 471,
+     "end": 476
+    },
+    {
+     "w": "just",
+     "start": 476,
+     "end": 483
+    },
+    {
+     "w": "told",
+     "start": 483,
+     "end": 489
+    },
+    {
+     "w": "her",
+     "start": 489,
+     "end": 494
+    },
+    {
+     "w": "to",
+     "start": 494,
+     "end": 498
+    },
+    {
+     "w": "go.",
+     "start": 498,
+     "end": 509
+    },
+    {
+     "w": "Alone.",
+     "start": 509,
+     "end": 524
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "voice": "milo",
+   "text": "“The boy in my drawing… his phone always says 11:47.”",
+   "start": 542,
+   "end": 630,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“The",
+     "start": 542,
+     "end": 548
+    },
+    {
+     "w": "boy",
+     "start": 548,
+     "end": 554
+    },
+    {
+     "w": "in",
+     "start": 554,
+     "end": 558
+    },
+    {
+     "w": "my",
+     "start": 558,
+     "end": 563
+    },
+    {
+     "w": "drawing…",
+     "start": 563,
+     "end": 582
+    },
+    {
+     "w": "his",
+     "start": 582,
+     "end": 588
+    },
+    {
+     "w": "phone",
+     "start": 588,
+     "end": 596
+    },
+    {
+     "w": "always",
+     "start": 596,
+     "end": 606
+    },
+    {
+     "w": "says",
+     "start": 606,
+     "end": 613
+    },
+    {
+     "w": "11:47.”",
+     "start": 613,
+     "end": 630
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "voice": "narrator",
+   "text": "Only one building in Harlow Point still had power. The sheriff's station.",
+   "start": 642,
+   "end": 758,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Only",
+     "start": 642,
+     "end": 649
+    },
+    {
+     "w": "one",
+     "start": 649,
+     "end": 655
+    },
+    {
+     "w": "building",
+     "start": 655,
+     "end": 667
+    },
+    {
+     "w": "in",
+     "start": 667,
+     "end": 671
+    },
+    {
+     "w": "Harlow",
+     "start": 671,
+     "end": 681
+    },
+    {
+     "w": "Point",
+     "start": 681,
+     "end": 689
+    },
+    {
+     "w": "still",
+     "start": 689,
+     "end": 698
+    },
+    {
+     "w": "had",
+     "start": 698,
+     "end": 703
+    },
+    {
+     "w": "power.",
+     "start": 703,
+     "end": 720
+    },
+    {
+     "w": "The",
+     "start": 720,
+     "end": 725
+    },
+    {
+     "w": "sheriff's",
+     "start": 725,
+     "end": 739
+    },
+    {
+     "w": "station.",
+     "start": 739,
+     "end": 758
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "voice": "narrator",
+   "text": "Then Nora's phone buzzed. A text… from Theo.",
+   "start": 770,
+   "end": 850,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Then",
+     "start": 770,
+     "end": 776
+    },
+    {
+     "w": "Nora's",
+     "start": 776,
+     "end": 786
+    },
+    {
+     "w": "phone",
+     "start": 786,
+     "end": 794
+    },
+    {
+     "w": "buzzed.",
+     "start": 794,
+     "end": 811
+    },
+    {
+     "w": "A",
+     "start": 811,
+     "end": 814
+    },
+    {
+     "w": "text…",
+     "start": 814,
+     "end": 829
+    },
+    {
+     "w": "from",
+     "start": 829,
+     "end": 836
+    },
+    {
+     "w": "Theo.",
+     "start": 836,
+     "end": 850
+    }
+   ]
+  },
+  {
+   "id": "x1",
+   "voice": "echo",
+   "text": "“Nora, it's me. I'm outside. Don't trust whoever is with you.”",
+   "start": 861,
+   "end": 976,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Nora,",
+     "start": 861,
+     "end": 874
+    },
+    {
+     "w": "it's",
+     "start": 874,
+     "end": 881
+    },
+    {
+     "w": "me.",
+     "start": 881,
+     "end": 894
+    },
+    {
+     "w": "I'm",
+     "start": 894,
+     "end": 901
+    },
+    {
+     "w": "outside.",
+     "start": 901,
+     "end": 920
+    },
+    {
+     "w": "Don't",
+     "start": 920,
+     "end": 929
+    },
+    {
+     "w": "trust",
+     "start": 929,
+     "end": 938
+    },
+    {
+     "w": "whoever",
+     "start": 938,
+     "end": 950
+    },
+    {
+     "w": "is",
+     "start": 950,
+     "end": 954
+    },
+    {
+     "w": "with",
+     "start": 954,
+     "end": 962
+    },
+    {
+     "w": "you.”",
+     "start": 962,
+     "end": 976
+    }
+   ]
+  },
+  {
+   "id": "n6",
+   "voice": "narrator",
+   "text": "Down in the yard stood Theo. Dry… in the pouring rain. His phone glowing: 11:47.",
+   "start": 991,
+   "end": 1164,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Down",
+     "start": 991,
+     "end": 1000
+    },
+    {
+     "w": "in",
+     "start": 1000,
+     "end": 1005
+    },
+    {
+     "w": "the",
+     "start": 1005,
+     "end": 1012
+    },
+    {
+     "w": "yard",
+     "start": 1012,
+     "end": 1021
+    },
+    {
+     "w": "stood",
+     "start": 1021,
+     "end": 1031
+    },
+    {
+     "w": "Theo.",
+     "start": 1031,
+     "end": 1049
+    },
+    {
+     "w": "Dry…",
+     "start": 1049,
+     "end": 1065
+    },
+    {
+     "w": "in",
+     "start": 1065,
+     "end": 1070
+    },
+    {
+     "w": "the",
+     "start": 1070,
+     "end": 1077
+    },
+    {
+     "w": "pouring",
+     "start": 1077,
+     "end": 1090
+    },
+    {
+     "w": "rain.",
+     "start": 1090,
+     "end": 1108
+    },
+    {
+     "w": "His",
+     "start": 1108,
+     "end": 1115
+    },
+    {
+     "w": "phone",
+     "start": 1115,
+     "end": 1125
+    },
+    {
+     "w": "glowing:",
+     "start": 1125,
+     "end": 1145
+    },
+    {
+     "w": "11:47.",
+     "start": 1145,
+     "end": 1164
+    }
+   ]
+  },
+  {
+   "id": "n7",
+   "voice": "narrator",
+   "text": "What should Nora do? A: Open the door. B: Run to the station.",
+   "start": 1182,
+   "end": 1289,
+   "noSubs": true,
+   "words": [
+    {
+     "w": "What",
+     "start": 1182,
+     "end": 1189
+    },
+    {
+     "w": "should",
+     "start": 1189,
+     "end": 1198
+    },
+    {
+     "w": "Nora",
+     "start": 1198,
+     "end": 1204
+    },
+    {
+     "w": "do?",
+     "start": 1204,
+     "end": 1216
+    },
+    {
+     "w": "A:",
+     "start": 1216,
+     "end": 1223
+    },
+    {
+     "w": "Open",
+     "start": 1223,
+     "end": 1230
+    },
+    {
+     "w": "the",
+     "start": 1230,
+     "end": 1235
+    },
+    {
+     "w": "door.",
+     "start": 1235,
+     "end": 1249
+    },
+    {
+     "w": "B:",
+     "start": 1249,
+     "end": 1257
+    },
+    {
+     "w": "Run",
+     "start": 1257,
+     "end": 1262
+    },
+    {
+     "w": "to",
+     "start": 1262,
+     "end": 1267
+    },
+    {
+     "w": "the",
+     "start": 1267,
+     "end": 1272
+    },
+    {
+     "w": "station.",
+     "start": 1272,
+     "end": 1289
+    }
+   ]
+  },
+  {
+   "id": "n8",
+   "voice": "narrator",
+   "text": "You decide.",
+   "start": 1298,
+   "end": 1321,
+   "noSubs": true,
+   "words": [
+    {
+     "w": "You",
+     "start": 1298,
+     "end": 1304
+    },
+    {
+     "w": "decide.",
+     "start": 1304,
+     "end": 1321
+    }
+   ]
+  }
+ ]
+}

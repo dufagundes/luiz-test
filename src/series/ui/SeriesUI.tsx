@@ -20,6 +20,7 @@ const VOICE_STYLE: Record<string, {color: string; active: string; italic: boolea
   radio: {color: '#ffd0d6', active: T.uiRed, italic: true, tag: 'THE RADIO'},
   theo: {color: '#e3f5d4', active: '#9ad16a', italic: true, tag: 'THEO'},
   milo: {color: '#dfe6ff', active: '#8fb0ff', italic: true, tag: 'MILO'},
+  echo: {color: '#e3f5d4', active: '#7fd4ff', italic: true, tag: 'TEXT FROM THEO'},
 };
 
 type Chunk = {words: TimelineWord[]; start: number; end: number; voice: string};
@@ -211,7 +212,8 @@ export const ChoiceCard: React.FC<{
   voteAt: number;
   choice: Choice;
   chapter: number;
-}> = ({at, aAt, bAt, ctaAt, voteAt, choice, chapter}) => {
+  ctaText?: string;
+}> = ({at, aAt, bAt, ctaAt, voteAt, choice, chapter, ctaText = 'YOU DECIDE WHAT HAPPENS NEXT!'}) => {
   const frame = useCurrentFrame();
   if (frame < at) return null;
   const t = frame - at;
@@ -303,7 +305,7 @@ export const ChoiceCard: React.FC<{
             paintOrder: 'stroke fill',
           }}
         >
-          YOU DECIDE WHAT HAPPENS NEXT!
+          {ctaText}
         </div>
         <div
           style={{

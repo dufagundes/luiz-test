@@ -4,7 +4,8 @@ Only record **real** results provided by the creator (poll numbers or comment co
 
 | Ch. | Question | A | B | Winner | Votes / source | Consequence in story |
 |---|---|---|---|---|---|---|
-| 1 | Theo lied for 3 weeks. What should Nora do? | Let Theo explain | Go to the tower alone | ⏳ **waiting for results** | n/a | Ch.2 is written after the result arrives |
+| 1 | Theo lied for 3 weeks. What should Nora do? | Let Theo explain | Go to the tower alone | ✅ **A: Let Theo explain** | Confirmed by the creator (no vote counts provided) | Nora stays in the attic and makes Theo talk. He reveals the second, private warning. Nora does **not** go to the tower (yet), so the radio voice's plan is delayed. Because she stayed, she is home when the Echo of Theo arrives. |
+| 2 | The other Theo is outside. What should Nora do? | Open the door | Run to the station | ⏳ **waiting for results** | n/a | Ch.3 is written after the result arrives |
 
 ## How to add a result
 1. Post the chapter with its poll (see `chapters/chXX/POST.md`).

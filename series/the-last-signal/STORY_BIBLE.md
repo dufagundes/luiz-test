@@ -51,6 +51,11 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 - **Role:** engineer at the Meridian Relay Tower. Discovered that the tower's frequency (**114.7**) can carry signals across time ("the Fold"). Vanished 3 years ago during a test.
 - **Where is he really?** In the future town. Alive. (Revealed in the season finale.)
 
+### THEO'S ECHO (appears Ch.2)
+- **Look:** identical to Theo (same cast definition) but **never wet**. Rain stops in a dome around him. His phone always shows **11:47**.
+- **Voice:** Theo's voice, slightly lower and thinner (`echo` voice in the audio builder).
+- **Behavior:** calm, stands still, looks up at Nora's window. Texts from Theo's number. Wants to be let in.
+
 ### THE RADIO VOICE ("Future Nora")
 - Comes through Elias's ham radio on **114.7**.
 - **Sounds exactly like Nora** (same voice, run through a radio filter). This is deliberate and is a key clue.
@@ -65,6 +70,8 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | **Cutter's Hill + Meridian Relay Tower** | lattice radio tower on the hill above town. Red beacon blinks normally and turns **white** when the Fold is charging. | in `Town.tsx`, visible through the attic window |
 | **The Vance house, 14 Maple Street** | foreground of the town panorama. Nora's room is the **attic** with the dormer window. | `Town.tsx` + `locations/Attic.tsx` |
 | **Nora's attic** | sloped ceiling, string lights, dormer window (Theo's entrance), desk with Dad's ham radio, poster "114.7", pinned photo of Dad, door on the left. | `locations/Attic.tsx` |
+| **Vance front yard** | seen from the attic window, looking down: lawn, stone path, picket fence, mailbox "14", dead streetlight, porch roof edge. Rain can be masked around an Echo ("dry dome"). | `locations/Yard.tsx` (Ch.2+) |
+| **Sheriff's station (exterior)** | flat-roofed building in the mid-distance of the town panorama, "SHERIFF" sign, patrol car with red/blue light bar. Keeps its power during the blackout. | `Town.tsx` `stationLit` (Ch.2+) |
 | *(planned)* Sheriff's station, Harlow High, Maple Street, the Meridian bunker under the tower, **Future Harlow Point** (the same town, empty, gray, frozen at 11:47) | build as new reusable components when first needed | |
 
 ---
@@ -76,6 +83,7 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | 3 years ago | Elias Vance runs a night test at the tower and vanishes. Sheriff Okafor's report says he "left town". Milo's static dreams begin. |
 | Fri Oct 23, 11:47 PM | Theo receives the Signal message *three weeks early*, plus a private warning about Nora. Tells no one. |
 | **Fri Nov 13, 11:47 PM** | **Ch.1:** every phone in town receives the Signal. Dad's radio turns on by itself. The tower beacon turns white and the town loses power. |
+| Fri Nov 13, ~11:48 PM | **Ch.2:** in the dark attic Theo confesses and shows the second message. Milo's new drawing: "the boy" with Theo's glasses, his phone says 11:47, "he dosnt get wet". Only the sheriff's station still has power. Nora gets a text from Theo's number: *"I'm outside. Don't trust whoever is with you."* A second, bone-dry Theo stands in the yard in the rain, phone frozen at 11:47. |
 | Sat Nov 14, 11:47 PM | **Deadline.** The Fold completes. In the future timeline, this is when "almost everyone disappeared". |
 
 ---
@@ -104,15 +112,33 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | Tower beacon turns **white**, town blackout | Ch.1 | the Fold has started charging | Ch.4–5 |
 | Theo is soaking wet in the attic (real); the window figure is dry | Ch.1 (subtle) | Echoes are never wet | Ch.4 |
 | Pinned photo of Dad by the radio | Ch.1 | Elias | Ch.7, Ch.12 |
+| Theo's **second message** (Oct 23, 11:48 PM, only to Theo): *"IF NORA GOES TO THE TOWER, SHE DOESN'T COME BACK."* | Ch.2 | someone is trying to keep Nora away from the tower, the opposite of what the radio voice wants. Who sent it? (writers: Elias, from the future) | Ch.7 |
+| Milo's page 2: Theo-like boy, phone reads **11:47**, "he dosnt get wet" | Ch.2 | first on-screen statement of two Echo tells (frozen 11:47 phone, never wet) | Ch.2 (yard) / Ch.4 (rules confirmed) |
+| Only the **sheriff's station** keeps power in the blackout | Ch.2 | the station runs on Meridian's private line; Dana is connected to the tower | Ch.3 |
+| The Echo's text is in Theo's voice but slightly lower and "thinner" | Ch.2 | audio tell: Echo voices are a little off | Ch.6 |
+| Real Theo is soaked; yard Theo is dry inside a "dome" where rain doesn't fall | Ch.2 | which Theo is real (the wet one in the attic) | Ch.4–6 |
 
-## 6. Open questions (for the audience to theorize about)
+## 6. Audience decisions so far (canon)
+| Ch. | Winner | What it changed |
+|---|---|---|
+| 1 | **A: Let Theo explain** | Nora didn't go to the tower. Theo's secret came out early (second message). Nora is angry but has **not** cut Theo off; their trust is cracked, not broken. Nora was at home when the Echo of Theo arrived. |
+| 2 | ⏳ pending: A: Open the door / B: Run to the station | |
+
+### Character state after Ch.2
+- **Nora:** hurt by Theo's secret but believing him. Shaken: there are now two Theos. Still has Dad's radio voice telling her to go to the tower alone.
+- **Theo (real):** confessed everything. Soaking wet. Terrified of the copy of himself.
+- **Theo's Echo:** standing in the Vance yard, dry, phone at 11:47, sending texts from Theo's number. Wants to be let in.
+- **Milo:** his dreams are clearly showing the Echo. He is calm, which scares Nora more.
+- **Jules / Dana:** not yet on screen. The sheriff's station is the only lit building in town.
+
+## 7. Open questions (for the audience to theorize about)
 - Who sent the message? Why would *anyone* get it three weeks early?
 - Why does the voice sound like Nora?
 - What did Milo really see in his dreams?
 - What happened to Elias Vance?
 - Who is the "person closest to you"?
 
-## 7. Tone and style rules
+## 8. Tone and style rules
 - Suspense first: every chapter **reveals one real thing** and **ends on a new question**.
 - Grounded emotions: friendship, grief, trust. Characters react like real teenagers.
 - Narrator (Piper `en-us-ryan-high`) is calm, close and cinematic. Characters speak in short lines.
