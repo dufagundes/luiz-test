@@ -13,7 +13,8 @@ import {SignalPhone} from '../../props/SignalPhone';
 import {MiloDrawingPage2} from '../../props/MiloDrawing';
 import {HamRadio} from '../../props/HamRadio';
 import {Glow, SeriesDefs} from '../../ui/Glow';
-import {ChapterTitle, ChoiceCard, Countdown, SeriesSubtitles, Timeline} from '../../ui/SeriesUI';
+import {ChapterTitle, Countdown, SeriesSubtitles, Timeline} from '../../ui/SeriesUI';
+import {InteractiveEnding} from '../../ui/InteractiveEnding';
 import {AtticShot, Flashlight, makeSpeak} from '../../ui/Shots';
 import {T} from '../../theme';
 
@@ -542,7 +543,7 @@ const SceneChoiceBg: React.FC = () => {
     <AbsoluteFill>
       <Stage bg="#050710">
         <SeriesDefs />
-        <g transform={`translate(540 960) scale(${1.75 + f * 0.0006}) translate(-540 -790)`}>
+        <g transform={`translate(540 960) scale(${1.75 + f * 0.0016}) translate(-540 ${-790 + f * 0.25})`}>
           <Yard frame={g} figure={<YardTheo g={g} x={540} y={1180} scale={1.0} />} dryAround={{x: 540, y: 1180 - 300, r: 300}} />
         </g>
       </Stage>
@@ -551,7 +552,7 @@ const SceneChoiceBg: React.FC = () => {
 };
 
 const IconDoor: React.FC = () => (
-  <svg viewBox="0 0 150 150" width={150} height={150}>
+  <svg viewBox="0 0 150 150" width={120} height={120}>
     <rect x={35} y={15} width={80} height={125} rx={6} fill="#3d3150" stroke="#c9b8e0" strokeWidth={5} />
     <rect x={48} y={30} width={54} height={40} rx={4} fill="none" stroke="#c9b8e0" strokeWidth={4} />
     <circle cx={100} cy={85} r={7} fill="#e9d48a" />
@@ -559,7 +560,7 @@ const IconDoor: React.FC = () => (
   </svg>
 );
 const IconStation: React.FC = () => (
-  <svg viewBox="0 0 150 150" width={150} height={150}>
+  <svg viewBox="0 0 150 150" width={120} height={120}>
     <path d="M 75 12 L 90 52 L 133 54 L 99 80 L 111 122 L 75 98 L 39 122 L 51 80 L 17 54 L 60 52 Z" fill="#e8c54a" stroke="#fff3c4" strokeWidth={4} />
     <circle cx={75} cy={72} r={14} fill="#b59a6a" />
   </svg>
@@ -599,21 +600,19 @@ export const Chapter02: React.FC = () => {
       <ChapterTitle at={132} chapter={2} title="THREE WEEKS" hold={70} />
       <Countdown zeroFrame={0} elapsedAtZero={ELAPSED_AT_START} show={frame >= 18 ? 1 : 0} urgent={frame >= S.yard[0]} />
       <SeriesSubtitles timeline={TL} />
-      <ChoiceCard
-        at={S.choice[0]}
-        aAt={W('n7', 'A:')}
-        bAt={W('n7', 'B:')}
-        ctaAt={L('n8').start}
-        voteAt={L('n8').end + 4}
+      <InteractiveEnding
         chapter={2}
-        ctaText="YOU DECIDE!"
-        choice={{
-          question: 'The other Theo is outside. What should Nora do?',
-          a: 'Open the door',
-          b: 'Run to the station',
-          aIcon: <IconDoor />,
-          bIcon: <IconStation />,
-        }}
+        nextChapter={3}
+        at={S.choice[0]}
+        opt1At={S.choice[0] + 8}
+        opt2At={S.choice[0] + 16}
+        commentAt={W('e2', 'Comment')}
+        cardAt={L('e2').end + 8}
+        question="The other Theo is outside. What should Nora do?"
+        options={[
+          {title: 'Open the door', desc: 'Face the dry Theo.', icon: <IconDoor />},
+          {title: 'Run to the station', desc: 'Escape with the real Theo and Milo.', icon: <IconStation />},
+        ]}
       />
       <Audio src={staticFile('series/ch02/soundtrack.wav')} />
     </AbsoluteFill>

@@ -102,7 +102,14 @@ for line in cfg["lines"]:
     out = os.path.join(tmp, line["id"] + ".wav")
     cmd = [sys.executable, "-m", "piper", "-m", os.path.join(VOICES, model), "-f", out,
            "--length-scale", str(ls), "--sentence-silence", "0.12", "-s", str(spk)]
-    subprocess.run(cmd, input=line["text"].encode(), check=True, capture_output=True)
+    # cache: reuse an existing take if text + voice settings are unchanged (keeps animation timing stable;
+    # Piper adds slight random variation on every synthesis)
+    key = json.dumps([line["text"], model, spk, ls])
+    key_path = out + ".key"
+    cached = os.path.exists(out) and os.path.exists(key_path) and open(key_path).read() == key
+    if not cached or os.environ.get("TLS_FRESH_VOICES"):
+        subprocess.run(cmd, input=line["text"].encode(), check=True, capture_output=True)
+        open(key_path, "w").write(key)
     x, sr = read_wav(out)
     x = trim(resample(x, sr, SR / pitch))  # pitch_factor > 1 => higher + faster
     speech = len(x) / SR
@@ -297,6 +304,25 @@ def sfx_click(c):
 
 def sfx_buzz(c):
     buzz(T(c["at"]), c.get("length", 0.45), c.get("gain", 0.35))
+
+
+def sfx_riser(c):
+    # rising filtered-noise swell into the end card
+    at, length = T(c["at"]), c.get("length", 1.2)
+    n = int(length * SR)
+    t = np.arange(n) / SR
+    tone = np.sin(2 * np.pi * np.cumsum(180 + 500 * (t / length) ** 2) / SR) * 0.4
+    s = (band(noise(n), 300, 4000) * 0.6 + tone) * (t / length) ** 2
+    add(s.astype(np.float32), at, 0.25)
+
+
+def sfx_pop(c):
+    # soft "UI pop" for animated text
+    at = T(c["at"])
+    n = int(0.15 * SR)
+    t = np.arange(n) / SR
+    s = np.sin(2 * np.pi * (520 - 900 * t) * t) * env(n, 0.002, 0.04)
+    add(s.astype(np.float32), at, 0.3)
 
 
 def sfx_tick(c):

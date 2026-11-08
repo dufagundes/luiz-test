@@ -1,5 +1,5 @@
 {
- "durationInFrames": 1560,
+ "durationInFrames": 1463,
  "lines": [
   {
    "id": "n1",
@@ -697,97 +697,132 @@
    ]
   },
   {
-   "id": "n7",
+   "id": "e2",
    "voice": "narrator",
-   "text": "What should Nora do? A: Open the door. B: Run to the station.",
-   "start": 1182,
-   "end": 1289,
+   "text": "What should we do next? Comment 1 or 2 below and tell me why!",
+   "start": 1194,
+   "end": 1296,
    "noSubs": true,
    "words": [
     {
      "w": "What",
-     "start": 1182,
-     "end": 1189
+     "start": 1194,
+     "end": 1201
     },
     {
      "w": "should",
-     "start": 1189,
-     "end": 1198
+     "start": 1201,
+     "end": 1211
     },
     {
-     "w": "Nora",
-     "start": 1198,
-     "end": 1204
+     "w": "we",
+     "start": 1211,
+     "end": 1215
     },
     {
-     "w": "do?",
-     "start": 1204,
-     "end": 1216
+     "w": "do",
+     "start": 1215,
+     "end": 1220
     },
     {
-     "w": "A:",
-     "start": 1216,
-     "end": 1223
-    },
-    {
-     "w": "Open",
-     "start": 1223,
-     "end": 1230
-    },
-    {
-     "w": "the",
-     "start": 1230,
+     "w": "next?",
+     "start": 1220,
      "end": 1235
     },
     {
-     "w": "door.",
+     "w": "Comment",
      "start": 1235,
+     "end": 1245
+    },
+    {
+     "w": "1",
+     "start": 1245,
      "end": 1249
     },
     {
-     "w": "B:",
+     "w": "or",
      "start": 1249,
-     "end": 1257
+     "end": 1253
     },
     {
-     "w": "Run",
-     "start": 1257,
-     "end": 1262
+     "w": "2",
+     "start": 1253,
+     "end": 1256
     },
     {
-     "w": "to",
-     "start": 1262,
-     "end": 1267
+     "w": "below",
+     "start": 1256,
+     "end": 1265
     },
     {
-     "w": "the",
-     "start": 1267,
-     "end": 1272
+     "w": "and",
+     "start": 1265,
+     "end": 1270
     },
     {
-     "w": "station.",
-     "start": 1272,
-     "end": 1289
+     "w": "tell",
+     "start": 1270,
+     "end": 1278
+    },
+    {
+     "w": "me",
+     "start": 1278,
+     "end": 1282
+    },
+    {
+     "w": "why!",
+     "start": 1282,
+     "end": 1296
     }
    ]
   },
   {
-   "id": "n8",
+   "id": "e3",
    "voice": "narrator",
-   "text": "You decide.",
-   "start": 1298,
-   "end": 1321,
+   "text": "Follow so you don't miss what happens next!",
+   "start": 1323,
+   "end": 1385,
    "noSubs": true,
    "words": [
     {
-     "w": "You",
-     "start": 1298,
-     "end": 1304
+     "w": "Follow",
+     "start": 1323,
+     "end": 1331
     },
     {
-     "w": "decide.",
-     "start": 1304,
-     "end": 1321
+     "w": "so",
+     "start": 1331,
+     "end": 1335
+    },
+    {
+     "w": "you",
+     "start": 1335,
+     "end": 1341
+    },
+    {
+     "w": "don't",
+     "start": 1341,
+     "end": 1348
+    },
+    {
+     "w": "miss",
+     "start": 1348,
+     "end": 1355
+    },
+    {
+     "w": "what",
+     "start": 1355,
+     "end": 1361
+    },
+    {
+     "w": "happens",
+     "start": 1361,
+     "end": 1371
+    },
+    {
+     "w": "next!",
+     "start": 1371,
+     "end": 1385
     }
    ]
   }

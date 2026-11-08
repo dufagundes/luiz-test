@@ -2,39 +2,207 @@
   "id": "ch02",
   "title": "Three Weeks",
   "previousChoice": "A: Let Theo explain",
-  "minDuration": 52,
-  "tail": 5.5,
+  "minDuration": 45,
+  "tail": 2.6,
   "lines": [
-    {"id": "n1", "voice": "narrator", "gap": 0.9, "text": "The whole town went black. And Nora gave Theo one chance.", "sub": "The whole town went black. And Nora gave Theo one chance."},
-    {"id": "t1", "voice": "theo", "gap": 0.5, "text": "Three weeks ago, I got the same message. Then a second one. Only for me.", "sub": "“Three weeks ago, I got the same message. Then a second one. Only for me.”"},
-    {"id": "n2", "voice": "narrator", "gap": 0.5, "text": "If Nora goes to the tower, she doesn't come back.", "sub": "“If Nora goes to the tower… she doesn't come back.”"},
-    {"id": "no1", "voice": "nora", "gap": 0.6, "text": "And you just didn't tell me?", "sub": "“And you just… didn't tell me?”"},
-    {"id": "t2", "voice": "theo", "gap": 0.25, "text": "I thought if you never knew, you'd never go.", "sub": "“I thought if you never knew… you'd never go.”"},
-    {"id": "n3", "voice": "narrator", "gap": 0.4, "text": "But the radio had just told her to go. Alone.", "sub": "But the radio had just told her to go. Alone."},
-    {"id": "m1", "voice": "milo", "gap": 0.6, "text": "The boy in my drawing. His phone always says eleven forty seven.", "sub": "“The boy in my drawing… his phone always says 11:47.”"},
-    {"id": "n4", "voice": "narrator", "gap": 0.4, "text": "Only one building in Harlow Point still had power. The sheriff's station.", "sub": "Only one building in Harlow Point still had power. The sheriff's station."},
-    {"id": "n5", "voice": "narrator", "gap": 0.4, "text": "Then Nora's phone buzzed. A text from Theo.", "sub": "Then Nora's phone buzzed. A text… from Theo."},
-    {"id": "x1", "voice": "echo", "gap": 0.35, "text": "Nora, it's me. I'm outside. Don't trust whoever is with you.", "sub": "“Nora, it's me. I'm outside. Don't trust whoever is with you.”"},
-    {"id": "n6", "voice": "narrator", "gap": 0.5, "text": "Down in the yard stood Theo. Dry, in the pouring rain. His phone glowing. Eleven forty seven.", "sub": "Down in the yard stood Theo. Dry… in the pouring rain. His phone glowing: 11:47."},
-    {"id": "n7", "voice": "narrator", "gap": 0.6, "text": "What should Nora do? A. Open the door. B. Run to the station.", "sub": "What should Nora do? A: Open the door. B: Run to the station.", "noSubs": true},
-    {"id": "n8", "voice": "narrator", "gap": 0.3, "text": "You decide.", "sub": "You decide.", "noSubs": true}
+    {
+      "id": "n1",
+      "voice": "narrator",
+      "gap": 0.9,
+      "text": "The whole town went black. And Nora gave Theo one chance.",
+      "sub": "The whole town went black. And Nora gave Theo one chance."
+    },
+    {
+      "id": "t1",
+      "voice": "theo",
+      "gap": 0.5,
+      "text": "Three weeks ago, I got the same message. Then a second one. Only for me.",
+      "sub": "“Three weeks ago, I got the same message. Then a second one. Only for me.”"
+    },
+    {
+      "id": "n2",
+      "voice": "narrator",
+      "gap": 0.5,
+      "text": "If Nora goes to the tower, she doesn't come back.",
+      "sub": "“If Nora goes to the tower… she doesn't come back.”"
+    },
+    {
+      "id": "no1",
+      "voice": "nora",
+      "gap": 0.6,
+      "text": "And you just didn't tell me?",
+      "sub": "“And you just… didn't tell me?”"
+    },
+    {
+      "id": "t2",
+      "voice": "theo",
+      "gap": 0.25,
+      "text": "I thought if you never knew, you'd never go.",
+      "sub": "“I thought if you never knew… you'd never go.”"
+    },
+    {
+      "id": "n3",
+      "voice": "narrator",
+      "gap": 0.4,
+      "text": "But the radio had just told her to go. Alone.",
+      "sub": "But the radio had just told her to go. Alone."
+    },
+    {
+      "id": "m1",
+      "voice": "milo",
+      "gap": 0.6,
+      "text": "The boy in my drawing. His phone always says eleven forty seven.",
+      "sub": "“The boy in my drawing… his phone always says 11:47.”"
+    },
+    {
+      "id": "n4",
+      "voice": "narrator",
+      "gap": 0.4,
+      "text": "Only one building in Harlow Point still had power. The sheriff's station.",
+      "sub": "Only one building in Harlow Point still had power. The sheriff's station."
+    },
+    {
+      "id": "n5",
+      "voice": "narrator",
+      "gap": 0.4,
+      "text": "Then Nora's phone buzzed. A text from Theo.",
+      "sub": "Then Nora's phone buzzed. A text… from Theo."
+    },
+    {
+      "id": "x1",
+      "voice": "echo",
+      "gap": 0.35,
+      "text": "Nora, it's me. I'm outside. Don't trust whoever is with you.",
+      "sub": "“Nora, it's me. I'm outside. Don't trust whoever is with you.”"
+    },
+    {
+      "id": "n6",
+      "voice": "narrator",
+      "gap": 0.5,
+      "text": "Down in the yard stood Theo. Dry, in the pouring rain. His phone glowing. Eleven forty seven.",
+      "sub": "Down in the yard stood Theo. Dry… in the pouring rain. His phone glowing: 11:47."
+    },
+    {
+      "id": "e2",
+      "voice": "narrator",
+      "gap": 1.0,
+      "text": "What should we do next? Comment one or two below, and tell me why!",
+      "sub": "What should we do next? Comment 1 or 2 below and tell me why!",
+      "noSubs": true
+    },
+    {
+      "id": "e3",
+      "voice": "narrator",
+      "gap": 0.9,
+      "text": "Follow so you don't miss what happens next!",
+      "sub": "Follow so you don't miss what happens next!",
+      "noSubs": true
+    }
   ],
   "sfx": [
-    {"type": "drone", "from": 0, "to": "end", "rise": [4, 42]},
-    {"type": "rain", "from": 0, "to": "end", "gain": 0.55},
-    {"type": "thunder", "at": 0.0},
-    {"type": "click", "at": 0.55},
-    {"type": "heartbeat", "at": "n2-0.3", "beats": 5, "bpm": 92},
-    {"type": "stinger", "at": "n2+0.2", "length": 2.4},
-    {"type": "radioOn", "at": "n3+1.2"},
-    {"type": "static", "from": "n3+1.3", "to": "n3.end+0.6", "gain": 0.25},
-    {"type": "whoosh", "at": "n4-0.4"},
-    {"type": "buzz", "at": "n5+1.0"},
-    {"type": "buzz", "at": "n5+1.7"},
-    {"type": "heartbeat", "at": "x1-0.2", "beats": 10, "bpm": 112},
-    {"type": "thunder", "at": "n6+1.0"},
-    {"type": "stinger", "at": "n6+3.0", "length": 2.6},
-    {"type": "impact", "at": "n7-0.2"},
-    {"type": "tick", "from": "n7+0.2", "to": "end"}
-  ]
+    {
+      "type": "drone",
+      "from": 0,
+      "to": "end",
+      "rise": [
+        4,
+        42
+      ]
+    },
+    {
+      "type": "rain",
+      "from": 0,
+      "to": "end",
+      "gain": 0.55
+    },
+    {
+      "type": "thunder",
+      "at": 0.0
+    },
+    {
+      "type": "click",
+      "at": 0.55
+    },
+    {
+      "type": "heartbeat",
+      "at": "n2-0.3",
+      "beats": 5,
+      "bpm": 92
+    },
+    {
+      "type": "stinger",
+      "at": "n2+0.2",
+      "length": 2.4
+    },
+    {
+      "type": "radioOn",
+      "at": "n3+1.2"
+    },
+    {
+      "type": "static",
+      "from": "n3+1.3",
+      "to": "n3.end+0.6",
+      "gain": 0.25
+    },
+    {
+      "type": "whoosh",
+      "at": "n4-0.4"
+    },
+    {
+      "type": "buzz",
+      "at": "n5+1.0"
+    },
+    {
+      "type": "buzz",
+      "at": "n5+1.7"
+    },
+    {
+      "type": "heartbeat",
+      "at": "x1-0.2",
+      "beats": 10,
+      "bpm": 112
+    },
+    {
+      "type": "thunder",
+      "at": "n6+1.0"
+    },
+    {
+      "type": "stinger",
+      "at": "n6+3.0",
+      "length": 2.6
+    },
+    {
+      "type": "impact",
+      "at": "e2-0.9"
+    },
+    {
+      "type": "tick",
+      "from": "e2-0.6",
+      "to": "e2.end+0.1"
+    },
+    {
+      "type": "riser",
+      "at": "e2.end-0.9",
+      "length": 1.1
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.25"
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.55"
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.85"
+    },
+    {
+      "type": "heartbeat",
+      "at": "e2.end+0.3",
+      "beats": 6,
+      "bpm": 70
+    }
+  ],
+  "ending": "interactive-v2 (1/2 choices + comment/follow card)"
 }

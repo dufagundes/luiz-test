@@ -24,9 +24,12 @@ out/the-last-signal/                  rendered MP4s
 
 ## Making the next chapter (what Claude does after each vote)
 1. **Log the vote** in `DECISIONS.md` (real numbers only).
-2. **Write the script** in `chapters/chXX/chapter.json`. Follow the outline's fixed points plus the winning branch. Open with a 2-second hook. End with the narrator reading the A/B question. Lines marked `"noSubs": true` are read during the choice screen.
-3. **Build audio:** `python tools/series/build_chapter_audio.py chXX <voices_dir>` places every line, generates the sound effects, and writes frame-accurate word timing.
-4. **Animate** `src/series/chapters/chXX/ChXX.tsx`. Copy the Ch01 structure: a scene table (frame ranges), shots built from `Attic`/`Town`/new locations, `Character` with cast members, then `ChapterTitle`, `Countdown`, `SeriesSubtitles`, `ChoiceCard` and `<Audio>`.
+2. **Write the script** in `chapters/chXX/chapter.json`. Follow the outline's fixed points plus the winning branch. Open with a 2-second hook. End with the **standard interactive ending** lines (`noSubs: true`):
+   - `e2`: "What should we do next? Comment one or two below, and tell me why!"
+   - `e3`: "Follow so you don't miss what happens next!"
+   Add the ending SFX cues: impact, tick, riser, 3 pops, slow heartbeat (copy from `chapters/ch02/chapter.json`).
+3. **Build audio:** `python tools/series/build_chapter_audio.py chXX <voices_dir>` places every line, generates the sound effects, and writes frame-accurate word timing. Voice takes are cached, so editing one line won't shift the timing of the others (set `TLS_FRESH_VOICES=1` to regenerate all).
+4. **Animate** `src/series/chapters/chXX/ChXX.tsx`. Copy the Ch01 structure: a scene table (frame ranges), shots built from `Attic`/`Town`/new locations, `Character` with cast members, then `ChapterTitle`, `Countdown`, `SeriesSubtitles`, **`InteractiveEnding`** (question, choices 1/2 with short descriptions, next chapter number; copy the Ch02 usage) and `<Audio>`.
 5. **Register** the composition in `src/Root.tsx` as `TLS-ChXX`.
 6. **Preview** at half size, check frames, fix, **render** the final MP4.
 7. **Update** the Story Bible clue tracker and write `POST.md`.

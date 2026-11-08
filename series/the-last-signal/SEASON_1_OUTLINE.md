@@ -20,10 +20,10 @@ Every phone lights up. Dad's radio turns on with a voice that sounds like Nora. 
 **Reveal:** the message came early to Theo, and the voice is Nora's. **Cliffhanger:** blackout plus a betrayal.
 **POLL:** *Theo lied for 3 weeks. What should Nora do?* **A: Let Theo explain** · **B: Go to the tower alone**
 
-### Ch.2: "Three Weeks" ✅ produced (route A) · countdown 23:59:02 → 23:58:10
+### Ch.2: "Three Weeks" ✅ produced (route A) · countdown 23:59:02 → 23:58:13
 **Audience chose A: Let Theo explain.** Hook: lightning, darkness, a flashlight clicks on Theo's dripping face. Theo shows the second message. Nora is hurt ("And you just… didn't tell me?") but believes him. Milo's new drawing: the boy with Theo's glasses, a phone reading 11:47, "he dosnt get wet". Only the sheriff's station still has power. A text from Theo's number: *"I'm outside. Don't trust whoever is with you."* In the yard: a second Theo, bone-dry in the pouring rain, phone frozen at 11:47.
 **Reveal:** the second message, plus the Echo tells (never wet, 11:47). **Twist / cliffhanger:** two Theos.
-**POLL:** *The other Theo is outside. What should Nora do?* **A: Open the door** · **B: Run to the station**
+**POLL:** *The other Theo is outside. What should Nora do?* **1: Open the door** · **2: Run to the station** (new interactive ending: comment 1 or 2, follow for Ch.3)
 
 *Original plan for reference:*
 ★ Fixed: Theo's second, private message is revealed: *"IF NORA GOES TO THE TOWER, SHE DOESN'T COME BACK."*
@@ -33,8 +33,8 @@ Every phone lights up. Dad's radio turns on with a voice that sounds like Nora. 
 **Poll idea:** depends on route (e.g., *"Wake Mom" vs "Call Jules"* / *"Go through the gate" vs "Go back for Milo"*).
 
 ### Ch.3: "The Sheriff's Daughter" · ~23:40 left (planned, adapts to the Ch.2 vote)
-- **If A (open the door):** Nora goes downstairs with the real Theo and Milo and opens the front door. The Echo is *gone*, but wet footprints lead **into** the house (Echoes copy what they touch; first sign they adapt). Jules calls from the station: her mom just drove toward the tower. The kids must leave the house.
-- **If B (run to the station):** out the back through the rain (the attic window and porch roof). The Echo follows them silently through town. At the station they meet Jules, who has the locked Meridian file. The Echo is waiting outside under the lights.
+- **If 1 (open the door):** Nora goes downstairs with the real Theo and Milo and opens the front door. The Echo is *gone*, but wet footprints lead **into** the house (Echoes copy what they touch; first sign they adapt). Jules calls from the station: her mom just drove toward the tower. The kids must leave the house.
+- **If 2 (run to the station):** out the back through the rain (the attic window and porch roof). The Echo follows them silently through town. At the station they meet Jules, who has the locked Meridian file. The Echo is waiting outside under the lights.
 Either way, Ch.3 introduces **Jules** and the file **VANCE, ELIAS (MERIDIAN)**.
 *Original plan:*
 ★ Jules joins (reluctantly). The station has a locked file: **VANCE, ELIAS (MERIDIAN)**. Jules realizes her mother lied about Nora's dad. The old Nora/Jules fight comes back.

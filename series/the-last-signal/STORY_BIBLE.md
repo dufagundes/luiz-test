@@ -122,7 +122,7 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | Ch. | Winner | What it changed |
 |---|---|---|
 | 1 | **A: Let Theo explain** | Nora didn't go to the tower. Theo's secret came out early (second message). Nora is angry but has **not** cut Theo off; their trust is cracked, not broken. Nora was at home when the Echo of Theo arrived. |
-| 2 | ⏳ pending: A: Open the door / B: Run to the station | |
+| 2 | ⏳ pending: 1: Open the door / 2: Run to the station | |
 
 ### Character state after Ch.2
 - **Nora:** hurt by Theo's secret but believing him. Shaken: there are now two Theos. Still has Dad's radio voice telling her to go to the tower alone.
@@ -143,4 +143,11 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 - Grounded emotions: friendship, grief, trust. Characters react like real teenagers.
 - Narrator (Piper `en-us-ryan-high`) is calm, close and cinematic. Characters speak in short lines.
 - Color code: **phone-blue** = the Signal; **amber** = home and safety; **red** = danger and the tower; **white** = the Fold.
-- On-screen series elements in every chapter: countdown HUD, chapter title card, A/B decision screen.
+- On-screen series elements in every chapter: countdown HUD, chapter title card, interactive ending.
+- **Standard interactive ending (Ch.2 onward, about 9 s total, built by `src/series/ui/InteractiveEnding.tsx`):**
+  1. Right after the cliffhanger: the dramatic question and two numbered choices, **1** and **2**, each with a short description. The story image keeps playing, dimmed underneath.
+  2. Voiceover: *"What should we do next? Comment 1 or 2 below and tell me why!"* plus an on-screen "COMMENT 1 OR 2 BELOW 👇".
+  3. Animated card: **"YOUR CHOICE CHANGES THE STORY."** / **"COMMENT 1 OR 2 👇"** / **"FOLLOW FOR CHAPTER N 🔥"** (about 5 s).
+  4. Voiceover: *"Follow so you don't miss what happens next!"*
+  5. All ending text stays in the mobile safe zone (x 60–880, y 170–1430), clear of the right-side buttons and bottom captions.
+  Chapter 1 (already posted) keeps its original A/B ending.
