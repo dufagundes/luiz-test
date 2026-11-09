@@ -22,6 +22,8 @@ const VOICE_STYLE: Record<string, {color: string; active: string; italic: boolea
   milo: {color: '#dfe6ff', active: '#8fb0ff', italic: true, tag: 'MILO'},
   echo: {color: '#e3f5d4', active: '#7fd4ff', italic: true, tag: 'TEXT FROM THEO'},
   echo_live: {color: '#e3f5d4', active: '#7fd4ff', italic: true, tag: 'THE OTHER THEO'},
+  nora_echo: {color: '#ffd0d6', active: T.uiRed, italic: true, tag: 'THE OTHER NORA'},
+  dad: {color: '#ffe6c2', active: '#ffb347', italic: true, tag: 'DAD'},
 };
 
 type Chunk = {words: TimelineWord[]; start: number; end: number; voice: string};

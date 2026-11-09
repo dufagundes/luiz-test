@@ -38,6 +38,7 @@ export type CharacterProps = {
   dark?: number; // darken (in shadow / backlit)
   wet?: boolean; // rain drips
   opacity?: number;
+  cssFilter?: string; // overrides `dark` (e.g. ghostly Echo glow)
 };
 
 const Limb: React.FC<{x: number; y: number; a1: number; a2: number; l1: number; l2: number; w1: number; w2: number; c1: string; c2: string; end: React.ReactNode}> = ({
@@ -332,7 +333,7 @@ export const Character: React.FC<CharacterProps> = (p) => {
     <g
       transform={`translate(${p.x ?? 0} ${p.y ?? 0}) scale(${(p.flip ? -1 : 1) * (p.scale ?? 1) * c.size} ${(p.scale ?? 1) * c.size})`}
       opacity={p.opacity ?? 1}
-      style={p.dark ? {filter: `brightness(${1 - p.dark}) saturate(${1 - p.dark * 0.5})`} : undefined}
+      style={p.cssFilter ? {filter: p.cssFilter} : p.dark ? {filter: `brightness(${1 - p.dark}) saturate(${1 - p.dark * 0.5})`} : undefined}
     >
       {pose === 'stand' ? <ellipse cx={0} cy={6} rx={90} ry={16} fill="#000" opacity={0.35} /> : null}
       <g transform={`translate(${shiver} ${bob}) rotate(${p.lean ?? 0} 0 ${hipY})`}>

@@ -9,7 +9,7 @@ import {T} from '../theme';
  * raincoat with an auburn ponytail: Nora. Nora has no memory of being there.
  * Local size 520 x 620, origin top-left. Photo area 40,40 → 480,480.
  */
-export const Polaroid: React.FC<{frame: number; glow?: number}> = ({frame, glow = 0}) => (
+export const Polaroid: React.FC<{frame: number; glow?: number; hideNora?: boolean}> = ({frame, glow = 0, hideNora = false}) => (
   <g>
     <defs>
       <clipPath id="polaroidClip">
@@ -39,7 +39,7 @@ export const Polaroid: React.FC<{frame: number; glow?: number}> = ({frame, glow 
       {/* young Theo, 14 */}
       <Character who={THEO} x={190} y={430} scale={0.24} frame={0} headTurn={0.5} lookX={1} eyeOpen={1.3} brow={1} mouth="o" dark={0.3} />
       {/* young Nora, 13: yellow raincoat, auburn ponytail */}
-      <Character who={NORA} x={105} y={440} scale={0.22} frame={0} headTurn={0.6} lookX={1} eyeOpen={1.2} mouth="closed" dark={0.2} />
+      {hideNora ? null : <Character who={NORA} x={105} y={440} scale={0.22} frame={0} headTurn={0.6} lookX={1} eyeOpen={1.2} mouth="closed" dark={0.2} />}
       {/* overexposure / flash bloom + film grain */}
       <rect x={40} y={40} width={440} height={440} fill="#fff4dc" opacity={0.08} />
       {[...Array(30)].map((_, i) => (

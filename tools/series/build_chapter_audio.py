@@ -40,6 +40,10 @@ VOICE_CAST = {
     "echo": ("en-us-libritts-high.onnx", 28, 0.98, 0.95),
     # the same Echo voice, speaking in person (only the subtitle tag differs)
     "echo_live": ("en-us-libritts-high.onnx", 28, 0.98, 0.95),
+    # Nora's Echo speaking in person (finale): Nora's voice, slightly lower and hollow
+    "nora_echo": ("en-us-lessac-medium.onnx", 0, 1.08, 0.93),
+    # Elias Vance (Dad), heard only through his radio (finale)
+    "dad": ("en-us-danny-low.onnx", 0, 1.08, 1.0),
 }
 
 cfg = json.load(open(os.path.join(ROOT, "series", "the-last-signal", "chapters", CH, "chapter.json")))
@@ -115,14 +119,14 @@ for line in cfg["lines"]:
     x, sr = read_wav(out)
     x = trim(resample(x, sr, SR / pitch))  # pitch_factor > 1 => higher + faster
     speech = len(x) / SR
-    if line["voice"] == "radio":
+    if line["voice"] in ("radio", "dad"):
         # old ham-radio transmission: narrow band, soft clipping, crackle, a little echo
         x = band(x, 350, 3000)
         x = np.tanh(x * 3.0) / np.tanh(3.0)
         crackle = (rng.random(len(x)) < 0.002).astype(np.float32) * noise(len(x)) * 0.6
         x = x + crackle + noise(len(x)) * 0.015
         x = reverb(x, ((0.06, 0.25), (0.13, 0.12)))
-    elif line["voice"] in ("echo", "echo_live"):
+    elif line["voice"] in ("echo", "echo_live", "nora_echo"):
         x = band(x, 250, 4200)
         x = reverb(x, ((0.05, 0.3), (0.11, 0.2), (0.19, 0.1)))
     elif line["voice"] in ("theo", "milo", "nora"):
@@ -336,6 +340,66 @@ def sfx_hum(c):
     zap = (rng.random(n) < 0.01).astype(np.float32) * noise(n)
     s = (h * 0.5 + band(zap, 2000, 8000) * 0.8) * np.sin(np.pi * t / length)
     add(s.astype(np.float32), at, 0.35)
+
+
+def sfx_slam(c):
+    at = T(c["at"])
+    n = int(1.0 * SR)
+    t = np.arange(n) / SR
+    s = np.sin(2 * np.pi * (85 - 40 * t) * t) * env(n, 0.001, 0.18) + lowpass(noise(n), 2200) * env(n, 0.0005, 0.06) * 0.9
+    add(reverb(s.astype(np.float32)), at, 0.9)
+
+
+def sfx_shutter(c):
+    at = T(c["at"])
+    for off in (0.0, 0.07):
+        n = int(0.05 * SR)
+        add((band(noise(n), 1500, 9000) * env(n, 0.0005, 0.01)).astype(np.float32), at + off, 0.5)
+
+
+def sfx_powerUp(c):
+    # the town's power coming back: rising hum + relay clunks
+    at = T(c["at"])
+    n = int(2.2 * SR)
+    t = np.arange(n) / SR
+    f = 40 + 180 * (1 - np.exp(-t * 1.8))
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.minimum(1, t / 0.4) * np.exp(-np.maximum(0, t - 1.4) * 2)
+    add(s.astype(np.float32), at, 0.25)
+    for k in range(5):
+        m = int(0.12 * SR)
+        add((lowpass(noise(m), 900) * env(m, 0.001, 0.03)).astype(np.float32), at + 0.3 + k * 0.28, 0.35)
+
+
+def sfx_warmPad(c):
+    # gentle major chord for the resolution (C - E - G - C)
+    a, b = T(c["from"]), T(c["to"])
+    n = int((b - a) * SR)
+    t = np.arange(n) / SR
+    s = sum(np.sin(2 * np.pi * f * t + k) * (0.6 + 0.4 * np.sin(2 * np.pi * 0.1 * t + k)) for k, f in enumerate((130.8, 164.8, 196.0, 261.6)))
+    s = lowpass(s.astype(np.float32), 1200)
+    fade = np.minimum(1, t / 2.0) * np.minimum(1, (t[-1] - t + 1e-3) / 1.5)
+    add((s * fade).astype(np.float32), a, 0.05)
+
+
+def sfx_birds(c):
+    a, b = T(c["from"]), T(c["to"])
+    k = 0
+    while a + k * 0.9 < b:
+        at = a + k * 0.9 + rng.random() * 0.4
+        n = int(0.18 * SR)
+        t = np.arange(n) / SR
+        f = 3200 + 900 * np.sin(2 * np.pi * 14 * t)
+        s = np.sin(2 * np.pi * np.cumsum(f) / SR) * env(n, 0.005, 0.05)
+        add(s.astype(np.float32), at, 0.06)
+        k += 1
+
+
+def sfx_chime(c):
+    at = T(c["at"])
+    n = int(3.0 * SR)
+    t = np.arange(n) / SR
+    s = sum(np.sin(2 * np.pi * f * t) / (i + 1) for i, f in enumerate((523.3, 659.3, 784.0, 1046.5))) * env(n, 0.01, 1.0)
+    add(s.astype(np.float32), at, 0.12)
 
 
 def sfx_tick(c):

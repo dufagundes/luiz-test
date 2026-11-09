@@ -1,5 +1,7 @@
 # THE LAST SIGNAL: Chapter Production System
 
+> ✅ **Series completed: 4 chapters** (`TLS-Ch01` to `TLS-Ch04`). Chapter 4 is the finale and uses `src/series/ui/FinaleEnding.tsx` instead of the interactive poll ending. The system below can be reused for a brand-new series (new cast, locations and story bible).
+
 An interactive animated series built with Remotion + React + SVG. Everything is drawn in code and produced with free, offline tools.
 
 ```
@@ -43,4 +45,4 @@ Download from https://github.com/rhasspy/piper/releases/tag/v0.0.2 into a `voice
 2. In the project folder: `npm install`
 3. Preview in the browser: `npm run studio` (pick **TLS-Ch01**)
 4. Fast half-size test: `npm run tls:preview:ch01`
-5. Full quality: `npm run tls:render:ch01` (6 render threads, about 3–6 minutes)
+5. Full quality: `npm run tls:render:ch01`, `tls:render:ch02`, `tls:render:ch03`, `tls:render:ch04` (6 render threads, about 3–8 minutes each)

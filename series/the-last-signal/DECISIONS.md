@@ -6,7 +6,9 @@ Only record **real** results provided by the creator (poll numbers or comment co
 |---|---|---|---|---|---|---|
 | 1 | Theo lied for 3 weeks. What should Nora do? | Let Theo explain | Go to the tower alone | ✅ **A: Let Theo explain** | Confirmed by the creator (no vote counts provided) | Nora stays in the attic and makes Theo talk. He reveals the second, private warning. Nora does **not** go to the tower (yet), so the radio voice's plan is delayed. Because she stayed, she is home when the Echo of Theo arrives. |
 | 2 | The other Theo is outside. What should Nora do? | **1:** Open the door | **2:** Run to the station | ✅ **1: Open the door** | ⚠️ **Creator's creative decision. NOT an audience vote** (chosen for the most suspenseful Ch.3) | Nora faces the Echo at the front door. Reveals: Echoes can't cross a doorway uninvited; Theo was at the tower the night Elias vanished and saw the Echo come out of the light; a 3-year-old photo shows Nora at the tower too. The station route (Jules) is postponed. |
-| 3 | The radio says shut it. He has answers. What should Nora do? | **1:** Close the door | **2:** Let him in | ⏳ **waiting for results** | n/a | Ch.4 is written after the result arrives |
+| 3 | The radio says shut it. He has answers. What should Nora do? | **1:** Close the door | **2:** Let him in | ✅ **1: Close the door** | Confirmed by the creator as the Ch.3 winner (no vote counts provided) | Nora shuts out the other Theo and obeys the radio. The radio voice thinks it has won and shows itself, demanding the photo and the tower. That forces Theo to work out the truth and, in the end, open the door himself to invite his Echo in, undoing the shut-out at the last moment. |
+
+**SERIES COMPLETE.** Chapter 4 is the finale. There are no further polls.
 
 ## How to add a result
 1. Post the chapter with its poll (see `chapters/chXX/POST.md`).

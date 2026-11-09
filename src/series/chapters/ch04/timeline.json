@@ -1,0 +1,1280 @@
+{
+ "durationInFrames": 2305,
+ "lines": [
+  {
+   "id": "n1",
+   "voice": "narrator",
+   "text": "Nora closed the door.",
+   "start": 21,
+   "end": 61,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Nora",
+     "start": 21,
+     "end": 29
+    },
+    {
+     "w": "closed",
+     "start": 29,
+     "end": 39
+    },
+    {
+     "w": "the",
+     "start": 39,
+     "end": 45
+    },
+    {
+     "w": "door.",
+     "start": 45,
+     "end": 61
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "voice": "radio",
+   "text": "“Good. Now bring me the photo. Come to the tower. Alone.”",
+   "start": 76,
+   "end": 195,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Good.",
+     "start": 76,
+     "end": 93
+    },
+    {
+     "w": "Now",
+     "start": 93,
+     "end": 99
+    },
+    {
+     "w": "bring",
+     "start": 99,
+     "end": 109
+    },
+    {
+     "w": "me",
+     "start": 109,
+     "end": 114
+    },
+    {
+     "w": "the",
+     "start": 114,
+     "end": 121
+    },
+    {
+     "w": "photo.",
+     "start": 121,
+     "end": 139
+    },
+    {
+     "w": "Come",
+     "start": 139,
+     "end": 147
+    },
+    {
+     "w": "to",
+     "start": 147,
+     "end": 152
+    },
+    {
+     "w": "the",
+     "start": 152,
+     "end": 159
+    },
+    {
+     "w": "tower.",
+     "start": 159,
+     "end": 177
+    },
+    {
+     "w": "Alone.”",
+     "start": 177,
+     "end": 195
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "voice": "theo",
+   "text": "“Nora, wait. Look at the photo… on my camera.”",
+   "start": 207,
+   "end": 285,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Nora,",
+     "start": 207,
+     "end": 218
+    },
+    {
+     "w": "wait.",
+     "start": 218,
+     "end": 232
+    },
+    {
+     "w": "Look",
+     "start": 232,
+     "end": 238
+    },
+    {
+     "w": "at",
+     "start": 238,
+     "end": 242
+    },
+    {
+     "w": "the",
+     "start": 242,
+     "end": 247
+    },
+    {
+     "w": "photo…",
+     "start": 247,
+     "end": 262
+    },
+    {
+     "w": "on",
+     "start": 262,
+     "end": 266
+    },
+    {
+     "w": "my",
+     "start": 266,
+     "end": 270
+    },
+    {
+     "w": "camera.”",
+     "start": 270,
+     "end": 285
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "voice": "narrator",
+   "text": "On Theo's screen, the girl in the yellow raincoat was gone. Echoes never show up on screens.",
+   "start": 294,
+   "end": 450,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "On",
+     "start": 294,
+     "end": 299
+    },
+    {
+     "w": "Theo's",
+     "start": 299,
+     "end": 309
+    },
+    {
+     "w": "screen,",
+     "start": 309,
+     "end": 325
+    },
+    {
+     "w": "the",
+     "start": 325,
+     "end": 331
+    },
+    {
+     "w": "girl",
+     "start": 331,
+     "end": 339
+    },
+    {
+     "w": "in",
+     "start": 339,
+     "end": 343
+    },
+    {
+     "w": "the",
+     "start": 343,
+     "end": 350
+    },
+    {
+     "w": "yellow",
+     "start": 350,
+     "end": 360
+    },
+    {
+     "w": "raincoat",
+     "start": 360,
+     "end": 373
+    },
+    {
+     "w": "was",
+     "start": 373,
+     "end": 379
+    },
+    {
+     "w": "gone.",
+     "start": 379,
+     "end": 394
+    },
+    {
+     "w": "Echoes",
+     "start": 394,
+     "end": 405
+    },
+    {
+     "w": "never",
+     "start": 405,
+     "end": 413
+    },
+    {
+     "w": "show",
+     "start": 413,
+     "end": 421
+    },
+    {
+     "w": "up",
+     "start": 421,
+     "end": 426
+    },
+    {
+     "w": "on",
+     "start": 426,
+     "end": 430
+    },
+    {
+     "w": "screens.",
+     "start": 430,
+     "end": 450
+    }
+   ]
+  },
+  {
+   "id": "no1",
+   "voice": "nora",
+   "text": "“I was never at the tower. SHE was.”",
+   "start": 461,
+   "end": 517,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“I",
+     "start": 461,
+     "end": 464
+    },
+    {
+     "w": "was",
+     "start": 464,
+     "end": 469
+    },
+    {
+     "w": "never",
+     "start": 469,
+     "end": 476
+    },
+    {
+     "w": "at",
+     "start": 476,
+     "end": 480
+    },
+    {
+     "w": "the",
+     "start": 480,
+     "end": 486
+    },
+    {
+     "w": "tower.",
+     "start": 486,
+     "end": 500
+    },
+    {
+     "w": "SHE",
+     "start": 500,
+     "end": 505
+    },
+    {
+     "w": "was.”",
+     "start": 505,
+     "end": 517
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "voice": "theo",
+   "text": "“The radio sounds like you… because it IS you. The other you.”",
+   "start": 526,
+   "end": 633,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“The",
+     "start": 526,
+     "end": 532
+    },
+    {
+     "w": "radio",
+     "start": 532,
+     "end": 541
+    },
+    {
+     "w": "sounds",
+     "start": 541,
+     "end": 551
+    },
+    {
+     "w": "like",
+     "start": 551,
+     "end": 558
+    },
+    {
+     "w": "you…",
+     "start": 558,
+     "end": 571
+    },
+    {
+     "w": "because",
+     "start": 571,
+     "end": 582
+    },
+    {
+     "w": "it",
+     "start": 582,
+     "end": 587
+    },
+    {
+     "w": "IS",
+     "start": 587,
+     "end": 591
+    },
+    {
+     "w": "you.",
+     "start": 591,
+     "end": 605
+    },
+    {
+     "w": "The",
+     "start": 605,
+     "end": 611
+    },
+    {
+     "w": "other",
+     "start": 611,
+     "end": 619
+    },
+    {
+     "w": "you.”",
+     "start": 619,
+     "end": 633
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "voice": "narrator",
+   "text": "“Do not trust the person closest to you.” It never meant a friend. It meant herself.",
+   "start": 644,
+   "end": 763,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Do",
+     "start": 644,
+     "end": 648
+    },
+    {
+     "w": "not",
+     "start": 648,
+     "end": 653
+    },
+    {
+     "w": "trust",
+     "start": 653,
+     "end": 660
+    },
+    {
+     "w": "the",
+     "start": 660,
+     "end": 665
+    },
+    {
+     "w": "person",
+     "start": 665,
+     "end": 673
+    },
+    {
+     "w": "closest",
+     "start": 673,
+     "end": 683
+    },
+    {
+     "w": "to",
+     "start": 683,
+     "end": 687
+    },
+    {
+     "w": "you.”",
+     "start": 687,
+     "end": 699
+    },
+    {
+     "w": "It",
+     "start": 699,
+     "end": 703
+    },
+    {
+     "w": "never",
+     "start": 703,
+     "end": 710
+    },
+    {
+     "w": "meant",
+     "start": 710,
+     "end": 717
+    },
+    {
+     "w": "a",
+     "start": 717,
+     "end": 720
+    },
+    {
+     "w": "friend.",
+     "start": 720,
+     "end": 735
+    },
+    {
+     "w": "It",
+     "start": 735,
+     "end": 739
+    },
+    {
+     "w": "meant",
+     "start": 739,
+     "end": 747
+    },
+    {
+     "w": "herself.",
+     "start": 747,
+     "end": 763
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "voice": "theo",
+   "text": "“And every warning came from him. My Echo. ‘Don't trust whoever is with you.’ He meant the radio.”",
+   "start": 773,
+   "end": 923,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“And",
+     "start": 773,
+     "end": 779
+    },
+    {
+     "w": "every",
+     "start": 779,
+     "end": 787
+    },
+    {
+     "w": "warning",
+     "start": 787,
+     "end": 798
+    },
+    {
+     "w": "came",
+     "start": 798,
+     "end": 804
+    },
+    {
+     "w": "from",
+     "start": 804,
+     "end": 811
+    },
+    {
+     "w": "him.",
+     "start": 811,
+     "end": 824
+    },
+    {
+     "w": "My",
+     "start": 824,
+     "end": 828
+    },
+    {
+     "w": "Echo.",
+     "start": 828,
+     "end": 843
+    },
+    {
+     "w": "‘Don't",
+     "start": 843,
+     "end": 852
+    },
+    {
+     "w": "trust",
+     "start": 852,
+     "end": 860
+    },
+    {
+     "w": "whoever",
+     "start": 860,
+     "end": 870
+    },
+    {
+     "w": "is",
+     "start": 870,
+     "end": 875
+    },
+    {
+     "w": "with",
+     "start": 875,
+     "end": 881
+    },
+    {
+     "w": "you.’",
+     "start": 881,
+     "end": 889
+    },
+    {
+     "w": "He",
+     "start": 889,
+     "end": 894
+    },
+    {
+     "w": "meant",
+     "start": 894,
+     "end": 902
+    },
+    {
+     "w": "the",
+     "start": 902,
+     "end": 907
+    },
+    {
+     "w": "radio.”",
+     "start": 907,
+     "end": 923
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "voice": "narrator",
+   "text": "The boy they shut outside had been protecting them all along.",
+   "start": 932,
+   "end": 1017,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "The",
+     "start": 932,
+     "end": 937
+    },
+    {
+     "w": "boy",
+     "start": 937,
+     "end": 942
+    },
+    {
+     "w": "they",
+     "start": 942,
+     "end": 949
+    },
+    {
+     "w": "shut",
+     "start": 949,
+     "end": 955
+    },
+    {
+     "w": "outside",
+     "start": 955,
+     "end": 965
+    },
+    {
+     "w": "had",
+     "start": 965,
+     "end": 970
+    },
+    {
+     "w": "been",
+     "start": 970,
+     "end": 977
+    },
+    {
+     "w": "protecting",
+     "start": 977,
+     "end": 990
+    },
+    {
+     "w": "them",
+     "start": 990,
+     "end": 997
+    },
+    {
+     "w": "all",
+     "start": 997,
+     "end": 1002
+    },
+    {
+     "w": "along.",
+     "start": 1002,
+     "end": 1017
+    }
+   ]
+  },
+  {
+   "id": "ne1",
+   "voice": "nora_echo",
+   "text": "“If you won't come to me… I'll come to you.”",
+   "start": 1030,
+   "end": 1098,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“If",
+     "start": 1030,
+     "end": 1034
+    },
+    {
+     "w": "you",
+     "start": 1034,
+     "end": 1040
+    },
+    {
+     "w": "won't",
+     "start": 1040,
+     "end": 1047
+    },
+    {
+     "w": "come",
+     "start": 1047,
+     "end": 1054
+    },
+    {
+     "w": "to",
+     "start": 1054,
+     "end": 1058
+    },
+    {
+     "w": "me…",
+     "start": 1058,
+     "end": 1069
+    },
+    {
+     "w": "I'll",
+     "start": 1069,
+     "end": 1075
+    },
+    {
+     "w": "come",
+     "start": 1075,
+     "end": 1082
+    },
+    {
+     "w": "to",
+     "start": 1082,
+     "end": 1086
+    },
+    {
+     "w": "you.”",
+     "start": 1086,
+     "end": 1098
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "voice": "theo",
+   "text": "“THEO! COME IN!”",
+   "start": 1109,
+   "end": 1145,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“THEO!",
+     "start": 1109,
+     "end": 1124
+    },
+    {
+     "w": "COME",
+     "start": 1124,
+     "end": 1132
+    },
+    {
+     "w": "IN!”",
+     "start": 1132,
+     "end": 1145
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "voice": "narrator",
+   "text": "One invitation. That's all he ever needed.",
+   "start": 1152,
+   "end": 1210,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "One",
+     "start": 1152,
+     "end": 1157
+    },
+    {
+     "w": "invitation.",
+     "start": 1157,
+     "end": 1174
+    },
+    {
+     "w": "That's",
+     "start": 1174,
+     "end": 1182
+    },
+    {
+     "w": "all",
+     "start": 1182,
+     "end": 1187
+    },
+    {
+     "w": "he",
+     "start": 1187,
+     "end": 1190
+    },
+    {
+     "w": "ever",
+     "start": 1190,
+     "end": 1196
+    },
+    {
+     "w": "needed.",
+     "start": 1196,
+     "end": 1210
+    }
+   ]
+  },
+  {
+   "id": "x1",
+   "voice": "echo_live",
+   "text": "“We came out of the light together. We go back together.”",
+   "start": 1220,
+   "end": 1299,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“We",
+     "start": 1220,
+     "end": 1224
+    },
+    {
+     "w": "came",
+     "start": 1224,
+     "end": 1230
+    },
+    {
+     "w": "out",
+     "start": 1230,
+     "end": 1235
+    },
+    {
+     "w": "of",
+     "start": 1235,
+     "end": 1239
+    },
+    {
+     "w": "the",
+     "start": 1239,
+     "end": 1244
+    },
+    {
+     "w": "light",
+     "start": 1244,
+     "end": 1251
+    },
+    {
+     "w": "together.",
+     "start": 1251,
+     "end": 1268
+    },
+    {
+     "w": "We",
+     "start": 1268,
+     "end": 1272
+    },
+    {
+     "w": "go",
+     "start": 1272,
+     "end": 1276
+    },
+    {
+     "w": "back",
+     "start": 1276,
+     "end": 1282
+    },
+    {
+     "w": "together.”",
+     "start": 1282,
+     "end": 1299
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "voice": "echo_live",
+   "text": "“Take care of her.”",
+   "start": 1308,
+   "end": 1334,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Take",
+     "start": 1308,
+     "end": 1313
+    },
+    {
+     "w": "care",
+     "start": 1313,
+     "end": 1319
+    },
+    {
+     "w": "of",
+     "start": 1319,
+     "end": 1323
+    },
+    {
+     "w": "her.”",
+     "start": 1323,
+     "end": 1334
+    }
+   ]
+  },
+  {
+   "id": "n6",
+   "voice": "narrator",
+   "text": "Then the tower went dark. And every light in Harlow Point came back on.",
+   "start": 1352,
+   "end": 1465,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Then",
+     "start": 1352,
+     "end": 1359
+    },
+    {
+     "w": "the",
+     "start": 1359,
+     "end": 1365
+    },
+    {
+     "w": "tower",
+     "start": 1365,
+     "end": 1373
+    },
+    {
+     "w": "went",
+     "start": 1373,
+     "end": 1380
+    },
+    {
+     "w": "dark.",
+     "start": 1380,
+     "end": 1395
+    },
+    {
+     "w": "And",
+     "start": 1395,
+     "end": 1400
+    },
+    {
+     "w": "every",
+     "start": 1400,
+     "end": 1409
+    },
+    {
+     "w": "light",
+     "start": 1409,
+     "end": 1417
+    },
+    {
+     "w": "in",
+     "start": 1417,
+     "end": 1421
+    },
+    {
+     "w": "Harlow",
+     "start": 1421,
+     "end": 1431
+    },
+    {
+     "w": "Point",
+     "start": 1431,
+     "end": 1439
+    },
+    {
+     "w": "came",
+     "start": 1439,
+     "end": 1446
+    },
+    {
+     "w": "back",
+     "start": 1446,
+     "end": 1453
+    },
+    {
+     "w": "on.",
+     "start": 1453,
+     "end": 1465
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "voice": "dad",
+   "text": "“Nora… I'm proud of you. Look after Milo. Goodbye, sweetheart.”",
+   "start": 1483,
+   "end": 1624,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Nora…",
+     "start": 1483,
+     "end": 1501
+    },
+    {
+     "w": "I'm",
+     "start": 1501,
+     "end": 1508
+    },
+    {
+     "w": "proud",
+     "start": 1508,
+     "end": 1519
+    },
+    {
+     "w": "of",
+     "start": 1519,
+     "end": 1524
+    },
+    {
+     "w": "you.",
+     "start": 1524,
+     "end": 1541
+    },
+    {
+     "w": "Look",
+     "start": 1541,
+     "end": 1549
+    },
+    {
+     "w": "after",
+     "start": 1549,
+     "end": 1559
+    },
+    {
+     "w": "Milo.",
+     "start": 1559,
+     "end": 1577
+    },
+    {
+     "w": "Goodbye,",
+     "start": 1577,
+     "end": 1597
+    },
+    {
+     "w": "sweetheart.”",
+     "start": 1597,
+     "end": 1624
+    }
+   ]
+  },
+  {
+   "id": "n7",
+   "voice": "narrator",
+   "text": "Her father's last signal. Then… silence.",
+   "start": 1635,
+   "end": 1707,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Her",
+     "start": 1635,
+     "end": 1640
+    },
+    {
+     "w": "father's",
+     "start": 1640,
+     "end": 1652
+    },
+    {
+     "w": "last",
+     "start": 1652,
+     "end": 1659
+    },
+    {
+     "w": "signal.",
+     "start": 1659,
+     "end": 1675
+    },
+    {
+     "w": "Then…",
+     "start": 1675,
+     "end": 1689
+    },
+    {
+     "w": "silence.",
+     "start": 1689,
+     "end": 1707
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "voice": "theo",
+   "text": "“No more secrets.”",
+   "start": 1734,
+   "end": 1761,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“No",
+     "start": 1734,
+     "end": 1738
+    },
+    {
+     "w": "more",
+     "start": 1738,
+     "end": 1744
+    },
+    {
+     "w": "secrets.”",
+     "start": 1744,
+     "end": 1761
+    }
+   ]
+  },
+  {
+   "id": "no2",
+   "voice": "nora",
+   "text": "“No more secrets.”",
+   "start": 1770,
+   "end": 1805,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“No",
+     "start": 1770,
+     "end": 1775
+    },
+    {
+     "w": "more",
+     "start": 1775,
+     "end": 1783
+    },
+    {
+     "w": "secrets.”",
+     "start": 1783,
+     "end": 1805
+    }
+   ]
+  },
+  {
+   "id": "n8",
+   "voice": "narrator",
+   "text": "And for the first time in three years, Nora Vance trusted someone again.",
+   "start": 1817,
+   "end": 1922,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "And",
+     "start": 1817,
+     "end": 1823
+    },
+    {
+     "w": "for",
+     "start": 1823,
+     "end": 1828
+    },
+    {
+     "w": "the",
+     "start": 1828,
+     "end": 1833
+    },
+    {
+     "w": "first",
+     "start": 1833,
+     "end": 1841
+    },
+    {
+     "w": "time",
+     "start": 1841,
+     "end": 1848
+    },
+    {
+     "w": "in",
+     "start": 1848,
+     "end": 1852
+    },
+    {
+     "w": "three",
+     "start": 1852,
+     "end": 1860
+    },
+    {
+     "w": "years,",
+     "start": 1860,
+     "end": 1872
+    },
+    {
+     "w": "Nora",
+     "start": 1872,
+     "end": 1879
+    },
+    {
+     "w": "Vance",
+     "start": 1879,
+     "end": 1886
+    },
+    {
+     "w": "trusted",
+     "start": 1886,
+     "end": 1897
+    },
+    {
+     "w": "someone",
+     "start": 1897,
+     "end": 1907
+    },
+    {
+     "w": "again.",
+     "start": 1907,
+     "end": 1922
+    }
+   ]
+  },
+  {
+   "id": "e1",
+   "voice": "narrator",
+   "text": "That's the end of The Last Signal. What did you think? Drop your theory in the comments, and follow for a brand-new story!",
+   "start": 2012,
+   "end": 2185,
+   "noSubs": true,
+   "words": [
+    {
+     "w": "That's",
+     "start": 2012,
+     "end": 2020
+    },
+    {
+     "w": "the",
+     "start": 2020,
+     "end": 2025
+    },
+    {
+     "w": "end",
+     "start": 2025,
+     "end": 2030
+    },
+    {
+     "w": "of",
+     "start": 2030,
+     "end": 2034
+    },
+    {
+     "w": "The",
+     "start": 2034,
+     "end": 2040
+    },
+    {
+     "w": "Last",
+     "start": 2040,
+     "end": 2046
+    },
+    {
+     "w": "Signal.",
+     "start": 2046,
+     "end": 2061
+    },
+    {
+     "w": "What",
+     "start": 2061,
+     "end": 2067
+    },
+    {
+     "w": "did",
+     "start": 2067,
+     "end": 2073
+    },
+    {
+     "w": "you",
+     "start": 2073,
+     "end": 2078
+    },
+    {
+     "w": "think?",
+     "start": 2078,
+     "end": 2092
+    },
+    {
+     "w": "Drop",
+     "start": 2092,
+     "end": 2098
+    },
+    {
+     "w": "your",
+     "start": 2098,
+     "end": 2104
+    },
+    {
+     "w": "theory",
+     "start": 2104,
+     "end": 2113
+    },
+    {
+     "w": "in",
+     "start": 2113,
+     "end": 2117
+    },
+    {
+     "w": "the",
+     "start": 2117,
+     "end": 2122
+    },
+    {
+     "w": "comments,",
+     "start": 2122,
+     "end": 2137
+    },
+    {
+     "w": "and",
+     "start": 2137,
+     "end": 2143
+    },
+    {
+     "w": "follow",
+     "start": 2143,
+     "end": 2151
+    },
+    {
+     "w": "for",
+     "start": 2151,
+     "end": 2156
+    },
+    {
+     "w": "a",
+     "start": 2156,
+     "end": 2159
+    },
+    {
+     "w": "brand-new",
+     "start": 2159,
+     "end": 2171
+    },
+    {
+     "w": "story!",
+     "start": 2171,
+     "end": 2185
+    }
+   ]
+  }
+ ]
+}

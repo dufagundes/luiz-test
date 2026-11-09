@@ -1,4 +1,12 @@
-# THE LAST SIGNAL: Season 1 Outline (12 chapters)
+# THE LAST SIGNAL: Outline
+
+> ✅ **SERIES COMPLETED IN 4 CHAPTERS.** The creator ended the series with Chapter 4 as the finale. Chapters 1–4 below are what was produced. Everything after the Ch.4 entry is the original 12-chapter roadmap, kept for reference only.
+
+### Ch.4: "The Person Closest to You" ✅ produced · SERIES FINALE · countdown 23:56:57 → SIGNAL LOST
+**Audience chose 1: Close the door.** Nora slams it; the Echo's palm frosts the glass. The radio (Nora's voice): "Good. Now bring me the photo. Come to the tower. Alone." Theo points his phone camera at the photo: the girl in the yellow raincoat isn't on screen. Echoes never show up on screens. Nora: "I was never at the tower. SHE was." Theo: "The radio sounds like you… because it IS you." The message meant *herself*. Theo: every warning came from his Echo; "Don't trust whoever is with you" meant the radio. The boy they shut outside had been protecting them all along. Nora's Echo forms from red static on the stairs. Theo flings the door open: "THEO! COME IN!" His Echo crosses, takes her hands: "We came out of the light together. We go back together." "Take care of her." Light. The tower goes dark, the town's power returns, the countdown dies. Dad's last signal: "I'm proud of you. Look after Milo. Goodbye, sweetheart." Dawn on the roof: "No more secrets." THE END → end screen (comment your theory / follow for a brand-new story). **No poll.**
+
+---
+## Original 12-chapter roadmap (reference only)
 
 **Series description (for profiles and playlists):**
 > At 11:47 PM, every phone in Harlow Point gets the same message: *"You have 24 hours. Do not trust the person closest to you."* It came from the future, from a version of this town where almost everyone is gone. **You vote on what happens next.** New chapter after every poll.

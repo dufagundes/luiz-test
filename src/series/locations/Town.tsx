@@ -23,6 +23,10 @@ export type TownProps = {
   lightning?: number; // 0..1
   atticLight?: number; // Vance attic window warm light 0..1
   stationLit?: number; // sheriff's station lights (still powered during the blackout, Ch.2+)
+  restoreAt?: number; // finale: frame when power returns (wave outward from the tower)
+  restoreSpread?: number;
+  towerOffAt?: number; // finale: the beacon goes dark for good
+  dawn?: number; // finale: 0..1 sunrise sky
 };
 
 type Win = {x: number; y: number; w: number; h: number; d: number; warm: boolean};
@@ -74,9 +78,14 @@ export const Town: React.FC<TownProps> = ({
   lightning = 0,
   atticLight = 1,
   stationLit = 0,
+  restoreAt = 99999,
+  restoreSpread = 40,
+  towerOffAt = 99999,
+  dawn = 0,
 }) => {
-  const white = frame >= towerWhiteAt;
-  const blink = white ? 0.75 + 0.25 * Math.sin(frame * 0.6) : (frame % 40) < 20 ? 1 : 0.15;
+  const towerOff = frame >= towerOffAt;
+  const white = frame >= towerWhiteAt && !towerOff;
+  const blink = towerOff ? 0 : white ? 0.75 + 0.25 * Math.sin(frame * 0.6) : (frame % 40) < 20 ? 1 : 0.15;
   const beacon = white ? T.signalWhite : T.signalRed;
 
   // window state: phone-blue when the wave reaches it, dark after the blackout wave passes
@@ -85,6 +94,8 @@ export const Town: React.FC<TownProps> = ({
     const on = frame >= phonesOnAt + (distFromCenter + win.d * 0.3) * phonesSpread;
     const distFromTower = Math.abs(wx - TOWER.x) / 1400;
     const off = frame >= blackoutAt + (distFromTower + win.d * 0.15) * blackoutSpread;
+    const restored = frame >= restoreAt + (distFromTower + win.d * 0.2) * restoreSpread;
+    if (restored) return win.d > 0.3 ? {fill: '#f2b968', glow: 0.55} : {fill: '#0a0d18', glow: 0};
     if (off) return {fill: '#05060c', glow: 0};
     if (on) return {fill: T.phone, glow: 0.8 + 0.2 * Math.sin(frame * 0.3 + win.d * 9)};
     return win.warm ? {fill: '#e8a85a', glow: 0.5} : {fill: '#0a0d18', glow: 0};
@@ -124,6 +135,26 @@ export const Town: React.FC<TownProps> = ({
         </radialGradient>
       </defs>
       <rect x={-600} y={-600} width={2400} height={3200} fill="url(#townSky)" />
+      {dawn > 0 ? (
+        <g opacity={dawn}>
+          <defs>
+            <linearGradient id="dawnSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#2e3a6e" />
+              <stop offset="0.45" stopColor="#8a5a86" />
+              <stop offset="0.7" stopColor="#f08a6a" />
+              <stop offset="0.85" stopColor="#ffcf8a" />
+            </linearGradient>
+            <radialGradient id="sunGlow">
+              <stop offset="0" stopColor="#fff2c4" stopOpacity="1" />
+              <stop offset="0.3" stopColor="#ffd27a" stopOpacity="0.7" />
+              <stop offset="1" stopColor="#ffb05a" stopOpacity="0" />
+            </radialGradient>
+          </defs>
+          <rect x={-600} y={-600} width={2400} height={1700} fill="url(#dawnSky)" />
+          <circle cx={260} cy={960} r={420} fill="url(#sunGlow)" />
+          <circle cx={260} cy={960} r={70} fill="#fff1c9" />
+        </g>
+      ) : null}
       {/* storm clouds */}
       <g transform={`translate(${-camX * 0.1 + (frame * 0.4) % 200 - 100} 0)`} opacity={0.9}>
         {[[-100, 300, 340], [300, 220, 300], [700, 330, 380], [1100, 260, 320]].map(([x, y, r], i) => (
@@ -151,7 +182,7 @@ export const Town: React.FC<TownProps> = ({
           <rect x={-40} y={-300} width={30} height={16} fill="#2a3150" />
           <rect x={10} y={-240} width={34} height={16} fill="#2a3150" />
           <circle cx={0} cy={-430} r={white ? 160 : 90} fill="url(#beaconGlow)" opacity={blink} />
-          <circle cx={0} cy={-430} r={10} fill={beacon} opacity={0.4 + 0.6 * blink} />
+          <circle cx={0} cy={-430} r={10} fill={towerOff ? '#2a3150' : beacon} opacity={towerOff ? 1 : 0.4 + 0.6 * blink} />
           {white ? (
             // pulse rings: the signal
             [0, 1, 2].map((i) => {

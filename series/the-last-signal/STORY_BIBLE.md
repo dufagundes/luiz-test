@@ -1,4 +1,6 @@
-# THE LAST SIGNAL: Story Bible (Season 1)
+# THE LAST SIGNAL: Story Bible
+
+> ✅ **SERIES COMPLETED: 4 chapters.** Chapter 4, "The Person Closest to You", is the series finale. The story is fully resolved: no sequel, no open cliffhanger. (The 12-chapter plan in `SEASON_1_OUTLINE.md` was the original roadmap. The creator ended the series after Chapter 4.)
 
 > **Logline:** At 11:47 PM, every phone in Harlow Point receives the same message: *"YOU HAVE 24 HOURS. DO NOT TRUST THE PERSON CLOSEST TO YOU."* Four kids discover it was sent from a future version of their town, where almost everyone has vanished. The audience votes on every major decision.
 
@@ -58,7 +60,15 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 - **Ch.3:** speaks in person ("Hi, Nora."), can't cross the threshold uninvited, knows Theo's secret, carries the 3-year-old photo. Subtitle tag "THE OTHER THEO" (voice `echo_live`). His smile disappears when the radio speaks.
 - **Origin (now known to the audience):** he walked out of the tower's light the night Elias vanished, 3 years ago.
 
-### THE RADIO VOICE ("Future Nora")
+### NORA'S ECHO (on screen in Ch.4)
+- **Look:** Nora's exact design, pale and glowing: red while tied to the radio, white as she returns to the light. Forms from red static particles.
+- **Voice:** Nora's voice, slightly lower and hollow (`nora_echo` voice). Subtitle tag "THE OTHER NORA".
+- **Truth:** she is the radio voice and the girl in the photo.
+
+### ELIAS'S VOICE (Ch.4)
+- Heard once, only through his ham radio (`dad` voice: Piper `en-us-danny-low` through the radio filter). Subtitle tag "DAD".
+
+### THE RADIO VOICE ("Future Nora"), original plan
 - Comes through Elias's ham radio on **114.7**.
 - **Sounds exactly like Nora** (same voice, run through a radio filter). This is deliberate and is a key clue.
 - Knows things only Nora knows. Gives instructions that are *mostly* helpful… with one hidden goal (see §4).
@@ -89,11 +99,29 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | **Fri Nov 13, 11:47 PM** | **Ch.1:** every phone in town receives the Signal. Dad's radio turns on by itself. The tower beacon turns white and the town loses power. |
 | Fri Nov 13, ~11:48 PM | **Ch.2:** in the dark attic Theo confesses and shows the second message. Milo's new drawing: "the boy" with Theo's glasses, his phone says 11:47, "he dosnt get wet". Only the sheriff's station still has power. Nora gets a text from Theo's number: *"I'm outside. Don't trust whoever is with you."* A second, bone-dry Theo stands in the yard in the rain, phone frozen at 11:47. |
 | Fri Nov 13, ~11:49 PM | **Ch.3:** Nora opens the front door. The Echo of Theo ("Hi, Nora.") cannot cross the threshold: the doorway acts like a wall. He makes the real Theo confess: Theo was at the tower 3 years ago and saw Elias walk into the light, then saw the Echo come out. The Echo slides a photo across the threshold: the tower, Elias, Theo… and 13-year-old Nora. Nora has no memory of it. The radio upstairs (Nora's voice): *"Nora. Close the door. Now."* For the first time the Echo stops smiling. |
-| Sat Nov 14, 11:47 PM | **Deadline.** The Fold completes. In the future timeline, this is when "almost everyone disappeared". |
+| Fri Nov 13, ~11:50 PM | **Ch.4 (FINALE):** Nora slams the door (audience choice). The Echo's palm leaves a frost print on the glass. The radio (Nora's voice): "Good. Now bring me the photo. Come to the tower. Alone." Theo photographs the photo with his phone: on screen the girl in the yellow raincoat is gone. Echoes don't appear on screens. Nora was never at the tower; **her Echo was.** The radio voice IS Nora's Echo. "Do not trust the person closest to you" meant *herself*. Every warning (the Signal, Theo's Oct 23 message, "Don't trust whoever is with you") came from **Theo's Echo**, who was protecting them. Nora's Echo forms out of the red static on the stairs ("If you won't come to me, I'll come to you"). Theo throws the door open: "THEO! COME IN!" His Echo crosses, takes Nora's Echo's hands: "We came out of the light together. We go back together." / "Take care of her." Both dissolve into light. |
+| Fri Nov 13, ~11:51 PM | The tower goes dark, the Fold collapses, and every light in Harlow Point comes back on. The countdown dies: **SIGNAL LOST**. The 11:47 PM Saturday deadline never arrives. |
+| Fri Nov 13, ~11:52 PM | Dad's radio speaks one last time, in Elias's own voice: "Nora… I'm proud of you. Look after Milo. Goodbye, sweetheart." Then silence for good. |
+| Sat Nov 14, dawn | Rain over. Nora and Theo on the Vance roof: "No more secrets." / "No more secrets." For the first time in three years, Nora trusts someone again. **THE END.** |
+| ~~Sat Nov 14, 11:47 PM~~ | ~~Deadline~~: averted in the finale. |
+| Sat Nov 14, 11:47 PM | **Deadline (original plan).** The Fold completes. In the future timeline, this is when "almost everyone disappeared". |
 
 ---
 
-## 4. The mystery (writers only; never reveal early)
+## 4. The mystery: FINAL CANON (as revealed in Ch.4)
+These answers are what actually aired and override the original plan below wherever they differ.
+1. **What was the Signal?** A warning sent through the Meridian tower's frequency (114.7) by **Theo's Echo**, who has lived in the static (stuck at 11:47) since he walked out of the light 3 years ago.
+2. **Who sent the messages?** All the warnings came from Theo's Echo: the town-wide Signal, Theo's private Oct 23 message ("If Nora goes to the tower, she doesn't come back") and the Ch.2 text ("Don't trust whoever is with you", which meant **the radio**, the thing that was "with" her in the attic).
+3. **The radio voice:** **Nora's Echo.** It came out of the light the same night as Theo's Echo. *She* is the girl in the photo (Nora was never there; she has no memory because it wasn't her). She sounds exactly like Nora because she is a copy of her. She wanted Nora at the tower to swap places and become the "real" Nora before the Fold.
+4. **"Do not trust the person closest to you":** it meant **yourself**, your own Echo, not a friend or family member.
+5. **Echo rules (all confirmed):** never wet in the rain · phone frozen at 11:47 · no reflection, not visible in mirrors or on screens · cannot cross a doorway uninvited.
+6. **How it ended:** Theo, who once lied to protect Nora, tells the truth and acts. He invites his own Echo inside. The two Echoes, who came out of the light together, go back into it together. The Fold collapses, the tower goes dark, and the town's power returns.
+7. **Elias Vance:** walked into the light 3 years ago (witnessed by Theo). He does not come back. His last message comes through his radio at the very end ("I'm proud of you. Look after Milo. Goodbye, sweetheart."), a definitive, bittersweet goodbye.
+8. **Milo's drawings:** his "static dreams" were glimpses of the Echoes (the boy behind Theo, "he dosnt get wet"). They stop when the signal ends.
+9. **Theo's arc:** keeper of secrets → the one who solves it and ends it. Final line: "No more secrets."
+10. **Nora's arc:** "hates being lied to", trusts no one since Dad vanished → trusts Theo again. Final narration: "For the first time in three years, Nora Vance trusted someone again."
+
+## 4b. The mystery: original writers' plan (superseded by §4)
 1. **What is the Signal?** A warning broadcast backwards in time from *Future Harlow Point* through the Meridian tower on 114.7.
 2. **Who sent it?** The radio voice: an older Nora, stranded in the empty future town.
 3. **What happens at 11:47 PM Saturday?** The tower completes "the Fold". Everyone within its range is pulled into the static. In the future timeline only a few people were left behind.
@@ -126,14 +154,25 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | **Theo was at the tower the night Elias vanished**; saw Elias walk into the light and the Echo walk out | Ch.3 | Theo's Echo was made 3 years ago (not tonight); it has been waiting ever since | Ch.6, Ch.10 |
 | **The photo**: tower · Elias · Theo (14) · Nora (13) in her yellow raincoat, handwritten "Nov 13 · 11:47 · 3 yrs ago" | Ch.3 | Nora was at the tower that night but doesn't remember. (Writers: her Echo was formed then; Dana saw two Noras) | Ch.10–12 |
 | The hall **mirror** shows the open doorway **empty** while the Echo stands in it | Ch.3 (hidden) | Echoes have no reflection | Ch.4 |
-| The radio voice orders "Close the door" and the Echo's smile drops | Ch.3 | the radio voice and the Echo are on opposite sides… or competing for the same thing | Ch.5–11 |
+| The radio voice orders "Close the door" and the Echo's smile drops | Ch.3 | the radio voice and the Echo are on opposite sides | ✅ Ch.4 |
+| **All clues paid off in Ch.4:** radio sounds like Nora → it's her Echo · photo girl → vanishes on Theo's camera (no screens) · "don't trust whoever is with you" → the radio · doorway rule → Theo invites his Echo · tower white → goes dark, power returns · Dad's photo/radio → his last goodbye | Ch.1–3 | | ✅ Ch.4 |
 
 ## 6. Audience decisions so far (canon)
 | Ch. | Winner | What it changed |
 |---|---|---|
 | 1 | **A: Let Theo explain** | Nora didn't go to the tower. Theo's secret came out early (second message). Nora is angry but has **not** cut Theo off; their trust is cracked, not broken. Nora was at home when the Echo of Theo arrived. |
 | 2 | **1: Open the door** (⚠️ creator's creative decision, not an audience vote) | Nora confronts the Echo at the front door instead of fleeing to the station. Jules and the station are postponed to Ch.4–5. Theo's 3-year secret is exposed. |
-| 3 | ⏳ pending: 1: Close the door / 2: Let him in | |
+| 3 | **1: Close the door** (confirmed by the creator) | Nora shuts out the Echo and obeys the radio. The radio voice reveals itself, which lets Theo prove what it is. Theo later reopens the door himself to invite his Echo in. |
+| 4 | **Finale: no poll.** | Story resolved. |
+
+### FINAL character state (after Ch.4, the end)
+- **Nora:** alive, home, grieving her father but at peace; trusts Theo again. Never went to the tower.
+- **Theo (real):** confessed everything. Ended the Fold by inviting his Echo in. "No more secrets."
+- **Theo's Echo:** returned into the light with Nora's Echo. Gone. He was the protector all along.
+- **Nora's Echo (the radio voice):** returned into the light. Gone.
+- **Milo:** safe. No more static dreams.
+- **Elias:** gone for good; said goodbye through his radio.
+- **Harlow Point:** power restored, tower dark, the Signal over.
 
 ### Character state after Ch.3
 - **Nora:** holding a photo that proves she was at the tower 3 years ago. She has no memory of it. Torn between the radio voice (her own voice) and the Echo, who seems to know the truth. Trust in Theo badly shaken a second time.
