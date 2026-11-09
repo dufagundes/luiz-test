@@ -1,0 +1,16 @@
+{
+  "voice": "en-us-ryan-high.onnx",
+  "lengthScale": 0.88,
+  "duration": 44.0,
+  "lines": [
+    {"id": "hook", "start": 0.35, "text": "What if a cow went grocery shopping?", "caption": false},
+    {"id": "normal1", "start": 3.6, "text": "At first, | everything seems normal."},
+    {"id": "normal2", "start": 6.05, "text": "Well... | as normal as a cow | buying groceries can be."},
+    {"id": "butthen", "start": 11.0, "text": "But then...", "lengthScale": 1.35},
+    {"id": "discover", "start": 12.0, "text": "she discovers | the milk aisle.", "lengthScale": 1.05},
+    {"id": "price", "start": 20.95, "text": "Six dollars?!"},
+    {"id": "royalty", "start": 22.45, "text": "And she's not even | getting royalties?"},
+    {"id": "congrats", "start": 31.25, "text": "Congratulations."},
+    {"id": "raise", "start": 32.7, "text": "You've just created | the world's first cow | demanding a raise."}
+  ]
+}

@@ -1,0 +1,315 @@
+{
+ "duration": 44.0,
+ "chunks": [
+  {
+   "text": "At first,",
+   "start": 3.6,
+   "end": 4.189,
+   "words": [
+    {
+     "w": "At",
+     "start": 3.6,
+     "end": 3.787
+    },
+    {
+     "w": "first,",
+     "start": 3.787,
+     "end": 4.189
+    }
+   ]
+  },
+  {
+   "text": "everything seems normal.",
+   "start": 4.189,
+   "end": 5.492,
+   "words": [
+    {
+     "w": "everything",
+     "start": 4.189,
+     "end": 4.755
+    },
+    {
+     "w": "seems",
+     "start": 4.755,
+     "end": 5.074
+    },
+    {
+     "w": "normal.",
+     "start": 5.074,
+     "end": 5.492
+    }
+   ]
+  },
+  {
+   "text": "Well...",
+   "start": 6.05,
+   "end": 6.76,
+   "words": [
+    {
+     "w": "Well...",
+     "start": 6.05,
+     "end": 6.76
+    }
+   ]
+  },
+  {
+   "text": "as normal as a cow",
+   "start": 6.76,
+   "end": 7.495,
+   "words": [
+    {
+     "w": "as",
+     "start": 6.76,
+     "end": 6.88
+    },
+    {
+     "w": "normal",
+     "start": 6.88,
+     "end": 7.136
+    },
+    {
+     "w": "as",
+     "start": 7.136,
+     "end": 7.256
+    },
+    {
+     "w": "a",
+     "start": 7.256,
+     "end": 7.341
+    },
+    {
+     "w": "cow",
+     "start": 7.341,
+     "end": 7.495
+    }
+   ]
+  },
+  {
+   "text": "buying groceries can be.",
+   "start": 7.495,
+   "end": 8.72,
+   "words": [
+    {
+     "w": "buying",
+     "start": 7.495,
+     "end": 7.836
+    },
+    {
+     "w": "groceries",
+     "start": 7.836,
+     "end": 8.312
+    },
+    {
+     "w": "can",
+     "start": 8.312,
+     "end": 8.516
+    },
+    {
+     "w": "be.",
+     "start": 8.516,
+     "end": 8.72
+    }
+   ]
+  },
+  {
+   "text": "But then...",
+   "start": 11.0,
+   "end": 11.337,
+   "words": [
+    {
+     "w": "But",
+     "start": 11.0,
+     "end": 11.117
+    },
+    {
+     "w": "then...",
+     "start": 11.117,
+     "end": 11.337
+    }
+   ]
+  },
+  {
+   "text": "she discovers",
+   "start": 12.0,
+   "end": 12.804,
+   "words": [
+    {
+     "w": "she",
+     "start": 12.0,
+     "end": 12.241
+    },
+    {
+     "w": "discovers",
+     "start": 12.241,
+     "end": 12.804
+    }
+   ]
+  },
+  {
+   "text": "the milk aisle.",
+   "start": 12.804,
+   "end": 13.649,
+   "words": [
+    {
+     "w": "the",
+     "start": 12.804,
+     "end": 13.022
+    },
+    {
+     "w": "milk",
+     "start": 13.022,
+     "end": 13.287
+    },
+    {
+     "w": "aisle.",
+     "start": 13.287,
+     "end": 13.649
+    }
+   ]
+  },
+  {
+   "text": "Six dollars?!",
+   "start": 20.95,
+   "end": 21.728,
+   "words": [
+    {
+     "w": "Six",
+     "start": 20.95,
+     "end": 21.183
+    },
+    {
+     "w": "dollars?!",
+     "start": 21.183,
+     "end": 21.728
+    }
+   ]
+  },
+  {
+   "text": "And she's not even",
+   "start": 22.45,
+   "end": 23.299,
+   "words": [
+    {
+     "w": "And",
+     "start": 22.45,
+     "end": 22.632
+    },
+    {
+     "w": "she's",
+     "start": 22.632,
+     "end": 22.895
+    },
+    {
+     "w": "not",
+     "start": 22.895,
+     "end": 23.076
+    },
+    {
+     "w": "even",
+     "start": 23.076,
+     "end": 23.299
+    }
+   ]
+  },
+  {
+   "text": "getting royalties?",
+   "start": 23.299,
+   "end": 24.11,
+   "words": [
+    {
+     "w": "getting",
+     "start": 23.299,
+     "end": 23.644
+    },
+    {
+     "w": "royalties?",
+     "start": 23.644,
+     "end": 24.11
+    }
+   ]
+  },
+  {
+   "text": "Congratulations.",
+   "start": 31.25,
+   "end": 32.248,
+   "words": [
+    {
+     "w": "Congratulations.",
+     "start": 31.25,
+     "end": 32.248
+    }
+   ]
+  },
+  {
+   "text": "You've just created",
+   "start": 32.7,
+   "end": 33.47,
+   "words": [
+    {
+     "w": "You've",
+     "start": 32.7,
+     "end": 32.969
+    },
+    {
+     "w": "just",
+     "start": 32.969,
+     "end": 33.166
+    },
+    {
+     "w": "created",
+     "start": 33.166,
+     "end": 33.47
+    }
+   ]
+  },
+  {
+   "text": "the world's first cow",
+   "start": 33.47,
+   "end": 34.437,
+   "words": [
+    {
+     "w": "the",
+     "start": 33.47,
+     "end": 33.651
+    },
+    {
+     "w": "world's",
+     "start": 33.651,
+     "end": 33.994
+    },
+    {
+     "w": "first",
+     "start": 33.994,
+     "end": 34.255
+    },
+    {
+     "w": "cow",
+     "start": 34.255,
+     "end": 34.437
+    }
+   ]
+  },
+  {
+   "text": "demanding a raise.",
+   "start": 34.437,
+   "end": 35.394,
+   "words": [
+    {
+     "w": "demanding",
+     "start": 34.437,
+     "end": 34.927
+    },
+    {
+     "w": "a",
+     "start": 34.927,
+     "end": 35.043
+    },
+    {
+     "w": "raise.",
+     "start": 35.043,
+     "end": 35.394
+    }
+   ]
+  }
+ ]
+}

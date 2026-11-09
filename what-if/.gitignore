@@ -1,0 +1,5 @@
+node_modules/
+voices/
+out/*.png
+out/preview*.mp4
+out/frames/

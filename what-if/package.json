@@ -1,0 +1,31 @@
+{
+  "name": "what-if-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WHAT IF? - 3D animated vertical comedy shorts (Remotion + React Three Fiber + Three.js)",
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "python tools/build_audio.py",
+    "test:render": "remotion render CowTest out/cow-tech-test.mp4 --gl=angle",
+    "test:preview": "remotion render CowTest out/preview-test-540x960.mp4 --scale=0.5 --gl=angle",
+    "preview": "remotion render CowShopping out/preview-540x960.mp4 --scale=0.5 --gl=angle",
+    "render": "remotion render CowShopping out/what-if-cow-grocery-shopping.mp4 --gl=angle",
+    "still": "remotion still CowShopping out/still.png --frame=300 --gl=angle",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "5.2.5",
+    "@react-three/fiber": "9.1.2",
+    "@remotion/cli": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.541",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "@types/three": "0.169.0",
+    "typescript": "5.9.3"
+  }
+}
