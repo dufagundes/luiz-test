@@ -1,0 +1,222 @@
+{
+  "id": "ch03",
+  "title": "Don't Let Him In",
+  "previousChoice": "1: Open the door (creator's creative decision, not an audience vote)",
+  "minDuration": 45,
+  "maxDuration": 60,
+  "tail": 2.2,
+  "ending": "interactive-v2",
+  "lines": [
+    {
+      "id": "n1",
+      "voice": "narrator",
+      "gap": 0.75,
+      "text": "Nora opened the door.",
+      "sub": "Nora opened the door."
+    },
+    {
+      "id": "x1",
+      "voice": "echo_live",
+      "gap": 0.35,
+      "text": "Hi, Nora.",
+      "sub": "“Hi, Nora.”"
+    },
+    {
+      "id": "n2",
+      "voice": "narrator",
+      "gap": 0.35,
+      "text": "Same glasses. Same jacket. Same smile. But the rain wouldn't touch him.",
+      "sub": "Same glasses. Same jacket. Same smile. But the rain wouldn't touch him."
+    },
+    {
+      "id": "t1",
+      "voice": "theo",
+      "gap": 0.35,
+      "text": "Nora, get away from him! That's not me!",
+      "sub": "“Nora, get away from him! That's not me!”"
+    },
+    {
+      "id": "n3",
+      "voice": "narrator",
+      "gap": 0.3,
+      "text": "He stepped forward, and stopped. As if the doorway were a wall.",
+      "sub": "He stepped forward… and stopped. As if the doorway were a wall."
+    },
+    {
+      "id": "x2",
+      "voice": "echo_live",
+      "gap": 0.35,
+      "text": "Go on, Theo. Tell her where you were three years ago. The night her dad disappeared.",
+      "sub": "“Go on, Theo. Tell her where you were three years ago. The night her dad disappeared.”"
+    },
+    {
+      "id": "no1",
+      "voice": "nora",
+      "gap": 0.45,
+      "text": "Theo?",
+      "sub": "“Theo?”"
+    },
+    {
+      "id": "t2",
+      "voice": "theo",
+      "gap": 0.35,
+      "text": "I was at the tower that night. I saw your dad walk into the light. And then I saw him come out.",
+      "sub": "“I was at the tower that night. I saw your dad walk into the light… and then I saw HIM come out.”"
+    },
+    {
+      "id": "x3",
+      "voice": "echo_live",
+      "gap": 0.4,
+      "text": "He wasn't the only one up there, Nora.",
+      "sub": "“He wasn't the only one up there, Nora.”"
+    },
+    {
+      "id": "n4",
+      "voice": "narrator",
+      "gap": 0.3,
+      "text": "The photo showed the tower, three years ago. Her father. Theo. And a girl in a yellow raincoat.",
+      "sub": "The photo showed the tower, three years ago. Her father. Theo. And a girl in a yellow raincoat."
+    },
+    {
+      "id": "no2",
+      "voice": "nora",
+      "gap": 0.35,
+      "text": "That's me. But I was never there.",
+      "sub": "“That's me… but I was never there.”"
+    },
+    {
+      "id": "r1",
+      "voice": "radio",
+      "gap": 0.4,
+      "text": "Nora. Close the door. Now.",
+      "sub": "“Nora. Close the door. NOW.”"
+    },
+    {
+      "id": "e2",
+      "voice": "narrator",
+      "gap": 0.7,
+      "text": "What should we do next? Comment one or two, and tell me why!",
+      "sub": "What should we do next? Comment 1 or 2 and tell me why!",
+      "noSubs": true
+    },
+    {
+      "id": "e3",
+      "voice": "narrator",
+      "gap": 0.6,
+      "text": "Follow so you don't miss what happens next!",
+      "sub": "Follow so you don't miss what happens next!",
+      "noSubs": true
+    }
+  ],
+  "sfx": [
+    {
+      "type": "drone",
+      "from": 0,
+      "to": "end",
+      "rise": [
+        3,
+        44
+      ]
+    },
+    {
+      "type": "rain",
+      "from": 0,
+      "to": "end",
+      "gain": 0.9
+    },
+    {
+      "type": "click",
+      "at": 0.2
+    },
+    {
+      "type": "creak",
+      "at": 0.3,
+      "length": 0.9
+    },
+    {
+      "type": "thunder",
+      "at": 0.6
+    },
+    {
+      "type": "heartbeat",
+      "at": "t1+0.2",
+      "beats": 4,
+      "bpm": 100
+    },
+    {
+      "type": "hum",
+      "at": "n3+1.0",
+      "length": 1.6
+    },
+    {
+      "type": "stinger",
+      "at": "x2+3.0",
+      "length": 2.4
+    },
+    {
+      "type": "heartbeat",
+      "at": "no1-0.2",
+      "beats": 8,
+      "bpm": 108
+    },
+    {
+      "type": "whoosh",
+      "at": "x3+0.8"
+    },
+    {
+      "type": "impact",
+      "at": "n4+0.1"
+    },
+    {
+      "type": "stinger",
+      "at": "n4+3.6",
+      "length": 2.6
+    },
+    {
+      "type": "thunder",
+      "at": "no2+0.4"
+    },
+    {
+      "type": "radioOn",
+      "at": "r1-0.35"
+    },
+    {
+      "type": "static",
+      "from": "r1-0.3",
+      "to": "r1.end+0.3",
+      "gain": 0.3
+    },
+    {
+      "type": "impact",
+      "at": "e2-0.55"
+    },
+    {
+      "type": "tick",
+      "from": "e2-0.4",
+      "to": "e2.end+0.1"
+    },
+    {
+      "type": "riser",
+      "at": "e2.end-0.9",
+      "length": 1.1
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.25"
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.55"
+    },
+    {
+      "type": "pop",
+      "at": "e2.end+0.85"
+    },
+    {
+      "type": "heartbeat",
+      "at": "e2.end+0.3",
+      "beats": 5,
+      "bpm": 70
+    }
+  ]
+}

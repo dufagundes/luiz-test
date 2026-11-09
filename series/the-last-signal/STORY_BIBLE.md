@@ -55,6 +55,8 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 - **Look:** identical to Theo (same cast definition) but **never wet**. Rain stops in a dome around him. His phone always shows **11:47**.
 - **Voice:** Theo's voice, slightly lower and thinner (`echo` voice in the audio builder).
 - **Behavior:** calm, stands still, looks up at Nora's window. Texts from Theo's number. Wants to be let in.
+- **Ch.3:** speaks in person ("Hi, Nora."), can't cross the threshold uninvited, knows Theo's secret, carries the 3-year-old photo. Subtitle tag "THE OTHER THEO" (voice `echo_live`). His smile disappears when the radio speaks.
+- **Origin (now known to the audience):** he walked out of the tower's light the night Elias vanished, 3 years ago.
 
 ### THE RADIO VOICE ("Future Nora")
 - Comes through Elias's ham radio on **114.7**.
@@ -71,6 +73,8 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | **The Vance house, 14 Maple Street** | foreground of the town panorama. Nora's room is the **attic** with the dormer window. | `Town.tsx` + `locations/Attic.tsx` |
 | **Nora's attic** | sloped ceiling, string lights, dormer window (Theo's entrance), desk with Dad's ham radio, poster "114.7", pinned photo of Dad, door on the left. | `locations/Attic.tsx` |
 | **Vance front yard** | seen from the attic window, looking down: lawn, stone path, picket fence, mailbox "14", dead streetlight, porch roof edge. Rain can be masked around an Echo ("dry dome"). | `locations/Yard.tsx` (Ch.2+) |
+| **Vance front hallway** | ground floor: front door (opens inward, hinge right) onto the rainy porch, threshold + doormat, staircase up to the landing (left), oval hall mirror, coat hooks with Dad's navy hoodie, framed family photo. Barrier plane option for Echoes; red radio glow can spill down the stairs. | `locations/Entry.tsx` (Ch.3+) |
+| **Flashback: the tower, 3 years ago** | desaturated night, tower with blinding white light at its base, rock where 14-year-old Theo hid | inline in `chapters/ch03/Ch03.tsx` (reuse/extract when needed) |
 | **Sheriff's station (exterior)** | flat-roofed building in the mid-distance of the town panorama, "SHERIFF" sign, patrol car with red/blue light bar. Keeps its power during the blackout. | `Town.tsx` `stationLit` (Ch.2+) |
 | *(planned)* Sheriff's station, Harlow High, Maple Street, the Meridian bunker under the tower, **Future Harlow Point** (the same town, empty, gray, frozen at 11:47) | build as new reusable components when first needed | |
 
@@ -84,6 +88,7 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | Fri Oct 23, 11:47 PM | Theo receives the Signal message *three weeks early*, plus a private warning about Nora. Tells no one. |
 | **Fri Nov 13, 11:47 PM** | **Ch.1:** every phone in town receives the Signal. Dad's radio turns on by itself. The tower beacon turns white and the town loses power. |
 | Fri Nov 13, ~11:48 PM | **Ch.2:** in the dark attic Theo confesses and shows the second message. Milo's new drawing: "the boy" with Theo's glasses, his phone says 11:47, "he dosnt get wet". Only the sheriff's station still has power. Nora gets a text from Theo's number: *"I'm outside. Don't trust whoever is with you."* A second, bone-dry Theo stands in the yard in the rain, phone frozen at 11:47. |
+| Fri Nov 13, ~11:49 PM | **Ch.3:** Nora opens the front door. The Echo of Theo ("Hi, Nora.") cannot cross the threshold: the doorway acts like a wall. He makes the real Theo confess: Theo was at the tower 3 years ago and saw Elias walk into the light, then saw the Echo come out. The Echo slides a photo across the threshold: the tower, Elias, Theo… and 13-year-old Nora. Nora has no memory of it. The radio upstairs (Nora's voice): *"Nora. Close the door. Now."* For the first time the Echo stops smiling. |
 | Sat Nov 14, 11:47 PM | **Deadline.** The Fold completes. In the future timeline, this is when "almost everyone disappeared". |
 
 ---
@@ -117,14 +122,27 @@ This file is the source of truth. If a chapter contradicts it, the chapter is wr
 | Only the **sheriff's station** keeps power in the blackout | Ch.2 | the station runs on Meridian's private line; Dana is connected to the tower | Ch.3 |
 | The Echo's text is in Theo's voice but slightly lower and "thinner" | Ch.2 | audio tell: Echo voices are a little off | Ch.6 |
 | Real Theo is soaked; yard Theo is dry inside a "dome" where rain doesn't fall | Ch.2 | which Theo is real (the wet one in the attic) | Ch.4–6 |
+| **Echoes cannot cross a doorway uninvited** (shimmering "wall" at the threshold, hum + crackle) | Ch.3 | Echoes need permission to enter. The Ch.2 text ("I'm outside… let me in") was a request for an invitation | Ch.4 (vote) |
+| **Theo was at the tower the night Elias vanished**; saw Elias walk into the light and the Echo walk out | Ch.3 | Theo's Echo was made 3 years ago (not tonight); it has been waiting ever since | Ch.6, Ch.10 |
+| **The photo**: tower · Elias · Theo (14) · Nora (13) in her yellow raincoat, handwritten "Nov 13 · 11:47 · 3 yrs ago" | Ch.3 | Nora was at the tower that night but doesn't remember. (Writers: her Echo was formed then; Dana saw two Noras) | Ch.10–12 |
+| The hall **mirror** shows the open doorway **empty** while the Echo stands in it | Ch.3 (hidden) | Echoes have no reflection | Ch.4 |
+| The radio voice orders "Close the door" and the Echo's smile drops | Ch.3 | the radio voice and the Echo are on opposite sides… or competing for the same thing | Ch.5–11 |
 
 ## 6. Audience decisions so far (canon)
 | Ch. | Winner | What it changed |
 |---|---|---|
 | 1 | **A: Let Theo explain** | Nora didn't go to the tower. Theo's secret came out early (second message). Nora is angry but has **not** cut Theo off; their trust is cracked, not broken. Nora was at home when the Echo of Theo arrived. |
-| 2 | ⏳ pending: 1: Open the door / 2: Run to the station | |
+| 2 | **1: Open the door** (⚠️ creator's creative decision, not an audience vote) | Nora confronts the Echo at the front door instead of fleeing to the station. Jules and the station are postponed to Ch.4–5. Theo's 3-year secret is exposed. |
+| 3 | ⏳ pending: 1: Close the door / 2: Let him in | |
 
-### Character state after Ch.2
+### Character state after Ch.3
+- **Nora:** holding a photo that proves she was at the tower 3 years ago. She has no memory of it. Torn between the radio voice (her own voice) and the Echo, who seems to know the truth. Trust in Theo badly shaken a second time.
+- **Theo (real):** on the stairs, soaked, ashamed. He has confessed he witnessed Elias vanish and saw the Echo come out of the light. He never told anyone, not even Nora.
+- **Theo's Echo:** on the porch, unable to come in uninvited. Calm, taunting, informed. Stopped smiling when the radio spoke.
+- **Milo:** at the top of the stairs, watching, red radio light behind him.
+- **Jules / Dana:** still off-screen. The station is still the only powered building.
+
+### Character state after Ch.2 (previous)
 - **Nora:** hurt by Theo's secret but believing him. Shaken: there are now two Theos. Still has Dad's radio voice telling her to go to the tower alone.
 - **Theo (real):** confessed everything. Soaking wet. Terrified of the copy of himself.
 - **Theo's Echo:** standing in the Vance yard, dry, phone at 11:47, sending texts from Theo's number. Wants to be let in.

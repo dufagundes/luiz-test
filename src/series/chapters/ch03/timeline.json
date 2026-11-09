@@ -1,0 +1,825 @@
+{
+ "durationInFrames": 1376,
+ "lines": [
+  {
+   "id": "n1",
+   "voice": "narrator",
+   "text": "Nora opened the door.",
+   "start": 22,
+   "end": 63,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Nora",
+     "start": 22,
+     "end": 30
+    },
+    {
+     "w": "opened",
+     "start": 30,
+     "end": 40
+    },
+    {
+     "w": "the",
+     "start": 40,
+     "end": 47
+    },
+    {
+     "w": "door.",
+     "start": 47,
+     "end": 63
+    }
+   ]
+  },
+  {
+   "id": "x1",
+   "voice": "echo_live",
+   "text": "“Hi, Nora.”",
+   "start": 73,
+   "end": 104,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Hi,",
+     "start": 73,
+     "end": 85
+    },
+    {
+     "w": "Nora.”",
+     "start": 85,
+     "end": 103
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "voice": "narrator",
+   "text": "Same glasses. Same jacket. Same smile. But the rain wouldn't touch him.",
+   "start": 114,
+   "end": 238,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "Same",
+     "start": 114,
+     "end": 121
+    },
+    {
+     "w": "glasses.",
+     "start": 121,
+     "end": 139
+    },
+    {
+     "w": "Same",
+     "start": 139,
+     "end": 146
+    },
+    {
+     "w": "jacket.",
+     "start": 146,
+     "end": 163
+    },
+    {
+     "w": "Same",
+     "start": 163,
+     "end": 170
+    },
+    {
+     "w": "smile.",
+     "start": 170,
+     "end": 186
+    },
+    {
+     "w": "But",
+     "start": 186,
+     "end": 192
+    },
+    {
+     "w": "the",
+     "start": 192,
+     "end": 197
+    },
+    {
+     "w": "rain",
+     "start": 197,
+     "end": 204
+    },
+    {
+     "w": "wouldn't",
+     "start": 204,
+     "end": 216
+    },
+    {
+     "w": "touch",
+     "start": 216,
+     "end": 224
+    },
+    {
+     "w": "him.",
+     "start": 224,
+     "end": 238
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "voice": "theo",
+   "text": "“Nora, get away from him! That's not me!”",
+   "start": 248,
+   "end": 314,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Nora,",
+     "start": 248,
+     "end": 259
+    },
+    {
+     "w": "get",
+     "start": 259,
+     "end": 264
+    },
+    {
+     "w": "away",
+     "start": 264,
+     "end": 271
+    },
+    {
+     "w": "from",
+     "start": 271,
+     "end": 277
+    },
+    {
+     "w": "him!",
+     "start": 277,
+     "end": 289
+    },
+    {
+     "w": "That's",
+     "start": 289,
+     "end": 298
+    },
+    {
+     "w": "not",
+     "start": 298,
+     "end": 303
+    },
+    {
+     "w": "me!”",
+     "start": 303,
+     "end": 314
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "voice": "narrator",
+   "text": "He stepped forward… and stopped. As if the doorway were a wall.",
+   "start": 323,
+   "end": 422,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "He",
+     "start": 323,
+     "end": 327
+    },
+    {
+     "w": "stepped",
+     "start": 327,
+     "end": 337
+    },
+    {
+     "w": "forward…",
+     "start": 337,
+     "end": 354
+    },
+    {
+     "w": "and",
+     "start": 354,
+     "end": 359
+    },
+    {
+     "w": "stopped.",
+     "start": 359,
+     "end": 376
+    },
+    {
+     "w": "As",
+     "start": 376,
+     "end": 380
+    },
+    {
+     "w": "if",
+     "start": 380,
+     "end": 384
+    },
+    {
+     "w": "the",
+     "start": 384,
+     "end": 389
+    },
+    {
+     "w": "doorway",
+     "start": 389,
+     "end": 399
+    },
+    {
+     "w": "were",
+     "start": 399,
+     "end": 405
+    },
+    {
+     "w": "a",
+     "start": 405,
+     "end": 408
+    },
+    {
+     "w": "wall.",
+     "start": 408,
+     "end": 422
+    }
+   ]
+  },
+  {
+   "id": "x2",
+   "voice": "echo_live",
+   "text": "“Go on, Theo. Tell her where you were three years ago. The night her dad disappeared.”",
+   "start": 432,
+   "end": 562,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Go",
+     "start": 432,
+     "end": 436
+    },
+    {
+     "w": "on,",
+     "start": 436,
+     "end": 445
+    },
+    {
+     "w": "Theo.",
+     "start": 445,
+     "end": 459
+    },
+    {
+     "w": "Tell",
+     "start": 459,
+     "end": 465
+    },
+    {
+     "w": "her",
+     "start": 465,
+     "end": 470
+    },
+    {
+     "w": "where",
+     "start": 470,
+     "end": 478
+    },
+    {
+     "w": "you",
+     "start": 478,
+     "end": 483
+    },
+    {
+     "w": "were",
+     "start": 483,
+     "end": 490
+    },
+    {
+     "w": "three",
+     "start": 490,
+     "end": 497
+    },
+    {
+     "w": "years",
+     "start": 497,
+     "end": 505
+    },
+    {
+     "w": "ago.",
+     "start": 505,
+     "end": 517
+    },
+    {
+     "w": "The",
+     "start": 517,
+     "end": 522
+    },
+    {
+     "w": "night",
+     "start": 522,
+     "end": 530
+    },
+    {
+     "w": "her",
+     "start": 530,
+     "end": 535
+    },
+    {
+     "w": "dad",
+     "start": 535,
+     "end": 541
+    },
+    {
+     "w": "disappeared.”",
+     "start": 541,
+     "end": 562
+    }
+   ]
+  },
+  {
+   "id": "no1",
+   "voice": "nora",
+   "text": "“Theo?”",
+   "start": 576,
+   "end": 587,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Theo?”",
+     "start": 576,
+     "end": 587
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "voice": "theo",
+   "text": "“I was at the tower that night. I saw your dad walk into the light… and then I saw HIM come out.”",
+   "start": 597,
+   "end": 726,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“I",
+     "start": 597,
+     "end": 600
+    },
+    {
+     "w": "was",
+     "start": 600,
+     "end": 605
+    },
+    {
+     "w": "at",
+     "start": 605,
+     "end": 609
+    },
+    {
+     "w": "the",
+     "start": 609,
+     "end": 613
+    },
+    {
+     "w": "tower",
+     "start": 613,
+     "end": 620
+    },
+    {
+     "w": "that",
+     "start": 620,
+     "end": 626
+    },
+    {
+     "w": "night.",
+     "start": 626,
+     "end": 639
+    },
+    {
+     "w": "I",
+     "start": 639,
+     "end": 642
+    },
+    {
+     "w": "saw",
+     "start": 642,
+     "end": 647
+    },
+    {
+     "w": "your",
+     "start": 647,
+     "end": 652
+    },
+    {
+     "w": "dad",
+     "start": 652,
+     "end": 657
+    },
+    {
+     "w": "walk",
+     "start": 657,
+     "end": 663
+    },
+    {
+     "w": "into",
+     "start": 663,
+     "end": 669
+    },
+    {
+     "w": "the",
+     "start": 669,
+     "end": 673
+    },
+    {
+     "w": "light…",
+     "start": 673,
+     "end": 687
+    },
+    {
+     "w": "and",
+     "start": 687,
+     "end": 691
+    },
+    {
+     "w": "then",
+     "start": 691,
+     "end": 697
+    },
+    {
+     "w": "I",
+     "start": 697,
+     "end": 700
+    },
+    {
+     "w": "saw",
+     "start": 700,
+     "end": 705
+    },
+    {
+     "w": "HIM",
+     "start": 705,
+     "end": 709
+    },
+    {
+     "w": "come",
+     "start": 709,
+     "end": 715
+    },
+    {
+     "w": "out.”",
+     "start": 715,
+     "end": 726
+    }
+   ]
+  },
+  {
+   "id": "x3",
+   "voice": "echo_live",
+   "text": "“He wasn't the only one up there, Nora.”",
+   "start": 738,
+   "end": 796,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“He",
+     "start": 738,
+     "end": 742
+    },
+    {
+     "w": "wasn't",
+     "start": 742,
+     "end": 751
+    },
+    {
+     "w": "the",
+     "start": 751,
+     "end": 756
+    },
+    {
+     "w": "only",
+     "start": 756,
+     "end": 762
+    },
+    {
+     "w": "one",
+     "start": 762,
+     "end": 767
+    },
+    {
+     "w": "up",
+     "start": 767,
+     "end": 771
+    },
+    {
+     "w": "there,",
+     "start": 771,
+     "end": 783
+    },
+    {
+     "w": "Nora.”",
+     "start": 783,
+     "end": 796
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "voice": "narrator",
+   "text": "The photo showed the tower, three years ago. Her father. Theo. And a girl in a yellow raincoat.",
+   "start": 805,
+   "end": 970,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "The",
+     "start": 805,
+     "end": 811
+    },
+    {
+     "w": "photo",
+     "start": 811,
+     "end": 819
+    },
+    {
+     "w": "showed",
+     "start": 819,
+     "end": 829
+    },
+    {
+     "w": "the",
+     "start": 829,
+     "end": 835
+    },
+    {
+     "w": "tower,",
+     "start": 835,
+     "end": 848
+    },
+    {
+     "w": "three",
+     "start": 848,
+     "end": 857
+    },
+    {
+     "w": "years",
+     "start": 857,
+     "end": 865
+    },
+    {
+     "w": "ago.",
+     "start": 865,
+     "end": 879
+    },
+    {
+     "w": "Her",
+     "start": 879,
+     "end": 884
+    },
+    {
+     "w": "father.",
+     "start": 884,
+     "end": 902
+    },
+    {
+     "w": "Theo.",
+     "start": 902,
+     "end": 917
+    },
+    {
+     "w": "And",
+     "start": 917,
+     "end": 923
+    },
+    {
+     "w": "a",
+     "start": 923,
+     "end": 926
+    },
+    {
+     "w": "girl",
+     "start": 926,
+     "end": 933
+    },
+    {
+     "w": "in",
+     "start": 933,
+     "end": 937
+    },
+    {
+     "w": "a",
+     "start": 937,
+     "end": 941
+    },
+    {
+     "w": "yellow",
+     "start": 941,
+     "end": 950
+    },
+    {
+     "w": "raincoat.",
+     "start": 950,
+     "end": 970
+    }
+   ]
+  },
+  {
+   "id": "no2",
+   "voice": "nora",
+   "text": "“That's me… but I was never there.”",
+   "start": 981,
+   "end": 1032,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“That's",
+     "start": 981,
+     "end": 989
+    },
+    {
+     "w": "me…",
+     "start": 989,
+     "end": 999
+    },
+    {
+     "w": "but",
+     "start": 999,
+     "end": 1004
+    },
+    {
+     "w": "I",
+     "start": 1004,
+     "end": 1007
+    },
+    {
+     "w": "was",
+     "start": 1007,
+     "end": 1012
+    },
+    {
+     "w": "never",
+     "start": 1012,
+     "end": 1019
+    },
+    {
+     "w": "there.”",
+     "start": 1019,
+     "end": 1032
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "voice": "radio",
+   "text": "“Nora. Close the door. NOW.”",
+   "start": 1044,
+   "end": 1116,
+   "noSubs": false,
+   "words": [
+    {
+     "w": "“Nora.",
+     "start": 1044,
+     "end": 1063
+    },
+    {
+     "w": "Close",
+     "start": 1063,
+     "end": 1073
+    },
+    {
+     "w": "the",
+     "start": 1073,
+     "end": 1080
+    },
+    {
+     "w": "door.",
+     "start": 1080,
+     "end": 1099
+    },
+    {
+     "w": "NOW.”",
+     "start": 1099,
+     "end": 1116
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "voice": "narrator",
+   "text": "What should we do next? Comment 1 or 2 and tell me why!",
+   "start": 1137,
+   "end": 1229,
+   "noSubs": true,
+   "words": [
+    {
+     "w": "What",
+     "start": 1137,
+     "end": 1144
+    },
+    {
+     "w": "should",
+     "start": 1144,
+     "end": 1153
+    },
+    {
+     "w": "we",
+     "start": 1153,
+     "end": 1158
+    },
+    {
+     "w": "do",
+     "start": 1158,
+     "end": 1162
+    },
+    {
+     "w": "next?",
+     "start": 1162,
+     "end": 1177
+    },
+    {
+     "w": "Comment",
+     "start": 1177,
+     "end": 1187
+    },
+    {
+     "w": "1",
+     "start": 1187,
+     "end": 1191
+    },
+    {
+     "w": "or",
+     "start": 1191,
+     "end": 1195
+    },
+    {
+     "w": "2",
+     "start": 1195,
+     "end": 1198
+    },
+    {
+     "w": "and",
+     "start": 1198,
+     "end": 1204
+    },
+    {
+     "w": "tell",
+     "start": 1204,
+     "end": 1211
+    },
+    {
+     "w": "me",
+     "start": 1211,
+     "end": 1215
+    },
+    {
+     "w": "why!",
+     "start": 1215,
+     "end": 1229
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "voice": "narrator",
+   "text": "Follow so you don't miss what happens next!",
+   "start": 1247,
+   "end": 1310,
+   "noSubs": true,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 1247,
+     "end": 1256
+    },
+    {
+     "w": "so",
+     "start": 1256,
+     "end": 1260
+    },
+    {
+     "w": "you",
+     "start": 1260,
+     "end": 1265
+    },
+    {
+     "w": "don't",
+     "start": 1265,
+     "end": 1273
+    },
+    {
+     "w": "miss",
+     "start": 1273,
+     "end": 1280
+    },
+    {
+     "w": "what",
+     "start": 1280,
+     "end": 1286
+    },
+    {
+     "w": "happens",
+     "start": 1286,
+     "end": 1296
+    },
+    {
+     "w": "next!",
+     "start": 1296,
+     "end": 1310
+    }
+   ]
+  }
+ ]
+}

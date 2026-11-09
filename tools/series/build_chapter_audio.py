@@ -38,6 +38,8 @@ VOICE_CAST = {
     "milo": ("en-us-libritts-high.onnx", 12, 0.95, 1.12),
     # Theo's voice as a text message / Echo: same speaker, a touch lower, thin "phone" texture
     "echo": ("en-us-libritts-high.onnx", 28, 0.98, 0.95),
+    # the same Echo voice, speaking in person (only the subtitle tag differs)
+    "echo_live": ("en-us-libritts-high.onnx", 28, 0.98, 0.95),
 }
 
 cfg = json.load(open(os.path.join(ROOT, "series", "the-last-signal", "chapters", CH, "chapter.json")))
@@ -120,7 +122,7 @@ for line in cfg["lines"]:
         crackle = (rng.random(len(x)) < 0.002).astype(np.float32) * noise(len(x)) * 0.6
         x = x + crackle + noise(len(x)) * 0.015
         x = reverb(x, ((0.06, 0.25), (0.13, 0.12)))
-    elif line["voice"] == "echo":
+    elif line["voice"] in ("echo", "echo_live"):
         x = band(x, 250, 4200)
         x = reverb(x, ((0.05, 0.3), (0.11, 0.2), (0.19, 0.1)))
     elif line["voice"] in ("theo", "milo", "nora"):
@@ -323,6 +325,17 @@ def sfx_pop(c):
     t = np.arange(n) / SR
     s = np.sin(2 * np.pi * (520 - 900 * t) * t) * env(n, 0.002, 0.04)
     add(s.astype(np.float32), at, 0.3)
+
+
+def sfx_hum(c):
+    # invisible-barrier hum + crackle (an Echo touching a doorway it wasn't invited through)
+    at, length = T(c["at"]), c.get("length", 1.5)
+    n = int(length * SR)
+    t = np.arange(n) / SR
+    h = sum(np.sin(2 * np.pi * f * t) / k for k, f in enumerate((60, 120, 180, 240), 1))
+    zap = (rng.random(n) < 0.01).astype(np.float32) * noise(n)
+    s = (h * 0.5 + band(zap, 2000, 8000) * 0.8) * np.sin(np.pi * t / length)
+    add(s.astype(np.float32), at, 0.35)
 
 
 def sfx_tick(c):

@@ -32,7 +32,17 @@ Every phone lights up. Dad's radio turns on with a voice that sounds like Nora. 
 **Cliffhanger:** a second Theo is seen somewhere he can't be.
 **Poll idea:** depends on route (e.g., *"Wake Mom" vs "Call Jules"* / *"Go through the gate" vs "Go back for Milo"*).
 
-### Ch.3: "The Sheriff's Daughter" · ~23:40 left (planned, adapts to the Ch.2 vote)
+### Ch.3: "Don't Let Him In" ✅ produced (route 1, creator's choice) · countdown 23:57:43 → 23:56:57
+**Ch.2 ending choice 1, "Open the door", selected by the creator (not an audience vote).** Hook: lock click, door swings open, lightning: the dry Theo on the porch: "Hi, Nora." He can't cross the threshold (barrier). He makes the real Theo confess he was at the tower 3 years ago and saw Elias walk into the light and the Echo walk out (desaturated flashback). The Echo slides a photo across the threshold: the tower, Elias, young Theo, and 13-year-old Nora in her yellow raincoat. "That's me… but I was never there." The radio upstairs: "Nora. Close the door. Now." The Echo stops smiling.
+**Major revelation:** Theo witnessed Elias vanish, and the Echo has existed for 3 years. **Twist:** Nora was there too. **Cliffhanger:** radio vs. Echo.
+**POLL:** *The radio says shut it. He has answers. What should Nora do?* **1: Close the door** · **2: Let him in**
+
+### Ch.4: "No Reflection" · ~23:50 left (planned, adapts to the Ch.3 vote)
+- **If 1 (close the door):** Nora slams it. The Echo's handprint stays on the glass from outside. The radio voice praises her, then asks her to bring the photo to the tower. Theo notices the hall mirror never showed the Echo (rule: no reflection) and tests everyone with his phone camera. Jules calls: "My mom just left the station. Toward the tower." Cost: the Echo's answers are lost and he's now hostile, following them.
+- **If 2 (let him in):** "Come in." The barrier drops, the lights flicker, and the Echo steps inside, dripping nothing. He tells Nora she has an Echo too ("You weren't the only Nora up there") and that the radio voice is lying. Cost: once invited, an Echo can enter any time, and the real Theo refuses to stay in the same room. The mirror shows only three people in a hall of four.
+Either way Ch.4 confirms the **no-reflection** rule and brings **Jules** in (phone call or arrival).
+
+### Ch.3 (original plan, superseded): "The Sheriff's Daughter" · ~23:40 left
 - **If 1 (open the door):** Nora goes downstairs with the real Theo and Milo and opens the front door. The Echo is *gone*, but wet footprints lead **into** the house (Echoes copy what they touch; first sign they adapt). Jules calls from the station: her mom just drove toward the tower. The kids must leave the house.
 - **If 2 (run to the station):** out the back through the rain (the attic window and porch roof). The Echo follows them silently through town. At the station they meet Jules, who has the locked Meridian file. The Echo is waiting outside under the lights.
 Either way, Ch.3 introduces **Jules** and the file **VANCE, ELIAS (MERIDIAN)**.
@@ -41,7 +51,7 @@ Either way, Ch.3 introduces **Jules** and the file **VANCE, ELIAS (MERIDIAN)**.
 **Cliffhanger:** the file contains a photo from 3 years ago with Sheriff Okafor *and Theo* at the tower.
 **Poll idea:** *Confront the sheriff / Steal the file*
 
-### Ch.4: "No Reflection" · ~19:30 left
+### Ch.4 (original plan, superseded): "No Reflection" · ~19:30 left
 ★ The kids discover the rule: **Echoes have no reflection and are never wet.** They test each other with a phone camera. Everyone passes… but the photo of Theo at the tower from 3 years ago was the Echo.
 **Cliffhanger:** Milo's reflection flickers for a moment.
 **Poll idea:** *Tell Milo / Keep it secret*

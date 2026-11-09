@@ -21,6 +21,7 @@ const VOICE_STYLE: Record<string, {color: string; active: string; italic: boolea
   theo: {color: '#e3f5d4', active: '#9ad16a', italic: true, tag: 'THEO'},
   milo: {color: '#dfe6ff', active: '#8fb0ff', italic: true, tag: 'MILO'},
   echo: {color: '#e3f5d4', active: '#7fd4ff', italic: true, tag: 'TEXT FROM THEO'},
+  echo_live: {color: '#e3f5d4', active: '#7fd4ff', italic: true, tag: 'THE OTHER THEO'},
 };
 
 type Chunk = {words: TimelineWord[]; start: number; end: number; voice: string};

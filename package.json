@@ -13,7 +13,9 @@
     "tls:render:ch01": "remotion render TLS-Ch01 out/the-last-signal/the-last-signal-ch01-1147.mp4 --codec=h264 --crf=20",
     "tls:audio": "python tools/series/build_chapter_audio.py",
     "tls:preview:ch02": "remotion render TLS-Ch02 out/the-last-signal/preview-ch02.mp4 --scale=0.5",
-    "tls:render:ch02": "remotion render TLS-Ch02 out/the-last-signal/the-last-signal-ch02-three-weeks.mp4 --codec=h264 --crf=20"
+    "tls:render:ch02": "remotion render TLS-Ch02 out/the-last-signal/the-last-signal-ch02-three-weeks.mp4 --codec=h264 --crf=20",
+    "tls:preview:ch03": "remotion render TLS-Ch03 out/the-last-signal/preview-ch03.mp4 --scale=0.5",
+    "tls:render:ch03": "remotion render TLS-Ch03 out/the-last-signal/the-last-signal-ch03-dont-let-him-in.mp4 --codec=h264 --crf=20"
   },
   "dependencies": {
     "@fontsource/montserrat": "5.3.0",

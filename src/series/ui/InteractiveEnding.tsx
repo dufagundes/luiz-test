@@ -32,7 +32,10 @@ export const InteractiveEnding: React.FC<{
   opt2At: number;
   commentAt: number; // "Comment 1 or 2…" line appears (synced to the voiceover)
   cardAt: number; // phase 2 starts
-}> = ({chapter, nextChapter, question, options, at, opt1At, opt2At, commentAt, cardAt}) => {
+  /** 'v2' (Ch.3+): emoji first, no period: "YOUR CHOICE CHANGES THE STORY" / "👇 COMMENT 1 OR 2" / "🔥 FOLLOW FOR CHAPTER N" */
+  wording?: 'v1' | 'v2';
+}> = ({chapter, nextChapter, question, options, at, opt1At, opt2At, commentAt, cardAt, wording = 'v1'}) => {
+  const v2 = wording === 'v2';
   const frame = useCurrentFrame();
   if (frame < at) return null;
   const t = frame - at;
@@ -169,7 +172,15 @@ export const InteractiveEnding: React.FC<{
               opacity: Math.min(1, cm * 1.5),
             }}
           >
-            COMMENT 1 OR 2 BELOW <span style={{display: 'inline-block', transform: `translateY(${finger * 0.6}px)`}}>👇</span>
+            {v2 ? (
+              <>
+                <span style={{display: 'inline-block', transform: `translateY(${finger * 0.6}px)`}}>👇</span> COMMENT 1 OR 2
+              </>
+            ) : (
+              <>
+                COMMENT 1 OR 2 BELOW <span style={{display: 'inline-block', transform: `translateY(${finger * 0.6}px)`}}>👇</span>
+              </>
+            )}
             <br />
             <span style={{color: '#fff', fontSize: 40}}>…and tell me why!</span>
           </div>
@@ -194,7 +205,7 @@ export const InteractiveEnding: React.FC<{
             >
               YOUR CHOICE
               <br />
-              <span style={{color: T.uiRed}}>CHANGES THE STORY.</span>
+              <span style={{color: T.uiRed}}>{v2 ? 'CHANGES THE STORY' : 'CHANGES THE STORY.'}</span>
             </div>
             <div
               style={{
@@ -211,7 +222,15 @@ export const InteractiveEnding: React.FC<{
                 opacity: Math.min(1, l2 * 1.5),
               }}
             >
-              COMMENT 1 OR 2 <span style={{display: 'inline-block', transform: `translateY(${finger}px)`}}>👇</span>
+              {v2 ? (
+                <>
+                  <span style={{display: 'inline-block', transform: `translateY(${finger}px)`}}>👇</span> COMMENT 1 OR 2
+                </>
+              ) : (
+                <>
+                  COMMENT 1 OR 2 <span style={{display: 'inline-block', transform: `translateY(${finger}px)`}}>👇</span>
+                </>
+              )}
             </div>
             <div
               style={{
@@ -229,7 +248,7 @@ export const InteractiveEnding: React.FC<{
                 opacity: Math.min(1, l3 * 1.5),
               }}
             >
-              FOLLOW FOR CHAPTER {nextChapter} 🔥
+              {v2 ? `🔥 FOLLOW FOR CHAPTER ${nextChapter}` : `FOLLOW FOR CHAPTER ${nextChapter} 🔥`}
             </div>
           </div>
         ) : null}
